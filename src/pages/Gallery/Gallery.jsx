@@ -29,14 +29,6 @@ const Gallery = () => {
     setIsLoading(false);
   };
 
-  const handleVideoLoaded = (index) => {
-    setLoading((prev) => {
-      const updatedLoading = [...prev];
-      updatedLoading[index] = false;
-      return updatedLoading;
-    });
-  };
-
   const whyUs = [
     {
       name: "Dr. Gowri Shankar",
@@ -87,7 +79,6 @@ const Gallery = () => {
     { video: "/gap.mp4", heading: "TeethGap" },
     { video: "/open.mp4", heading: "OpenBite" },
   ];
-  const [loading, setLoading] = useState(new Array(carsoul.length).fill(true));
 
   const person = [
     {
@@ -143,7 +134,6 @@ const Gallery = () => {
     speed: 7000,
     autoplaySpeed: 7000,
   };
-  // dental-bf4
   return (
     <div className="pt-16">
       <section className="bg-yellows h-[481px]">
@@ -288,12 +278,12 @@ const Gallery = () => {
         </h1>{" "}
       </section>
       <section className="max-w-[1400px] mx-auto mt-[89px]">
-        <div className="flex items-end gap-x-4">
+        {/* <div className="flex items-end gap-x-4">
           <h1 className="text-[52px] font-normal">Craft Your Smile With</h1>
           <div className="w-[209px] h-[59px]">
             <img src={logo2} alt="" className="img" />
           </div>
-        </div>{" "}
+        </div>{" "} */}
         <div className="mt-5 ">
           <Slider {...settings}>
             {carsoul.map((item, index) => (
@@ -304,9 +294,10 @@ const Gallery = () => {
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
-                      preload="auto"
+                      preload="metadata"
+                      playsInline
+                      onCanPlay={handleCanPlay}
                       loop
-                      onCanPlay={() => handleVideoLoaded(index)}
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>
@@ -472,6 +463,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-// {loading[index] && (
-//   <div className="absolute inset-0 bg-gray-300"></div>
-// )}
