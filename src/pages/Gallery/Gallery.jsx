@@ -309,15 +309,16 @@ const Gallery = () => {
                 <div className="shadow-xl border-2">
                   <div className="w-[328px] h-[316px] relative">
                     {/* Gray background while loading */}
-                    {/* {loading[index] && (
+                    {loading[index] && (
                       <div className="absolute inset-0 bg-gray-300"></div>
-                    )} */}
+                    )}
                     <video
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
+                      preload="auto" // Preload video
                       loop
-                      // onCanPlay={() => handleVideoLoaded(index)}
+                      onCanPlay={() => handleVideoLoaded(index)}
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>
