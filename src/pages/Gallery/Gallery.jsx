@@ -291,15 +291,16 @@ const Gallery = () => {
                 <div className="shadow-xl border-2">
                   <div className="w-[328px] h-[316px] relative">
                     <video
-                      className="w-full h-full object-cover"
                       autoPlay
-                      muted
-                      preload="metadata"
-                      playsInline
-                      onCanPlay={handleCanPlay}
+                      className="w-full h-full object-cover"
+                      src={item.video}
+                      type="video/mp4"
                       loop
+                      muted
+                      // preload="auto"
+                      // onCanPlay={handleCanPlay}
                     >
-                      <source src={item.video} type="video/mp4" />
+                      {/* <source src={item.video} type="video/mp4" /> */}
                     </video>
                   </div>
                   <p className="text-[32px] py-2">{item.heading}</p>
