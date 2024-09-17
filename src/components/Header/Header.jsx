@@ -52,14 +52,14 @@ const Header = () => {
           <ul className="flex space-x-6 text-black font-sans font-normal text-base">
             {nav.map((item) => (
               <li key={item.path}>
-                <a
-                 href={item.path}
+                <Link
+                 to={item.path}
                   className={`${
                     location.pathname === item.path ? "text-reds" : "text-black"
                   } transform hover:scale-110 transition-transform duration-300 ease-in-out hover:text-reds`}
                 >
                   {item.display}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
