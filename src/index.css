@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  @apply lg:text-[45px] text-[35px] lg:leading-[54px]   font-sans;
+}
+.text {
+  @apply lg:text-[24px]    text-[16px] font-[400]  mt-[18px] font-sans;
+}
+.small {
+  @apply lg:text-[20px]  text-[12px] font-[400]  mt-[18px] font-sans;
+}
+.button {
+  @apply px-4 py-1 rounded-[13px] bg-reds text-white font-sans text-base;
+}
+.imgs {
+  @apply w-full h-full bg-cover;
+}
+.swiper-pagination-bullet-active {
+  background-color: red;
+}
