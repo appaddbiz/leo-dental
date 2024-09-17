@@ -278,12 +278,12 @@ const Gallery = () => {
         </h1>{" "}
       </section>
       <section className="max-w-[1400px] mx-auto mt-[89px]">
-        {/* <div className="flex items-end gap-x-4">
+        <div className="flex items-end gap-x-4">
           <h1 className="text-[52px] font-normal">Craft Your Smile With</h1>
           <div className="w-[209px] h-[59px]">
             <img src={logo2} alt="" className="img" />
           </div>
-        </div>{" "} */}
+        </div>{" "}
         <div className="mt-5 ">
           <Slider {...settings}>
             {carsoul.map((item, index) => (
@@ -297,11 +297,8 @@ const Gallery = () => {
                       type="video/mp4"
                       loop
                       muted
-                      // preload="auto"
-                      // onCanPlay={handleCanPlay}
-                    >
-                      {/* <source src={item.video} type="video/mp4" /> */}
-                    </video>
+                      preload="auto"
+                    ></video>
                   </div>
                   <p className="text-[32px] py-2">{item.heading}</p>
                 </div>
