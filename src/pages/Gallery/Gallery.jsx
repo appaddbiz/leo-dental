@@ -87,12 +87,12 @@ const Gallery = () => {
     { total: "700+", desc: "Our Providers" },
   ];
   const carsoul = [
-    { video: CrookedTeeth, heading: "Crooked Teeth" },
-    { video: CrossBite, heading: "Cross Bite" },
-    { video: DeepBite, heading: "Deep Bite" },
-    { video: ForwardlyPlaced, heading: "Forwardly Placed" },
-    { video: TeethGap, heading: "TeethGap" },
-    { video: OpenBite, heading: "OpenBite" },
+    { video: '/crook.mp4', heading: "Crooked Teeth" },
+    { video: '/cross.mp4', heading: "Cross Bite" },
+    { video: '/deep.mp4', heading: "Deep Bite" },
+    { video: '/forward.mp4', heading: "Forwardly Placed" },
+    { video: '/gap.mp4', heading: "TeethGap" },
+    { video: '/open.mp4', heading: "OpenBite" },
   ];
   const [loading, setLoading] = useState(new Array(carsoul.length).fill(true));
 
@@ -150,7 +150,7 @@ const Gallery = () => {
     speed: 7000,
     autoplaySpeed: 7000,
   };
-
+  // dental-bf4
   return (
     <div className="pt-16">
       <section className="bg-yellows h-[481px]">
@@ -198,7 +198,7 @@ const Gallery = () => {
               loop
               onCanPlay={handleCanPlay}
             >
-              <source src={video} type="video/mp4" />
+              <source src="/leoalignVideo.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="w-1/2">
@@ -307,15 +307,11 @@ const Gallery = () => {
               <div key={index} className="pr-5 text-center">
                 <div className="shadow-xl border-2">
                   <div className="w-[328px] h-[316px] relative">
-                    {/* Gray background while loading */}
-                    {loading[index] && (
-                      <div className="absolute inset-0 bg-gray-300"></div>
-                    )}
                     <video
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
-                      preload="auto" // Preload video
+                      preload="auto"
                       loop
                       onCanPlay={() => handleVideoLoaded(index)}
                     >
@@ -483,3 +479,6 @@ const Gallery = () => {
 };
 
 export default Gallery;
+// {loading[index] && (
+//   <div className="absolute inset-0 bg-gray-300"></div>
+// )}
