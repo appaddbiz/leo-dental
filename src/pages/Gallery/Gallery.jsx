@@ -28,7 +28,6 @@ import { PiPhoneCallFill } from "react-icons/pi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// dental-bf4
 
 const Gallery = () => {
   const [isLoading, setIsLoading] = useState(true);
