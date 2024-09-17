@@ -16,13 +16,6 @@ import tooth from "../../assets/align/tooth.png";
 import contact from "../../assets/align/contact.png";
 import per6 from "../../assets/align/per6.png";
 import girl from "../../assets/align/girl.png";
-import video from "../../assets/align/leoalignVideo.mp4";
-import CrookedTeeth from "../../assets/align/crook.mp4";
-import CrossBite from "../../assets/align/cross.mp4";
-import DeepBite from "../../assets/align/deep.mp4";
-import ForwardlyPlaced from "../../assets/align/forward.mp4";
-import TeethGap from "../../assets/align/gap.mp4";
-import OpenBite from "../../assets/align/open.mp4";
 import { TbPointFilled } from "react-icons/tb";
 import { PiPhoneCallFill } from "react-icons/pi";
 import Slider from "react-slick";
@@ -87,12 +80,12 @@ const Gallery = () => {
     { total: "700+", desc: "Our Providers" },
   ];
   const carsoul = [
-    { video: '/crook.mp4', heading: "Crooked Teeth" },
-    { video: '/cross.mp4', heading: "Cross Bite" },
-    { video: '/deep.mp4', heading: "Deep Bite" },
-    { video: '/forward.mp4', heading: "Forwardly Placed" },
-    { video: '/gap.mp4', heading: "TeethGap" },
-    { video: '/open.mp4', heading: "OpenBite" },
+    { video: "/crook.mp4", heading: "Crooked Teeth" },
+    { video: "/cross.mp4", heading: "Cross Bite" },
+    { video: "/deep.mp4", heading: "Deep Bite" },
+    { video: "/forward.mp4", heading: "Forwardly Placed" },
+    { video: "/gap.mp4", heading: "TeethGap" },
+    { video: "/open.mp4", heading: "OpenBite" },
   ];
   const [loading, setLoading] = useState(new Array(carsoul.length).fill(true));
 
