@@ -149,7 +149,7 @@ const Gallery = () => {
     slidesToShow: 4,
     autoplay: true,
     speed: 7000,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 7000,
   };
 
   return (
@@ -309,15 +309,15 @@ const Gallery = () => {
                 <div className="shadow-xl border-2">
                   <div className="w-[328px] h-[316px] relative">
                     {/* Gray background while loading */}
-                    {loading[index] && (
+                    {/* {loading[index] && (
                       <div className="absolute inset-0 bg-gray-300"></div>
-                    )}
+                    )} */}
                     <video
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
                       loop
-                      onCanPlay={() => handleVideoLoaded(index)}
+                      // onCanPlay={() => handleVideoLoaded(index)}
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>

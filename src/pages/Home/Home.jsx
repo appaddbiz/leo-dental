@@ -124,7 +124,7 @@ const Home = () => {
     <div className="pt-1">
       <section className="lg:h-[752px] w-full bg-white pt-20 ">
         <div className="mx-auto flex flex-col lg:flex-row lg:justify-between md:relative h-full overflow-hidden">
-          <div className="mt-10 lg:mt-20 lg:ml-[107px] flex flex-col items-center lg:items-start">
+          <div className="mt-10  lg:ml-[107px] flex flex-col items-center lg:items-start">
             <div className="w-[274px] lg:w-[400px] py-2 lg:text-3xl text-[23.27px] text-center mx-2  bg-yellows text-white">
               World Class Dental Care
             </div>
@@ -155,7 +155,7 @@ const Home = () => {
               </button>
             </form>
           </div>
-          <div className="w-[383px] lg:w-[639px] h-[350px] lg:h-[584px] lg:bottom-0 lg:right-0 relative mt-10 lg:mt-0">
+          <div className="w-[383px] lg:w-[639px] h-[350px] lg:h-[584px] lg:-bottom-24 lg:right-0 relative mt-10 lg:mt-0">
             <img
               src={girl}
               alt="girl"
