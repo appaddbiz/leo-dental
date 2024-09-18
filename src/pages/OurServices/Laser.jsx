@@ -1,11 +1,12 @@
 import text from "../../assets/ourservice/text.png";
-import banner from "../../assets/ourservice/banner3.png";
+import banner from "../../assets/ourservice/banner3.jpg";
 import img4 from "../../assets/ourservice/img4.png";
 import img5 from "../../assets/ourservice/img5.png";
 import img6 from "../../assets/ourservice/img6.png";
 import Accordian, { AccordianItem } from "../../components/Accordion";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact3.png";
+import ServiceBanner from "../../components/banner/ServiceBanner";
 
 const Laser = () => {
   const listItems = [
@@ -47,19 +48,7 @@ const Laser = () => {
   ];
   return (
     <div className="pt-20">
-      {/* <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  lg:inset-y-44 lg:inset-1 max-w-[1400px]  mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Our Services
-          </p>
-          <h1 className="font-bold mt-">Laser Dentistry</h1>
-        </h1>
-      </section> */}
+      <ServiceBanner img={banner} text="Laser Dentistry" />
       <section className="max-w-[1400px] mx-auto px-4 lg:px-0 mt-[80px]">
         <div className="relative ">
           <div className="lg:w-[935px] w-[273px] h-[52px] lg:h-[164px]">

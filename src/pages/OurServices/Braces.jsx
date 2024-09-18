@@ -1,10 +1,11 @@
 import text from "../../assets/ourservice/text4.png";
-import banner from "../../assets/ourservice/banner5.png";
+import banner from "../../assets/ourservice/banner5.jpg";
 import braces1 from "../../assets/ourservice/braces1.png";
 import braces2 from "../../assets/ourservice/braces2.png";
 import Accordian, { AccordianItem } from "../../components/Accordion";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact5.png";
+import ServiceBanner from "../../components/banner/ServiceBanner";
 
 const Braces = () => {
   const braces = [
@@ -55,28 +56,16 @@ const Braces = () => {
   ];
   return (
     <div className="pt-20">
-      <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  lg:inset-y-44 lg:inset-1 max-w-[1400px]  mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Our Services
-          </p>
-          <h1 className="font-bold mt-">Dental Braces</h1>
-        </h1>
-      </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
+      <ServiceBanner img={banner} text="Dental Braces" />
+      <section className="max-w-[1400px] px-4 lg:mx-auto lg:mt-[80px] mt-10">
         <div className="relative ">
-          <div className="w-[850px] h-[164px]">
+          <div className="lg:w-[850px] w-[249px] h-[100px] lg:h-[164px]">
             <img src={text} alt="" className="" />
           </div>
-          <h1 className="text-[52px]  absolute top-12 text-reds  ">
+          <h1 className="lg:text-[52px]  text-[30px] absolute top-3 leading-9 lg:top-16 text-reds  ">
             Braces For Teeth Alignment
           </h1>
-          <p className="text-[22px] leading-8">
+          <p className="lg:text-[22px] text-lg lg:leading-8">
             Orthodontics is the specialization of dentistry, which deals with
             correcting the bite and arrangement of teeth, thus improving the
             smile and function of the teeth. The irregularities of teeth are
@@ -93,32 +82,34 @@ const Braces = () => {
           </p>
         </div>
       </section>{" "}
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <h1 className="text-[52px] text-reds text-center ">Types of Braces</h1>
-        <div className="flex justify-center items-center gap-x-20 rounded-xl mt-14">
+      <section className="max-w-[1400px] mt-10 mx-auto lg:mt-[80px]">
+        <h1 className="lg:text-[52px] text-[30px] text-reds text-center ">
+          Types of Braces
+        </h1>
+        <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-10 rounded-xl mt-7 lg:mt-14">
           {braces.map((item, index) => (
             <div
               key={index}
-              className="w-[544px] h-[616px] bg-[#E2E2E2] flex flex-col items-center justify-center"
+              className="lg:w-[544px] lg:h-[616px] bg-[#E2E2E2] py-12 lg:px-0 px-5 flex flex-col items-center justify-center"
             >
-              <div className="w-[454px] h-[]">
+              <div className="lg:w-[454px] h-[]">
                 <img src={item.img} alt="" className="imgs" />
               </div>
-              <div className="mt-3 px-10 text-left">
+              <div className="mt-3 lg:px-10 text-left">
                 <h1 className="text-[24px] text-reds font-medium">
                   {item.heading}
                 </h1>
-                <p className="text-[20px] leading-7  mt-3">{item.desc}</p>
+                <p className="lg:text-[20px] lg:leading-7  mt-3">{item.desc}</p>
               </div>
             </div>
           ))}
         </div>
       </section>{" "}
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <h1 className="text-[52px] text-reds leading-[62px]  ">
+      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-3 lg:px-0">
+        <h1 className="lg:text-[52px] text-[30px] text-reds lg:leading-[62px]  ">
           Braces FAQ&apos;s
         </h1>
-        <div className="mt-10">
+        <div className="lg:mt-10">
           <Accordian>
             {accordionData.map((item) => (
               <AccordianItem
@@ -131,7 +122,7 @@ const Braces = () => {
             ))}
           </Accordian>
         </div>
-      </section>{" "}
+      </section>
       <ContactSection image={contact} />
     </div>
   );

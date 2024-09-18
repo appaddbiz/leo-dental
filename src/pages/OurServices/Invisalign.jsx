@@ -1,10 +1,10 @@
-import banner from "../../assets/ourservice/banner1.png";
+import banner from "../../assets/ourservice/banner1.jpg";
 import text from "../../assets/ourservice/text2.png";
 import Accordian, { AccordianItem } from "../../components/Accordion";
 import img1 from "../../assets/ourservice/img1.png";
 import contact from "../../assets/ourservice/contact2.png";
-import { TbPointFilled } from "react-icons/tb";
 import ContactSection from "../../components/ContactSection";
+import ServiceBanner from "../../components/banner/ServiceBanner";
 
 const Invisalign = () => {
   const accordionData = [
@@ -30,19 +30,7 @@ const Invisalign = () => {
   ];
   return (
     <div className="pt-20">
-      {/* <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  lg:inset-y-44 lg:inset-1 max-w-[1400px]  mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Our Services
-          </p>
-          <h1 className="font-bold mt-">Invisalign</h1>
-        </h1>
-      </section> */}
+      <ServiceBanner img={banner} text="Invisalign" />
       <section className="max-w-[1400px] mx-auto mt-[80px] lg:px-0 px-5">
         <div className="relative ">
           <div className="lg:w-[567px] h-[52px] w-[168px] lg:h-[164px]">
@@ -87,11 +75,11 @@ const Invisalign = () => {
           </div>
         </div>
       </section>
-      {/* <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <h1 className="text-[52px] text-reds leading-[62px]  ">
+      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-2 lg:px-0">
+        <h1 className="lg:text-[52px] text-[30px] text-reds lg:leading-[62px]  ">
           Invisalign FAQ’s
         </h1>
-        <div className="mt-10">
+        <div className="lg:mt-10">
           <Accordian>
             {accordionData.map((item) => (
               <AccordianItem
@@ -104,7 +92,7 @@ const Invisalign = () => {
             ))}
           </Accordian>
         </div>
-      </section> */}
+      </section>
       <ContactSection image={contact} />
     </div>
   );

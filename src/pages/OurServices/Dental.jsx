@@ -1,4 +1,4 @@
-import banner from "../../assets/ourservice/banner2.png";
+import banner from "../../assets/ourservice/banner2.jpg";
 import text from "../../assets/ourservice/text1.png";
 import img2 from "../../assets/ourservice/img2.png";
 import img3 from "../../assets/ourservice/img3.png";
@@ -6,6 +6,7 @@ import Accordian, { AccordianItem } from "../../components/Accordion";
 import { TbPointFilled } from "react-icons/tb";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact1.png";
+import ServiceBanner from "../../components/banner/ServiceBanner";
 
 const Dental = () => {
   const accordionData = [
@@ -54,19 +55,7 @@ const Dental = () => {
   ];
   return (
     <div className="pt-20">
-      {/* <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  lg:inset-y-44 lg:inset-1 max-w-[1400px]  mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Our Services
-          </p>
-          <h1 className="font-bold mt-">Dental Implant</h1>
-        </h1>
-      </section> */}
+      <ServiceBanner img={banner} text="Dental Implant" />
       <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-3 lg:px-0">
         <div className="relative ">
           <div className="lg:w-[965px] lg:h-[164px] w-[282px] h-[90px]">

@@ -1,12 +1,11 @@
-import banner from "../../assets/profile/banner.png";
+import banner from "../../assets/profile/banner.jpeg";
 import text from "../../assets/profile/text.png";
 import img1 from "../../assets/profile/img1.png";
 import img2 from "../../assets/profile/img2.png";
 import img3 from "../../assets/profile/img3.png";
 import img4 from "../../assets/profile/img4.png";
-import image1 from "../../assets/profile/image.png";
-import image2 from "../../assets/profile/image2.png";
 import image3 from "../../assets/profile/image3.png";
+import group2 from "../../assets/profile/group2.png";
 import container from "../../assets/profile/container.png";
 import line from "../../assets/profile/line.png";
 import service5 from "../../assets/home/service5.png";
@@ -18,6 +17,7 @@ import service6 from "../../assets/home/service6.png";
 import contact from "../../assets/profile/contact.png";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
+import Banner from "../../components/banner/Banner";
 const Profile = () => {
   const service = [
     {
@@ -65,27 +65,20 @@ const Profile = () => {
   ];
   return (
     <div className="pt-20">
-      {/* <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute inset-44 text-center max-w-[900px] mx-auto text-white text-[50px]">
-          Excellence In <span className="font-semibold"> Dental Care</span> For
-          Every Member Of Your Family!
-        </h1>
-      </section> */}
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-16 ">
-          <div className="relative w-3/5">
-            <div className="w-[521px] h-[134px]">
+      <Banner img={banner}>
+        Excellence In <span className="font-semibold">Dental Care</span> For
+        Every Member Of Your Family!
+      </Banner>
+      <section className="max-w-[1400px] mx-auto mt-8 lg:mt-[80px] px-3 lg:px-0">
+        <div className="flex lg:flex-row flex-col items-enter  justify-between gap-x-16 ">
+          <div className="relative lg:w-3/5">
+            <div className="lg:w-[521px] w-[114px] h-[65px] lg:h-[134px]">
               <img src={text} alt="" className="" />
             </div>
-            <h1 className="text-[52px]  absolute top-12 text-reds leading-[62px]  ">
+            <h1 className="lg:text-[52px] text-[30px]  absolute lg:top-12 top-3 text-reds lg:leading-[62px]  ">
               Leo Dental
             </h1>
-            <p className="text-[22px]">
+            <p className="lg:text-[22px] text-[18px]">
               Leo Dental was first established on 12 May 2014 in Nellore, Andra
               Pradesh expanding to multiple branches in Bangalore since 2020.
               Reaching to decade down the journey, the evolving need and the
@@ -94,24 +87,24 @@ const Profile = () => {
               center at the heart of Bangalore, ensuring the constant presence
               of the highly experienced and skilled dentists.
             </p>
-            <p className="text-[22px] mt-5">
+            <p className="lg:text-[22px] text-[18px] mt-5">
               Having a combined experience of more than 15 years of different
               specialties at all times along with the latest in technology and
               equipment’s – all under one roof .
             </p>
           </div>
-          <div className=" mt-14">
-            <div className="grid grid-cols-1 grid-rows-2 gap-x-11 gap-y-7">
-              <div className="w-[198px] h-[206px]">
-                <img src={img1} alt="" className="" />
+          <div className="mt-8 lg:mt-14">
+            <div className="grid grid-cols-1 grid-rows-2 lg:gap-x-11 gap-x-5 gap-y-3 lg:gap-y-7">
+              <div className="lg:w-[198px] lg:h-[206px] w-[121px] h-[147px]">
+                <img src={img1} alt="" className="imgs" />
               </div>
-              <div className="col-span-2 col-start-1 row-start-2 w-[304px] h-[206px]">
-                <img src={img3} alt="" className="" />
+              <div className="col-span-2 col-start-1 row-start-2 lg:w-[304px] w-[217px] h-[147px] lg:h-[206px]">
+                <img src={img3} alt="" className="imgs" />
               </div>
-              <div className="col-span-2 col-start-2 row-start-1 w-[304px] h-[206px]">
-                <img src={img2} alt="" className="" />
+              <div className="col-span-2 col-start-2 row-start-1 lg:w-[304px] w-[217px] h-[147px] lg:h-[206px]">
+                <img src={img2} alt="" className="imgs" />
               </div>
-              <div className="col-start-3   row-start-2 w-[198px] h-[206px] bg-red-700">
+              <div className="col-start-3   row-start-2 lg:w-[198px] lg:h-[206px] w-[121px] h-[147px]">
                 {" "}
                 <img src={img4} alt="" className="imgs" />
               </div>
@@ -119,37 +112,38 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px] bg-[#E2E2E2] py-14">
-        <div className="flex justify-center gap-x-20 items-center">
-          <div className="w-[453px] h-[310px]">
+      <section className="max-w-[1400px] mx-auto mt-10 px-3 lg:px-0 lg:mt-[80px] bg-[#E2E2E2] py-8 lg:py-14">
+        <div className="flex justify-center flex-col lg:flex-row  lg:gap-x-20 items-center">
+          <div className="lg:w-[453px] lg:order-none order-1 lg:h-[310px] mt-5 lg:mt-0">
             <img src={container} alt="" className="" />
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <p className="small">
               With our growing experience and successful treatments we have been
               serving our patients by solving their dental problems. Leo dental
-              clinic was founded by Dr. Lahari ASR, MDS 15 years experience
-              Public health dentist Ex-Alumini Sardal Patel Dental College,
-              Lucknow Colgate IDA Award Scholarship Awardee, Expert in Pediatric
-              and Preventive Dentistry. She is also a practicing implantologist
-              having completed his Implant course and she is also certified in
-              Complicated Sinus lift Implant procedures and Advanced Full mouth
-              rehabilitation.
+              clinic was founded by{" "}
+              <span className="text-reds">Dr. Lahari ASR</span> , MDS 15 years
+              experience Public health dentist Ex-Alumini Sardal Patel Dental
+              College, Lucknow Colgate IDA Award Scholarship Awardee, Expert in
+              Pediatric and Preventive Dentistry. She is also a practicing
+              implantologist having completed his Implant course and she is also
+              certified in Complicated Sinus lift Implant procedures and
+              Advanced Full mouth rehabilitation.
             </p>
           </div>
         </div>
-        <p className="small  px-20 ">
-          Dr. Lahari ASR is also accompanied by her Husband Dr. Feroz, MDS
-          Orthodontist Oral and Dentofacial Orthopedics Invisalign ceramic
-          braces, Damon braces, Lingual & permanent retainers. Invisalign expert
-          Cosmetic and Esthetic Dental Surgeon Implantologist. He is also a
-          practicing aesthetic dentist and a certified ‘Invisalign Aligner’
-          Specialist.
+        <p className="small  lg:px-20">
+          Dr. Lahari ASR is also accompanied by her Husband{" "}
+          <span className="text-reds">Dr. Feroz</span>, MDS Orthodontist Oral
+          and Dentofacial Orthopedics Invisalign ceramic braces, Damon braces,
+          Lingual & permanent retainers. Invisalign expert Cosmetic and Esthetic
+          Dental Surgeon Implantologist. He is also a practicing aesthetic
+          dentist and a certified ‘Invisalign Aligner’ Specialist.
         </p>
       </section>
-      <section className="w-full h-[272px] bg-reds py-10 mt-[80px]  ">
-        <div className="max-w-[1400px] mx-auto relative  ">
-          <p className="text-[32px] text-center text-white">
+      <section className="w-full lg:h-[272px] bg-reds py-10 mt-10 lg:mt-[80px]  ">
+        <div className="max-w-[1400px] mx-auto  relative ">
+          <p className="lg:text-[32px] text-[18px] text-center text-white px-4">
             Leo was started with the{" "}
             <span className="text-yellows ">
               unique concept of treatment planning
@@ -160,50 +154,52 @@ const Profile = () => {
             establishment these clinics have strived and succeeded in providing
             quality dental care.
           </p>
-          <img src={line} alt="" className="absolute  right-[400px]" />
+          <img
+            src={line}
+            alt=""
+            className="absolute  lg:right-[400px] right-[105px] w-[162px] lg:w-auto  "
+          />
         </div>
       </section>
-      <section className="max-w-[1450px] mx-auto mt-[80px]">
-        <div className="flex items-start justify-between gap-x-28 ">
-          <div className="bg-red-500 w-1/3 relative place-content-center">
-            <div className="w-[415.07px] h-[556.96px] absolute top-0 left-10">
-              <img src={image1} alt="" className="imgs" />
-            </div>
-            <div className="w-[343.64px] h-[362.94px] absolute  top-72 left-48">
-              <img src={image2} alt="" className="imgs" />
+      <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
+        <div className="flex items-start lg:flex-row flex-col justify-between gap-5 ">
+          <div className=" lg:w-1/3 relative ">
+            <div className="lg:w-[477.81px] lg:h-[667px] w-full h-[526px]">
+              <img src={group2} alt="" className="imgs" />
             </div>
           </div>
 
-          <div className="w-3/5">
-            <h1 className="text-[52px] leading-[60px]">
+          <div className="lg:w-3/5">
+            <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px]">
               Recognized for Clinical <br />{" "}
               <span className="text-reds">Excellence</span>{" "}
             </h1>
-            <p className="text-[22px] mt-10 leading-8">
-              Leo Dental Clinic has been independently assessed and accredited
-              by the Indian Health Organization with the principles and practice
-              of the clinical governance as defined and laid down by the Indian
-              Health Organization.
+            <p className="lg:text-[22px] mt-4 lg:mt-10 lg:leading-8">
+              <span className="text-reds">Leo Dental Clinic </span>has been
+              independently assessed and accredited by the Indian Health
+              Organization with the principles and practice of the clinical
+              governance as defined and laid down by the Indian Health
+              Organization.
             </p>
-            <p className="text-[22px] mt-7 leading-8">
+            <p className="lg:text-[22px]  mt-4 lg:mt-7 lg:leading-8">
               We provide speciality based dental care in accordance to the
               dental needs of the patients by our internationally trained team
               of specialized dentists. Multi disciplinary treatments by M.D.S
               qualified dentists are also combined to ensure minimum number of
               visits to the dental chair.
             </p>
-            <p className="text-[22px] mt-7 leading-8">
+            <p className="lg:text-[22px] mt-4 lg:mt-7 lg:leading-8">
               We take the utmost care to ensure sterilization of instruments and
               equipment to safeguard our patients.
             </p>
-            <p className="text-[22px] mt-7 leading-8">
+            <p className="lg:text-[22px] mt-4 lg:mt-7 lg:leading-8">
               We provide transparent treatment charges with all the charges
               listed on the website.
             </p>
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px] bg-[#FFF6CA] py-5 px-16">
+      <section className="max-w-[1400px] lg:mx-auto mt-10 lg:mt-[80px] bg-[#FFF6CA] lg:py-5 lg:px-16 mx-4 px-3 py-4">
         <p className="text text-center ">
           We constantly upgrade our services, techniques and equipment on a
           regular basis to provide you the latest and{" "}
@@ -211,10 +207,10 @@ const Profile = () => {
           to laser dentistry…
         </p>
       </section>
-      <section className="bg-[#E2E2E2] mt-[80px] py-12">
-        <div className="max-w-[1400px] mx-auto flex items-center justify-between gap-x-10">
-          <div className="w-1/2">
-            <h1 className="text-[34px] text-reds leading-[44px] ">
+      <section className="bg-[#E2E2E2]  mt-10 lg:mt-[80px] lg:py-12 py-8">
+        <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
+          <div className="lg:w-1/2">
+            <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 ">
               Leo ensures Friendly and attentive services to all patients
               keeping in tune with the family dentistry atmosphere we firmly
               believe in.
@@ -232,27 +228,29 @@ const Profile = () => {
               healthcare in Bangalore & Nellore, India.
             </p>
           </div>
-          <div className="h-[426px]">
+          <div className="lg:h-[426px]">
             <img src={image3} alt="" className="imgs" />
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[90px]">
+      <section className="max-w-[1400px] mx-auto mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
-          <p className="text max-w-[48rem] mx-auto">
+          <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
             All of our treatments and services are provided in a comfortable,
             handy capped friendly environment.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-y-8">
+        <div className="grid lg:grid-cols-3 gap-y-8 place-items-center ">
           {service.map((item, index) => (
             <div
               key={index}
-              className="rounded-2xl shadow-xl w-[392px] h-[515px] mt-14"
+              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] lg:mt-14 mt-3"
             >
-              <img src={item.img} alt="" />
-              <div className="mt-5 px-10">
+              <div className="md:w-[392px] md:h-[233px]">
+                <img src={item.img} alt="" />
+              </div>
+              <div className="mt-5 lg:px-10 mx-5 lg:mx-0">
                 <h2 className="text-[28px] text-reds">{item.heading}</h2>
                 <p className="mt-1 text-[17px] leading-6 pb-2">
                   {item.description}

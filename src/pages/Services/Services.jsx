@@ -1,4 +1,5 @@
-import banner from "../../assets/services/banner.png";
+import banner from "../../assets/about/banner.jpeg";
+
 import bannerimg from "../../assets/services/bannerimg.png";
 import text from "../../assets/services/text.png";
 import logo from "../../assets/home/logo.png";
@@ -13,6 +14,7 @@ import service6 from "../../assets/home/service6.png";
 import contact from "../../assets/services/contact.png";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
+import Banner from "../../components/banner/Banner";
 const Services = () => {
   const services = [
     {
@@ -78,17 +80,10 @@ const Services = () => {
 
   return (
     <div className="pt-20">
-      <section className="relative w-full lg:h-[481px] h-[764px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute lg:inset-0  h-full w-full"
-        />
-        <h1 className="absolute lg:inset-40 text-center max-w-[900px] mx-auto text-white text-[50px]">
-          Transforming Smiles With Our Comprehensive{" "}
-          <span className="font-semibold">Dental Services.</span>
-        </h1>
-      </section>
+      <Banner img={banner}>
+        Transforming Smiles With Our Comprehensive{" "}
+        <span className="font-semibold">Dental Services.</span>
+      </Banner>
       <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
         <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-64 ">
           <div className="relative lg:w-2/3">
@@ -138,7 +133,7 @@ const Services = () => {
           <img src={bannerimg} alt="" className="imgs" />
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-10 md:mt-[89px]">
+      <section className="max-w-[1400px] mx-auto   mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
           <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
@@ -146,11 +141,11 @@ const Services = () => {
             handy capped friendly environment.
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 gap-y-8">
+        <div className="grid lg:grid-cols-3 place-items-center  gap-y-8">
           {service.map((item, index) => (
             <div
               key={index}
-              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] mt-14"
+              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] lg:mt-14 mt-3"
             >
               <div className="md:w-[392px] md:h-[233px]">
                 <img src={item.img} alt="" />

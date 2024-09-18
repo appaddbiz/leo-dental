@@ -1,10 +1,11 @@
 import text from "../../assets/ourservice/text5.png";
-import banner from "../../assets/ourservice/banner6.png";
+import banner from "../../assets/ourservice/banner6.jpg";
 import img9 from "../../assets/ourservice/img9.png";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact6.png";
 import group from "../../assets/ourservice/group2.png";
 import Accordian, { AccordianItem } from "../../components/Accordion";
+import ServiceBanner from "../../components/banner/ServiceBanner";
 const Crowns = () => {
   const rootCanalDetails = [
     "Restores and maintains the natural bite.",
@@ -61,28 +62,16 @@ const Crowns = () => {
 
   return (
     <div className="pt-20">
-      <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  lg:inset-y-44 lg:inset-1 max-w-[1400px]  mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Our Services
-          </p>
-          <h1 className="font-bold mt-">Dental Crowns</h1>
-        </h1>
-      </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
+      <ServiceBanner img={banner} text="Dental Crowns" />
+      <section className="max-w-[1400px] px-4 lg:px-0 mx-auto mt-[80px]">
         <div className="relative ">
-          <div className="w-[890px] h-[164px]">
+          <div className="lg:w-[890px] w-[264px] h-[60px] lg:h-[164px]">
             <img src={text} alt="" className="" />
           </div>
-          <h1 className="text-[52px]  absolute top-12 text-reds  ">
+          <h1 className="lg:text-[52px] text-[30px]  absolute top-2 lg:top-12 text-reds  ">
             Dental Crowns & Bridges
           </h1>
-          <p className="text-[22px] leading-8">
+          <p className="lg:text-[22px] text-[18px] lg:leading-8">
             A crown-sometimes called a “cap”-is a tooth-like covering placed
             over a carefully prepared existing tooth. Used to strengthen,
             restore or improve the appearance of your natural tooth. A crown is
@@ -96,37 +85,42 @@ const Crowns = () => {
           </p>
         </div>
       </section>{" "}
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <div className=" flex justify-between items-start">
+      <section className="max-w-[1400px] px-2 lg:px-0 mx-auto mt-10 lg:mt-[80px]">
+        <div className=" flex flex-col lg:flex-row justify-between items-start gap-5">
           <div>
             {" "}
-            <h1 className="text-[52px] leading-[60px] ">
+            <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] leading-9  ">
               Benefits Of Crown <br />
               <span className="text-reds"> Crown & Bridge Treatment</span>{" "}
             </h1>
-            <ul className="font-normal marker:text-reds text-[22px]  leading-[28.64px] list-disc list-inside mt-10">
-              {rootCanalDetails.map((item, index) => (
-                <li key={index} className="text-black mt-6">
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <p className="font-semibold lg:text-[22px] lg:mt-8 mt-5">
+              Crown and bridge treatment reverses the negative impact of missing
+              teeth in a variety of ways:
+            </p>
+            {rootCanalDetails.map((item, index) => (
+              <ul
+                key={index}
+                className="font-normal marker:text-reds text-[18px] leading-[24px] lg:text-[22px] lg:leading-[28.64px] list-disc list-outside pl-5 mt-4"
+              >
+                <li className="text-black mt-4">{item}</li>
+              </ul>
+            ))}
           </div>
-          <div className="w-[555px] h-[490px]">
+          <div className="lg:w-[555px] lg:h-[490px]">
             <img src={img9} alt="" className="imgs" />
           </div>
         </div>
-        <p className="text-[22px] leading-8 mt-5">
+        <p className="lg:text-[22px] lg:leading-8 mt-5">
           Usage of ceramic in making dental crowns is a break through in
           dentistry. Dental Porcelain is a kind of ceramic and is used in
           fabricating dental crown and bridges. Main advantage is, its white
           colour which makes it similar to natural tooth.
         </p>
-        <p className="text-[22px] leading-8 mt-4 font-medium">
+        <p className="lg:text-[22px] lg:leading-8 mt-4 font-medium">
           There are two types of ceramic crowns namely Porcelain Fused to Metal
           crowns and All Ceramic crowns.
         </p>
-        <p className="text-[22px] leading-8 mt-5">
+        <p className="lg:text-[22px] lg:leading-8 mt-5">
           <span className="text-reds font-medium">
             Porcelain fused metal crowns
           </span>{" "}
@@ -135,55 +129,57 @@ const Crowns = () => {
           considered as gold standard for repair of damaged teeth and they have
           ruled dentistry for several decades.
         </p>{" "}
-        <p className="text-[22px] leading-8 mt-5">
+        <p className="lg:text-[22px] lg:leading-8 mt-5">
           <span className="text-reds font-medium">In All Ceramic Crowns,</span>{" "}
           the entire thickness of the crown is made out of porcelain. These type
           of crowns are also mentioned as Metal free crowns and are most
           bio-compatible type of crowns.
         </p>
       </section>
-      <section className="bg-[#D9D9D9] mt-[80px] py-12">
-        <section className="max-w-[1400px] mx-auto mt-[80px] flex justify-between items-start">
-          <div className="w-[512.05px] h-[702.43px]">
+      <section className="bg-[#D9D9D9] mt-10 lg:mt-[80px] lg:py-12 py-10">
+        <section className="max-w-[1400px] mx-auto px-4 lg:px-0 gap-5  flex flex-col lg:flex-row justify-between items-start">
+          <div className="lg:w-[512px] lg:h-[702px] h-[521px] ">
             <img src={group} alt="" className="imgs" />
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             {" "}
-            <h1 className="text-[52px] leading-[60px] ">
+            <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] ">
               Signs You Need
               <span className="text-reds">
                 {" "}
                 Crown <br /> & Bridge Treatment
               </span>
             </h1>
-            <p className="text-[22px] leading-8 mt-8 font-medium">
+            <p className="text-[22px] leading-8 mt-3 lg:mt-8 font-medium">
               Signs a Crown Is Needed:
             </p>
-            <ul className="font-normal marker:text-reds text-[22px]  leading-[28.64px] list-disc mt-3">
-              {toothIssues.map((item, index) => (
-                <li key={index} className="text-black mt-6">
-                  {item}
-                </li>
-              ))}
-            </ul>
+            {toothIssues.map((item, index) => (
+              <ul
+                key={index}
+                className="font-normal marker:text-reds text-[18px] leading-[24px] lg:text-[22px] lg:leading-[28.64px] list-disc list-outside pl-5 mt-4"
+              >
+                <li className="text-black mt-4">{item}</li>
+              </ul>
+            ))}
             <p className="text-[22px] leading-8 mt-8 font-medium">
               Signs Patients Need a Bridge:
             </p>
-            <ul className="font-normal marker:text-reds text-[22px]  leading-[28.64px] list-disc mt-3">
-              {dentalNeeds.map((item, index) => (
-                <li key={index} className="text-black mt-6">
-                  {item}
-                </li>
-              ))}
-            </ul>
+            {dentalNeeds.map((item, index) => (
+              <ul
+                key={index}
+                className="font-normal marker:text-reds text-[18px] leading-[24px] lg:text-[22px] lg:leading-[28.64px] list-disc list-outside pl-5 mt-4"
+              >
+                <li className="text-black mt-4">{item}</li>
+              </ul>
+            ))}
           </div>
         </section>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <h1 className="text-[52px] text-reds leading-[62px]  ">
-          Braces FAQ&apos;s
+      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-3 lg:px-0">
+        <h1 className="lg:text-[52px] text-[30px] text-reds lg:leading-[62px]  ">
+          Dental Crowns FAQ&apos;s
         </h1>
-        <div className="mt-10">
+        <div className="lg:mt-10">
           <Accordian>
             {accordionData.map((item) => (
               <AccordianItem
@@ -196,7 +192,7 @@ const Crowns = () => {
             ))}
           </Accordian>
         </div>
-      </section>{" "}
+      </section>
       <ContactSection image={contact} />
     </div>
   );

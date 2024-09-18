@@ -56,64 +56,65 @@ const Testimonials = () => {
   return (
     <div className="pt-20">
       {" "}
-      <section className="relative w-full h-[481px]">
-        <img
-          src={banner}
-          alt="Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <h1 className="absolute  text-center lg:inset-44   max-w-[900px] mx-auto text-white text-[50px]">
-          <p className=" text-white text-[24px] underline font-normal">
-            Testimonials
-          </p>
-          Transforming Smiles, Building Trust:
-          <span className="font-semibold"> Patient Stories</span>
-        </h1>
-      </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
+      <div
+        className="relative lg:h-[481px] h-[481px] w-full bg-cover bg-center"
+        style={{ backgroundImage: `url(${banner})` }}
+      >
+        <div className="absolute inset-0 flex items-center justify-center lg:mx-12 px-4 text-white flex-col">
+          <div className="lg:text-[50px] text-[35px] max-w-[879px] mx-auto text-center">
+            <p className=" text-white text-[24px] underline font-normal">
+              Testimonials
+            </p>
+            Transforming Smiles, Building Trust:
+            <span className="font-semibold"> Patient Stories</span>
+          </div>
+        </div>
+      </div>
+      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px]">
         <div className="relative items-center justify-center flex">
-          <div className="w-[766px] h-[164px]">
+          <div className="lg:w-[766px] lg:h-[164px] w-[226px] h-[100px]">
             <img src={text} alt="" className="" />
           </div>
-          <h1 className="text-[52px]  absolute top-12 text-reds leading-[62px]  ">
+          <h1 className="lg:text-[52px] text-[30px] text-center absolute top-3 lg:top-12 text-reds lg:leading-[62px]  leading-9">
             Maintenance of Life Time Dental Records
           </h1>
         </div>
-        <div className="flex items-center justify-center gap-x-20 text-center ">
+        <div className="flex items-center flex-col lg:flex-row justify-center gap-x-20 text-center ">
           {records.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="mt-3">
               <h1 className="text-[45px]">{item.total}</h1>
               <p className="text-[30px] text-reds">{item.desc}</p>
             </div>
           ))}
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
+      <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
         {" "}
-        <h1 className="text-[52px] text-reds">Patient Testimonials</h1>{" "}
-        <p className="text-[22px] mt-5  leading-7">
+        <h1 className="lg:text-[52px] text-[30px] text-reds">
+          Patient Testimonials
+        </h1>{" "}
+        <p className="lg:text-[22px] text-[18px] mt-5  leading-7">
           With more than 1000 unbiased reviews from just dial customers, Google
           reviews and a rating of more than 4 stars , maintained for more than
           10 yrs continuously, Leo Dental is proud over its commitment towards
           excellence..
         </p>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px]">
-        <div className="grid grid-cols-3">
+      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px] px-3  h-full lg:px-0 ">
+        <div className="grid lg:grid-cols-3  ">
           {reviews.map((item, index) => (
-            <div
-              key={index}
-              className="px-5 rounded-3 flex items-center flex-col relative h-[600px] "
-            >
-              <div className="w-[241px] h-[202px] rounded-xl  z-10">
-                <img src={item.image} alt={item.name} className="imgs" />
-              </div>
-              <div className="border-2 pt-[80px] bg-[#E2E2E2] h-[400px] py-3 pb-10 absolute top-36 shadow-lg rounded-xl px-5 w-[392px]">
-                <div className="text-left">
-                  <h1 className="text-2xl text-reds">{item.name}</h1>
-                  <p className="mt-2 text-[18px] leading-[24px]">
-                    {item.description}
-                  </p>
+            <div key={index} className="relative h-[570px]  lg:h-[600px] ">
+              <div className="px-5 rounded-3 flex items-center  flex-col  ">
+                <div className="w-[241px] h-[202px] rounded-xl absolute  z-10">
+                  <img src={item.image} alt={item.name} className="imgs" />
+                </div>
+                <div className="border-2 pt-[80px] bg-[#E2E2E2]  h-[400px] py-3 pb-10 absolute top-32  shadow-lg rounded-xl px-5 lg:w-[392px]">
+                  <div className="text-left">
+                    <h1 className="text-2xl text-reds">{item.name}</h1>
+                    <p className="mt-2 lg:text-[18px] leading-5 lg:leading-[24px]">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -19,10 +19,8 @@ import { IoMailOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 import { TbPointFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import ContactSection from "../../components/ContactSection";
 const Home = () => {
   const contentData = [
@@ -390,11 +388,11 @@ const Home = () => {
             handy capped friendly environment.
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 gap-y-8">
+        <div className="grid lg:grid-cols-3 place-items-center  gap-y-8">
           {service.map((item, index) => (
             <div
               key={index}
-              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] mt-14"
+              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] lg:mt-14 mt-3"
             >
               <div className="md:w-[392px] md:h-[233px]">
                 <img src={item.img} alt="" />

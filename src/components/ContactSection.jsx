@@ -1,7 +1,7 @@
 import logo from "../assets/home/logo.png";
 const ContactSection = ({ image }) => {
   return (
-    <section className="mt-[100px] max-w-[1300px]  lg:mx-auto">
+    <section className="lg:mt-[100px] mt-10 max-w-[1300px]  lg:mx-auto">
       <div className="lg:ml-0  ml-5 lg:w-[313px] w-[222px] h-[69px] lg:h-[98px]">
         <img src={logo} alt="" className="imgs" />
       </div>
