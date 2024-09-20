@@ -25,42 +25,42 @@ const Profile = () => {
       heading: "Invisalign",
       description:
         "Leo Dental is No.1 Invisalign Provider in Bangalore & Nellore. A team of Orthodontist treat every case. Our best price guarantee is GUARANTEED to make you smile!",
-      path: "service/invisalign",
+      path: "/service/invisalign",
     },
     {
       img: service2,
       heading: "Dental Implant",
       description:
         "Dental implants are a lifetime solution for people with missing teeth. We have onboard implantologists who have experience in dealing with world class implant systems and surgeries.",
-      path: "service/Dental-Implant",
+      path: "/service/Dental-Implant",
     },
     {
       img: service3,
       heading: "Laser Dentistry",
       description:
         "Providing best Laser Dentistry treatment in Bangalore & Nellore with advanced equipment and best dentists. Painless & Safe dental treatments. best Laser Dentistry in Nellore, this involves focusing the laser beam on the stained gums and teeth.",
-      path: "service/laser-dentistry",
+      path: "/service/laser-dentistry",
     },
     {
       img: service4,
       heading: "Root Canal Treatment",
       description:
         "Our endodontists are committed to providing you a pain free root canal treatment and help bust the myth of fear and trauma being associated with this therapy.",
-      path: "service/Root-Canal-Treatment",
+      path: "/service/Root-Canal-Treatment",
     },
     {
       img: service5,
       heading: "Braces",
       description:
         "Our orthodontists are specialized in correcting irregularities via metal, ceramic, self- ligating braces and invisible aligners. We have the most experienced & specialist dentists offering the best dental braces treatment.",
-      path: "service/Braces",
+      path: "/service/Braces",
     },
     {
       img: service6,
-      heading: "Invisalign",
+      heading: "Dental Crowns",
       description:
         "Best Dental Crowns treatment at affordable costs. Dental Crowns Treatment is the best solution If the major part of the tooth is missing. After the placement of a crown, the tooth can function normally.",
-      path: "service/Dental-Crowns",
+      path: "/service/Dental-Crowns",
     },
   ];
   return (

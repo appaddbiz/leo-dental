@@ -88,7 +88,7 @@ const Testimonials = () => {
           ))}
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
+      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px] px-3 lg:px-0">
         {" "}
         <h1 className="lg:text-[52px] text-[30px] text-reds">
           Patient Testimonials

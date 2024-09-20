@@ -97,7 +97,7 @@ const Header = () => {
                   className={`${
                     location.pathname === item.path ? "text-reds" : "text-black"
                   } hover:text-reds`}
-                  onClick={() => setIsOpen(false)} // Close menu on link click
+                  onClick={() => setIsOpen(false)}
                 >
                   {item.display}
                 </Link>
