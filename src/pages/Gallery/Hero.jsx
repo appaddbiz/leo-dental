@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TbPointFilled } from "react-icons/tb";
 import person1 from "../../assets/align/person1.png";
 import person2 from "../../assets/align/person2.png";
@@ -7,7 +7,22 @@ import logo2 from "../../assets/align/logo2.png";
 import person3 from "../../assets/align/person3.png";
 const Hero = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0); // Tracks the currently highlighted index
+  const points = [
+    "No downpayment",
+    "With no EMI’s",
+    "No hidden cost",
+    "It's on us!",
+  ];
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Move to the next index, and reset to 0 after reaching the last element
+      setActiveIndex((prevIndex) => (prevIndex + 1) % points.length);
+    }, 2000);
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, [points.length]);
   const handleCanPlay = () => {
     setIsLoading(false);
   };
@@ -73,18 +88,16 @@ const Hero = () => {
               <span className="text-reds">Free</span>
             </h1>
             <div className="mt-5">
-              <p className="text-[#9B9B9B] text-[20px] lg:text-[36px] font-normal">
-                No downpayment
-              </p>
-              <p className="text-[20px] lg:text-[36px] font-normal">
-                With no EMI’s
-              </p>
-              <p className="text-[#9B9B9B] text-[20px] lg:text-[36px] font-normal">
-                No hidden cost
-              </p>
-              <p className="text-[#9B9B9B] text-[20px] lg:text-[36px] font-normal">
-                It&apos;s on us!
-              </p>
+              {points.map((text, index) => (
+                <p
+                  key={index}
+                  className={`text-[20px] lg:text-[36px] font-normal transition duration-500 ${
+                    activeIndex === index ? "text-black" : "text-gray-400"
+                  }`}
+                >
+                  {text}
+                </p>
+              ))}
             </div>
             <h1 className="text-[32px] lg:text-[52px] mt-2 font-medium">
               Try It Before You Use It!

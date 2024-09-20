@@ -3,8 +3,8 @@ import logo1 from "../../assets/align/logo1.png";
 
 const Banner = () => {
   return (
-    <section className="bg-yellows h-auto lg:h-[481px] py-10">
-      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row justify-between items-center  lg:px-0">
+    <section className="bg-yellows h-auto lg:h-[481px] mt-3 py-10 lg:py-0">
+      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row justify-between items-center   lg:px-0">
         <div className="text-center lg:text-left">
           <div className="w-[200px] h-[60px] lg:w-[371px] lg:h-[100px] mx-auto lg:mx-0">
             <img src={logo1} alt="" className="w-full h-full object-contain" />
@@ -25,14 +25,14 @@ const Banner = () => {
             </div>
             <button
               type="submit"
-              className="button mt-5 w-full lg:w-auto lg:mx-0 text-white bg-blue-600 py-2 px-6 rounded-lg"
+              className="button mt-2 lg:mt-5 w-auto lg:mx-0 text-white bg-blue-600 py-2 px-6 rounded-lg"
             >
-              Book an Appointment
+              Book Scan
             </button>
           </form>
         </div>
         <div className="w-full h-[300px] lg:w-[563px] lg:h-[481px] mt-6 lg:mt-0">
-          <img src={bannerimg} alt="" className="w-full h-full object-cover" />
+          <img src={bannerimg} alt="" className="w-full h- -cover" />
         </div>
       </div>
     </section>
