@@ -27,23 +27,30 @@ const RootCanal = () => {
   const accordionData = [
     {
       value: "1",
-      trigger: "Will there be bleeding during Laser Dentistry?",
+      trigger: "Is root canal treatment permanent?",
       content:
-        "Usually, there will be minimal bleeding or no bleeding at all during the laser dentistry procedure. Laser dentistry in Hyderabad at ADS Dental Hospital offers the optimum services at the most reasonable prices.",
+        "Yes, a root canal treatment with a 3-dimensional seal till the apex of the root can never fail; hence, it is considered permanent.",
     },
     {
       value: "2",
-      trigger: "Will it be painful during Laser Dentistry?",
+      trigger: "Why should we crown a root canal treated tooth?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "After a root canal treatment, the affected tooth can be compromised either due to decay or due to access preparation. This, along with the non-vitality of the tooth, makes it brittle and prone to fracture. Hence, crowning a root canal treated tooth is advised, especially for posterior teeth.",
     },
     {
       value: "3",
-      trigger: "What types of foods can we take after the procedure?",
+      trigger: "Why root canal treatment?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Root canal treatment is recommended if a patient has deep dental decay with severe tooth pain, especially when lying down or chewing. In some cases, a severely broken down tooth may not elicit any pain, especially if it’s a non-vital tooth; in such cases, a root canal treatment is still advised.",
+    },
+    {
+      value: "4",
+      trigger: "Can I get the tooth extracted instead of root canal treatment?",
+      content:
+        "No, one should avoid extracting teeth except for wisdom teeth. A root canal treatment can totally restore the form and function of a tooth without any side effects. Any extracted tooth needs to be replaced by a dental implant, which is considerably more expensive and time-consuming.",
     },
   ];
+
   return (
     <div className="pt-20">
       <ServiceBanner img={banner} text="Root Canal Treatment" />
@@ -136,20 +143,13 @@ const RootCanal = () => {
               Why <span className="text-reds ">Leo Dental?</span>
             </h1>
             <p className="lg:text-[22px] text-lg lg:leading-8 lg:mt-5 ">
-              Laser dentistry is fast gaining momentum in the dental field. This
-              process involves focusing a laser beam through an optical fiber
-              over the teeth and gums. Usually, this method is a far safer and
-              more innovative way of dealing with dental problems. There are
-              many scenarios like bleeding gums, stained gums, stained teeth,
-              etc that people tend to suffer from. Hence a process like Laser
-              dentistry is being used to restore good gums and teeth. Gum
-              bleeding can also be stopped with the proper application of Laser
-              Dentistry. Laser Dentistry is considered to be a marvel in the
-              dental arena field. Laser dentistry will kill the bacteria
-              cropping up inside your mouth. There are many benefits offered by
-              laser dentistry. Laser dentistry in Hyderabad is the best at ADS
-              Dental Hospital. Laser bad breath treatment is also offered here.
-              The bacteria gets killed, this process is completely painless.
+              The Leo Dental team is comprised of friendly and highly skilled
+              individuals all driven by the same mission: to give you the best
+              dental experience possible. Everyone in our practice, from our
+              front office team to our hygienists and dental assistants want to
+              give you the highest level of quality dental care. You will feel
+              this the moment you step into our office all the way until your
+              scheduled appointment is over.
             </p>
           </div>
         </div>

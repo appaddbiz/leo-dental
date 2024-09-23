@@ -12,6 +12,7 @@ const Maintance = () => {
     { video: "/gap.mp4", heading: "TeethGap" },
     { video: "/open.mp4", heading: "OpenBite" },
   ];
+
   const settings = {
     infinite: true,
     slidesToShow: 4,
@@ -40,12 +41,14 @@ const Maintance = () => {
               <div className="shadow-xl border-2">
                 <div className="w-auto h-[316px] relative">
                   <video
-                    autoPlay
                     className="w-full h-full object-cover"
                     src={item.video}
                     type="video/mp4"
-                    // loop
+                    loop
                     muted
+                    autoPlay
+                    playsInline // Prevents full-screen autoplay on iOS Safari
+                    // Optional: if you want manual control by the user
                   ></video>
                 </div>
                 <p className="text-[32px] py-2">{item.heading}</p>

@@ -16,14 +16,14 @@ const Laser = () => {
   ];
   const dentalImplantTypes = [
     "Minimum Pain",
-    "Quicker and simpler procedures",
     "Minimum Bleeding",
-    "Greater patient comfort and satisfaction",
     "Fast recovery, No side effects",
-    "Unlimited dental and aesthetic treatment options",
     "Unrivalled laser drilling speeds",
-    "Unmatched treatment management options",
     "Higher precision and selectiveness",
+    "Quicker and simpler procedures",
+    "Greater patient comfort and satisfaction",
+    "Unlimited dental and aesthetic treatment options",
+    "Unmatched treatment management options",
     "Automatic Sterilization",
   ];
   const accordionData = [
@@ -37,13 +37,13 @@ const Laser = () => {
       value: "2",
       trigger: "Will it be painful during Laser Dentistry?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Usually, it won’t be painful at all. Local anesthesia will be administered so that the patient can be completely carefree about the medical procedure. This process has absolutely no side effects. Also, there is not an ounce of pain encountered.",
     },
     {
       value: "3",
       trigger: "What types of foods can we take after the procedure?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Usually, it is better to have soft foods. Soft foods that are easy on chewing can be used. It is advisable to avoid hard foods and excessive intake of beverages like tea and coffee must be avoided.Laser Dentistry in Hyderabad offered at ADS Dental Hospital is the most reasonable without any side effects over here. Laser dental treatment in Hyderabad is the best offered here. Laser dentistry in Hyderabad is the most sound treatment offered here. Laser dental treatment in Hyderabad is the most reasonable and advanced here. The Hitech labs with sound imaging equipment are proof of that.",
     },
   ];
   return (
@@ -71,7 +71,7 @@ const Laser = () => {
             mouth. There are many benefits offered by laser dentistry. Laser
             dentistry in Hyderabad is the best at ADS Dental Hospital. Laser bad
             breath treatment is also offered here. The bacteria gets killed,
-            this process is completely painless.
+            this process is completely painless
           </p>
           {listItems.map((item, index) => (
             <ul
@@ -121,7 +121,7 @@ const Laser = () => {
           </ul>
         </div>
       </section>
-      <section className="max-w-[1400px] bg-[#FFF6CA] mx-auto lg:mt-[80px] mt-10  p-10 flex lg:flex-row px-2 lg:px-0 flex-col  gap-x-10 justify-between items-center">
+      <section className="max-w-[1400px]  bg-[#FFF6CA] mx-auto lg:mt-[80px] mt-10  p-10 flex lg:flex-row px-2 lg:px-10 flex-col  gap-x-10 justify-between items-center">
         <div className="lg:w-2/3">
           <h1 className="lg:text-[52px] text-[30px]  text-reds">
             How does it work?

@@ -14,21 +14,22 @@ const Dental = () => {
       value: "1",
       trigger: "What is a Zygoma Implant?",
       content:
-        "In patients with very poor bone structure of the upper jaw a dental implant is surgically drilled into the zygomatic bone for anchorage. This along with anterior dental implants can restore one’s bite eﬀectively. Since the dental implants are anchored into the zygomatic bone it is called zygoma implant.",
+        "In patients with very poor bone structure of the upper jaw, a dental implant is surgically drilled into the zygomatic bone for anchorage. This, along with anterior dental implants, can restore one’s bite effectively. Since the dental implants are anchored into the zygomatic bone, it is called a zygoma implant.",
     },
     {
       value: "2",
       trigger: "What is an all-on-4 dental implant?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "In patients with complete missing teeth and compromised jaw bone, four dental implants per jaw are planted in pre-planned positions to balance either 10 or 12 teeth per jaw. This procedure of complete dental rehabilitation with four dental implants on each jaw is called all-on-4 dental implant surgery. If six teeth are placed per jaw, then it is called all-on-6 dental implant surgery. If these 4 or 6 dental implants are screwed with a denture, then it's a hybrid denture.",
     },
     {
       value: "3",
       trigger: "Why are Dental Implants Expensive?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "We, at Leo Dental, do not consider dental implant surgery expensive, especially when we look at the restoring capabilities of a dental implant. A simple dental implant surgery is affordable and a very good option for restoring teeth. The true-to-life capability of a dental implant relies on the skill of the surgeon, the surgery itself, and the crown component of the dental implant. If one has a challenging bone structure, then components like bone grafts and membranes add to the cost.",
     },
   ];
+  
   const advantages = [
     "Most effective in restoring form & function",
     "Conservative – no need to trim or damage adjacent teeth unlike dental bridge",
@@ -45,12 +46,12 @@ const Dental = () => {
   ];
   const points = [
     "Conventional Dental Implant",
-    "All-on-4 Dental Implant",
     "Immediate Dental Implant",
-    "All-on-6 Dental Implant",
     "Sinus Lift Dental Implant",
-    "Same day tooth Dental Implant",
     "Zygomatic Dental Implant",
+    "All-on-4 Dental Implant",
+    "All-on-6 Dental Implant",
+    "Same day tooth Dental Implant",
     "Hybrid Denture",
   ];
   return (

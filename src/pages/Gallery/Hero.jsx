@@ -77,6 +77,7 @@ const Hero = () => {
               autoPlay
               muted
               loop
+              playsInline
               onCanPlay={handleCanPlay}
             >
               <source src="/leoalignVideo.mp4" type="video/mp4" />

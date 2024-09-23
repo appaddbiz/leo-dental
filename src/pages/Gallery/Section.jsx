@@ -61,7 +61,7 @@ const Section = () => {
           </div>
         </div>
       </section> */}
-      <section className="bg-reds relative mt-[60px] lg:mt-[100px] px-4 lg:px-0">
+      <section className="bg-reds relative mt-[60px] lg:mt-[100px] px-4 lg:px-0 pt-10 lg:pt-0">
         <div className="max-w-[1450px] h-auto lg:h-[310px] mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
           <div className="w-full lg:w-[386px] h-auto lg:h-[400px] flex justify-center lg:justify-start mt-6 lg:mt-0">
             <img
@@ -70,7 +70,7 @@ const Section = () => {
               className="w-[200px] sm:w-[300px]  h-auto object-cover lg:absolute lg:bottom-0"
             />
           </div>
-          <div className="w-full lg:w-3/4 text-center lg:text-left px-4 lg:px-20 text-[24px] sm:text-[30px] lg:text-[42px] text-white">
+          <div className="w-full lg:w-3/4 text-center lg:text-left lg:px-20 text-[24px] sm:text-[30px] lg:text-[42px] text-white">
             Talk directly to your treatment planner{" "}
             <span className="text-yellows">orthodontist</span>. Our professional
             expert doctors are here to guide you through your{" "}

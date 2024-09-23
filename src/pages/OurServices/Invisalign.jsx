@@ -18,7 +18,7 @@ const Invisalign = () => {
       value: "2",
       trigger: "Is Invisalign better than braces?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Depending on what a patient desires and demands either braces or Invisalign can be better than the other. Both have their own advantages and disadvantages but Invisalign is the latest advancement in orthodontics. Our Orthodontist In Bangalore and Orthodontist in Nellore clinic prefer Invisalign especially for minor dental corrections.",
     },
   ];
   const advantages = [

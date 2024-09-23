@@ -18,33 +18,33 @@ const Crowns = () => {
   const accordionData = [
     {
       value: "1",
-      trigger: "How long will crown last?",
+      trigger: "How long will my crown last?",
       content:
-        "The amount of time spent in braces will vary, depending on the individual patient, because every smile responds differently to treatment. Treatment times can take anywhere from six to 30 months, but most standard treatments last about 18 months.",
+        "Porcelain crowns usually last at least 15 years with proper care and maintenance, and it’s not uncommon for crowns to last 20+ years. The porcelain ceramic materials used to build your crown are very durable and similar to your enamel in strength and hardness, so you can expect your crown to last a very long time.",
     },
     {
       value: "2",
       trigger: "Do crowns hurt?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "No. During the crown placement process, we will numb your mouth to ensure you don’t feel any discomfort when your tooth is trimmed to make room for your crown. We even offer sedation dentistry to ensure that you feel completely safe and comfortable during your appointment at Leo Dental.",
     },
     {
       value: "3",
-      trigger: "How long does it take to recover after crown placement??",
+      trigger: "How long does it take to recover after crown placement?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "You won’t have any 'down time' after your crown is placed. The treatment is non-surgical and does not cause any serious pain or discomfort, so you can get back to your day-to-day routine immediately without having to worry about taking time off work or adjusting your schedule.",
     },
     {
       value: "4",
       trigger: "Are crowns used for cosmetic dentistry?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Crowns are usually used for restorative dentistry, but can be used as a cosmetic treatment in some cases. For example, a severely misshapen tooth may not be treatable with dental bonding or veneers, and may need to be covered up and capped with a dental crown.",
     },
     {
       value: "5",
       trigger: "Why would I need a dental crown?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Dental crowns are needed to repair teeth that are too decayed to treat with a filling, and are also used to treat infected teeth after root canals, or to repair a tooth that’s been broken or cracked due to oral trauma. The best way to find out if a dental crown is right for you is to contact Leo Dental for a consultation.",
     },
   ];
 

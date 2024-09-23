@@ -12,12 +12,12 @@ const Braces = () => {
     {
       img: braces1,
       heading: "Metal Braces",
-      desc: "Metal Braces can be silver or golden. The golden braces look a bit more “jewelry-like” and are often a popular choice with young women. Metal braces are very strong and can withstand most types of treatment.These braces are metallic. They fit perfectly on teeth.These wired braces are the most traditional types of braces",
+      desc: "Metal Braces can be silver or golden. The golden braces look a bit more “jewelry-like” and are often a popular choice with young women. Metal braces are very strong and can withstand most types of treatment.These braces are metallic. They fit perfectly on teeth.These wired braces are the most traditional types of braces.",
     },
     {
       img: braces2,
       heading: "Ceramic Braces",
-      desc: "Metal Braces can be silver or golden. The golden braces look a bit more “jewelry-like” and are often a popular choice with young women. Metal braces are very strong and can withstand most types of treatment.These braces are metallic. They fit perfectly on teeth.These wired braces are the most traditional types of braces",
+      desc: "Ceramic Braces are made of composite materials. They are very strong and generally do not stain. Adults like to choose ceramic because they “blend in” with the teeth and are less noticeable than metal. These are the type of braces actor Tom Cruise had. Ceramic braces as the name suggests is a bit more advanced than metallic braces.",
     },
   ];
   const accordionData = [
@@ -31,29 +31,30 @@ const Braces = () => {
       value: "2",
       trigger: "Do braces hurt?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Braces do not often hurt, though you may feel a small amount of discomfort for a couple of days as your teeth, gums, cheeks, and mouth get used to your new braces.",
     },
     {
       value: "3",
       trigger: "Do I need to brush my teeth more often if I have braces?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "With braces, you should brush your teeth at least three times a day to keep your teeth, gums, and mouth healthy and clean. Brushing regularly helps remove any food caught between your braces. You should also floss daily to clean between your braces where your brush isn’t able to reach.",
     },
     {
       value: "4",
       trigger:
         "Will my braces interfere with my school activities like sports, playing an instrument, or singing?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Playing an instrument or a contact sport may require some adjustment when you first get your braces, but wearing braces will not stop you from participating in any school activities. It is recommended to wear a mouthguard for contact sports to protect your braces or appliance.",
     },
     {
       value: "5",
       trigger:
         "If I have braces, do I still need dental checkups every six months?",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis id unde non explicabo necessitatibus, placeat quo ducimus labore quas pariatur possimus perspiciatis eaque laboriosam vero, voluptates cumque vel? Tempora, dignissimos?",
+        "Yes! It’s even more essential that patients receiving orthodontic treatment visit their dentist regularly. Braces can cause food to be caught in places your toothbrush can’t reach, which can lead to cavities, gingivitis, and gum disease. Regular checkups ensure your teeth stay clean and healthy while wearing braces.",
     },
   ];
+
   return (
     <div className="pt-20">
       <ServiceBanner img={banner} text="Dental Braces" />
