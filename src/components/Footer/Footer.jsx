@@ -36,6 +36,7 @@ const Footer = () => {
     { path: "/testimonials", display: "Testimonials" },
     { path: "/gallery", display: "Gallery" },
     { path: "/contact", display: "Contact Us" },
+    { path: "/Leo-Align", display: "Leo Align" },
   ];
   const treatments = [
     "Invisalign",

@@ -15,30 +15,7 @@ const Header = () => {
     { path: "/Leo-Align", display: "Leo Align" },
   ];
   return (
-    // <header className="bg-white/90 backdrop-blur-x   fixed w-full h-[74px] flex items-center justify-center  shadow-xl ">
-    //   <div className="flex justify-between items-center mx-20 w-full">
-    //     <Link to="/" className="w-[239px h-[54px] ">
-    //       <img src={logo} alt="logo" />
-    //     </Link>
-    //     <div className="flex justify-center items-center gap-x-7">
-    //       <ul className="flex space-x-6 text-black font-sans font-normal text-base">
-    //         {nav.map((item) => (
-    //           <li key={item.path}>
-    //             <Link
-    //               to={item.path}
-    //               className={`${
-    //                 location.pathname === item.path ? "text-reds" : "text-black"
-    //               } transform hover:scale-110 transition-transform duration-300 ease-in-out hover:text-reds`}
-    //             >
-    //               {item.display}
-    //             </Link>
-    //           </li>
-    //         ))}
-    //       </ul>
-    //       <button className="button">Book an Appointment</button>
-    //     </div>
-    //   </div>
-    // </header>
+ 
 
     <header className="bg-white/90 backdrop-blur-x fixed w-full h-[74px] flex items-center justify-center shadow-xl z-[200]">
       <div className="flex justify-between items-center mx-5 md:mx-20 w-full">
