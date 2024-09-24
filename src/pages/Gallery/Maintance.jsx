@@ -37,8 +37,7 @@ const Maintance = () => {
                     loop
                     muted
                     autoPlay
-                    playsInline // Prevents full-screen autoplay on iOS Safari
-                    // Optional: if you want manual control by the user
+                    playsInline 
                   ></video>
                 </div>
                 <p className="text-[32px] py-2">{item.heading}</p>
