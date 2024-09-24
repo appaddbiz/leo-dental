@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="flex space-x-4 lg:mt-16 mt-8">
               {socialMediaLinks.map((social) => (
                 <Link
-                  key={social.name} // Using `name` as key since IDs were removed
+                  key={social.name} 
                   to={social.url}
                   target="_blank"
                   rel="noopener noreferrer"

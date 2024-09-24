@@ -37,7 +37,7 @@ const Maintance = () => {
                     loop
                     muted
                     autoPlay
-                    playsInline 
+                    playsInline
                   ></video>
                 </div>
                 <p className="text-[32px] py-2">{item.heading}</p>

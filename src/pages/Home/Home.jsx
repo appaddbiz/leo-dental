@@ -19,8 +19,6 @@ import { IoMailOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 import { TbPointFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import "swiper/css";
-import "swiper/css/pagination";
 import ContactSection from "../../components/ContactSection";
 const Home = () => {
   const contentData = [
