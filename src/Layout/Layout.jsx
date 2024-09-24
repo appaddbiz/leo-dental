@@ -38,6 +38,7 @@ const Layout = () => {
           <Route path="/service/Root-Canal-Treatment" element={<RootCanal />} />
           <Route path="/service/Braces" element={<Braces />} />
           <Route path="/service/Dental-Crowns" element={<Crowns />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <ContactUs />
