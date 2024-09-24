@@ -90,10 +90,10 @@ const Home = () => {
     "Leo Dental Clinic has been independently assessed and accredited by the Indian Health Organization and complies with the principles and practice of the clinical governance as defined and laid down by the Indian Health Organization.",
   ];
   const records = [
-    { total: "16000+", desc: "Patients Treated" },
-    { total: "16000+", desc: "Successful Ortho cases" },
+    { total: "50000+", desc: "Patients Treated" },
+    { total: "30000+", desc: "Successful Ortho cases" },
     { total: "1600+", desc: "Implants Placed" },
-    { total: "5+", desc: "Clinics" },
+    { total: "2+", desc: "Clinics" },
   ];
   const testimonials = [
     {
@@ -232,7 +232,7 @@ const Home = () => {
               <div className="mt-4 flex flex-col gap-2 text-[16px] lg:text-[18px]">
                 <div className="flex items-center gap-x-2">
                   <IoMailOutline className="text-reds text-xl lg:text-2xl" />
-                  +91 00000 00000
+                  +91 93471 08123
                 </div>
                 <div className="flex items-center gap-x-2">
                   <FiPhone className="text-reds text-xl lg:text-2xl" />
@@ -280,7 +280,7 @@ const Home = () => {
               <div className="mt-4 flex flex-col gap-2 text-[16px] lg:text-[18px]">
                 <div className="flex items-center gap-x-2">
                   <IoMailOutline className="text-reds text-xl lg:text-2xl" />
-                  +91 00000 00000
+                  +91 93937 76143
                 </div>
                 <div className="flex items-center gap-x-2">
                   <FiPhone className="text-reds text-xl lg:text-2xl" />

@@ -10,10 +10,10 @@ import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/testimonials/contact.png";
 const Testimonials = () => {
   const records = [
-    { total: "16000+", desc: "Patients Treated" },
-    { total: "16000+", desc: "Successful Ortho cases" },
+    { total: "50000+", desc: "Patients Treated" },
+    { total: "30000+", desc: "Successful Ortho cases" },
     { total: "1600+", desc: "Implants Placed" },
-    { total: "5+", desc: "Clinics" },
+    { total: "2+", desc: "Clinics" },
   ];
   const reviews = [
     {
