@@ -178,7 +178,7 @@ const Home = () => {
         </div>
       </section>
       {/* MEET DOCOTORS */}
-      <section className="bg- max-w-[1450px] mx-auto mt-10 md:mt-[89px]">
+      <section className="bg- max-w-[1350px] mx-auto mt-10 md:mt-[89px]">
         <div className="text-center max-w-screen-lg mx-auto ">
           <h1 className="heading text-reds">Meet Our Doctors</h1>
           <p className="text  md:px-0 px-5">
@@ -301,7 +301,7 @@ const Home = () => {
         </div>
       </section>
       {/* WE PROMISED */}
-      <section className="mt-10 md:mt-[89px] max-w-[1400px] mx-auto   h-auto">
+      <section className="mt-10 md:mt-[89px] max-w-[1350px] mx-auto   h-auto">
         <div className="lg:mx-2 mx-5">
           <h1 className="heading md:text-left text-center">
             We <span className="text-reds">Promised</span> to take care… and we{" "}
@@ -332,9 +332,9 @@ const Home = () => {
         </div>
       </section>
       {/* GRAY BACKGROUND */}
-      <section className="bg-[#E2E2E2] py-10 lg:py-20 mt-10 md:mt-[89px] flex flex-col  gap-y-10 lg:gap-x-20 items-center px-6 lg:px-2">
-        <div className="flex lg:justify-between lg:flex-row flex-col md:max-w-[1300px] md:mx-auto  w-full  gap-y-10">
-          <div className="md:w-1/2">
+      <section className="bg-[#E2E2E2] py-10 lg:py-20 mt-10 md:mt-[89px] flex flex-col  gap-y-5 lg:gap-x-20 items-center px-6 lg:px-2">
+        <div className="flex lg:justify-between   lg:flex-row flex-col md:max-w-[1300px] md:mx-auto  w-full  lg:gap-y-10">
+          <div className="md:w-1/2 ">
             {contentData.slice(0, 2).map((item, index) => (
               <div key={index} className="mb-5">
                 <h1 className="text-[24px] lg:text-[32px] text-reds">
@@ -347,7 +347,7 @@ const Home = () => {
             ))}
           </div>
 
-          <div className="w-full lg:w-[455px] h-[250px] lg:h-[304px] rounded-2xl">
+          <div className="w-full lg:w-[455px] h-[250px]  lg:h-[304px] rounded-2xl">
             <img
               src={img1}
               alt="smile"
@@ -356,10 +356,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex  justify-between lg:flex-row flex-col w-full md:max-w-[1300px] md:mx-auto gap-y-10">
+        <div className="flex  justify-between  lg:flex-row flex-col w-full md:max-w-[1300px] md:mx-auto lg:gap-y-10">
           <div className="md:w-1/2">
             {contentData.slice(2).map((item, index) => (
-              <div key={index} className="mb-5">
+              <div key={index} className="mb-5 pt-">
                 <h1 className="text-[24px] lg:text-[32px] text-reds">
                   {item.title}
                 </h1>
@@ -380,7 +380,7 @@ const Home = () => {
         </div>
       </section>
       {/*OUR SERVICE*/}
-      <section className="max-w-[1400px] mx-auto mt-10 md:mt-[89px]">
+      <section className="max-w-[1350px] mx-auto mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
           <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
@@ -411,7 +411,7 @@ const Home = () => {
         </div>
       </section>
       {/*WHY LEO DENTAL*/}
-      <section className="max-w-[1400px] lg:mx-auto mt-10 md:mt-[100px] mx-[25px]">
+      <section className="max-w-[1350px] lg:mx-auto mt-10 md:mt-[100px] mx-[25px]">
         <h1 className="heading">
           Why <span className="text-reds">Leo Dental</span> ?
         </h1>
@@ -425,15 +425,17 @@ const Home = () => {
             </li>
           ))}
         </ul>
-        <button className="mt-6 button ">Know More</button>
+        <Link to="/about">
+          <button className="mt-6 button ">Know More</button>
+        </Link>
       </section>
       {/*NUMBERS*/}
-      <section className="bg-[#FFF6CA] lg:h-[350px] mt-10 md:mt-[50px] lg:py-0 py-12 w-full">
-        <div className="max-w-[1400px] mx-auto lg:mt-[59px] ">
-          <h1 className="heading text-reds text-center lg:pt-[53px]">
+      <section className="bg-[#FFF6CA]  mt-10 md:mt-[50px]  py-12 w-full">
+        <div className="max-w-[1400px] mx-auto  ">
+          <h1 className="heading text-reds text-center px-2 lg:px-0">
             Maintenance of Life Time Dental Records
           </h1>{" "}
-          <div className="flex lg:flex-row flex-col items-center justify-center lg:gap-x-20 text-center lg:mt-14">
+          <div className="flex lg:flex-row flex-col items-center justify-center lg:gap-x-20 text-center lg:mt-1">
             {records.map((item, index) => (
               <div key={index}>
                 <h1 className="lg:text-[45px] text-[35px] mt-10">
@@ -448,7 +450,7 @@ const Home = () => {
         </div>
       </section>
       {/*Testimonials*/}
-      <section className="mt-10 md:mt-[100px] max-w-[1300px]  mx-auto">
+      <section className="mt-10 md:mt-[100px] max-w-[1350px]  mx-auto">
         <div className="text-center">
           <h1 className="heading text-reds">Testimonials</h1>
           <p className="lg:text-[24px] mt-2 mx-auto">
@@ -480,6 +482,9 @@ const Home = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center text-xl underline text-reds mt-2 font-light">
+          <Link to="/testimonials">View more</Link>
         </div>
       </section>
       {/*get in touch*/}

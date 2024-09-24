@@ -69,7 +69,7 @@ const Profile = () => {
         Excellence In <span className="font-semibold">Dental Care</span> For
         Every Member Of Your Family!
       </Banner>
-      <section className="max-w-[1400px] mx-auto mt-8 lg:mt-[80px] px-3 lg:px-0">
+      <section className="max-w-[1350px] mx-auto mt-8 lg:mt-[80px] px-3 lg:px-0">
         <div className="flex lg:flex-row flex-col items-enter  justify-between gap-x-16 ">
           <div className="relative lg:w-3/5">
             <div className="lg:w-[521px] w-[114px] h-[65px] lg:h-[134px]">
@@ -94,7 +94,7 @@ const Profile = () => {
             </p>
           </div>
           <div className="mt-8 lg:mt-14">
-            <div className="grid grid-cols-1 grid-rows-2 lg:gap-x-11 gap-x-5 gap-y-3 lg:gap-y-7">
+            <div className="grid grid-cols-1 grid-rows-2 lg:gap-x-11 gap-y-5 lg:gap-y-7">
               <div className="lg:w-[198px] lg:h-[206px] w-[121px] h-[147px]">
                 <img src={img1} alt="" className="imgs" />
               </div>
@@ -112,7 +112,7 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-10 px-3 lg:px-0 lg:mt-[80px] bg-[#E2E2E2] py-8 lg:py-14">
+      <section className="max-w-[1350px] mx-auto mt-10 px-3 lg:px-0 lg:mt-[80px] bg-[#E2E2E2] py-8 lg:py-14">
         <div className="flex justify-center flex-col lg:flex-row  lg:gap-x-20 items-center">
           <div className="lg:w-[453px] lg:order-none order-1 lg:h-[310px] mt-5 lg:mt-0">
             <img src={container} alt="" className="" />
@@ -161,7 +161,7 @@ const Profile = () => {
           />
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
+      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
         <div className="flex items-start lg:flex-row flex-col justify-between gap-5 ">
           <div className=" lg:w-1/3 relative ">
             <div className="lg:w-[477.81px] lg:h-[667px] w-full h-[526px]">
@@ -199,7 +199,7 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] lg:mx-auto mt-10 lg:mt-[80px] bg-[#FFF6CA] lg:py-5 lg:px-16 mx-4 px-3 py-4">
+      <section className="max-w-[1350px] lg:mx-auto mt-10 lg:mt-[80px] bg-[#FFF6CA] lg:py-5 lg:px-16 mx-4 px-3 py-4">
         <p className="text text-center ">
           We constantly upgrade our services, techniques and equipment on a
           regular basis to provide you the latest and{" "}
@@ -208,7 +208,7 @@ const Profile = () => {
         </p>
       </section>
       <section className="bg-[#E2E2E2]  mt-10 lg:mt-[80px] lg:py-12 py-8">
-        <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
+        <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
           <div className="lg:w-1/2">
             <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 ">
               Leo ensures Friendly and attentive services to all patients
@@ -233,7 +233,7 @@ const Profile = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-10 md:mt-[89px]">
+      <section className="max-w-[1350px] mx-auto mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
           <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">

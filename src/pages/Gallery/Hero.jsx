@@ -17,11 +17,10 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Move to the next index, and reset to 0 after reaching the last element
       setActiveIndex((prevIndex) => (prevIndex + 1) % points.length);
     }, 2000);
 
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+    return () => clearInterval(interval);
   }, [points.length]);
   const handleCanPlay = () => {
     setIsLoading(false);
@@ -66,7 +65,7 @@ const Hero = () => {
   return (
     <div>
       {" "}
-      <section className="max-w-[1450px] mx-auto mt-[40px] lg:mt-[89px] px-4 lg:px-0">
+      <section className="max-w-[1300px] mx-auto mt-[40px] lg:mt-[89px] px-4 lg:px-0">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-x-5">
           <div className="w-full lg:w-auto h-[240px] lg:h-[427px] relative mb-6 lg:mb-0">
             {isLoading && (
@@ -107,7 +106,7 @@ const Hero = () => {
         </div>
       </section>
       <section className="mt-[40px] lg:mt-[89px] bg-[#FFF6CA] py-10 lg:py-14">
-        <div className="max-w-[1450px] mx-auto px-4 lg:px-0">
+        <div className="max-w-[1350px] mx-auto px-4 lg:px-0">
           <div className="flex flex-row items-center lg:items-end gap-2 lg:gap-x-4">
             <h1 className="text-[32px] lg:text-[52px] font-normal">Why</h1>
             <div className="w-[150px] lg:w-[209px] h-[40px]  mt-3 lg:mt-0 lg:h-[57px]">

@@ -46,50 +46,48 @@ const Smiles = () => {
     },
   ];
   return (
-    <div>
-      <section className="max-w-[1300px] mx-auto mt-[40px] lg:mt-[89px] px-4 lg:px-0">
-        <div className="flex flex-row items-center justify-center gap-4">
-          <div className="w-[150px] lg:w-[209px] h-[45px] lg:h-[65px]">
-            <img
-              src={logo2}
-              alt=""
-              className="img w-full h-full object-contain"
-            />
-          </div>
-          <h1 className="text-[32px] lg:text-[52px] font-normal text-center lg:text-left">
-            Smiles
-          </h1>
+    <section className="max-w-[1300px] mx-auto mt-[40px]  px-4 lg:px-0">
+      <div className="flex flex-row items-center justify-center gap-4">
+        <div className="w-[150px] lg:w-[209px] h-[45px] lg:h-[65px]">
+          <img
+            src={logo2}
+            alt=""
+            className="img w-full h-full object-contain"
+          />
         </div>
+        <h1 className="text-[32px] lg:text-[52px] font-normal text-center lg:text-left">
+          Smiles
+        </h1>
+      </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 lg:gap-y-10 gap-x-5 lg:gap-x-8 mt-10">
-          {person.map((item, index) => (
-            <div
-              key={index}
-              className="w-full lg:w-[365px] h-auto bg-[#FFF6CA] shadow-lg"
-            >
-              <div className="w-full h-[250px] sm:h-[280px] lg:h-[317px]">
-                <img
-                  src={item.img}
-                  alt=""
-                  className="imgs w-full h-full object-cover"
-                />
-              </div>
-              <div className="bg-[#FFF6CA] text-center p-4">
-                <h1 className="text-[24px] sm:text-[28px] lg:text-[32px] text-reds font-medium mt-2">
-                  {item.name}
-                </h1>
-                <h1 className="text-[18px] sm:text-[20px] lg:text-[22px] font-medium -mt-1 lg:-mt-2">
-                  {item.profession}
-                </h1>
-                <p className="text-[16px] sm:text-[18px] leading-6 font-medium mt-2 text-left">
-                  {item.desc} <span className="text-reds">Leoaligned.</span>
-                </p>
-              </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 lg:gap-y-10 gap-x-5 lg:gap-x-8 mt-10">
+        {person.map((item, index) => (
+          <div
+            key={index}
+            className="w-full lg:w-[365px] h-auto bg-[#FFF6CA] shadow-lg"
+          >
+            <div className="w-full h-[250px] sm:h-[280px] lg:h-[317px]">
+              <img
+                src={item.img}
+                alt=""
+                className="imgs w-full h-full object-cover"
+              />
             </div>
-          ))}
-        </div>
-      </section>
-    </div>
+            <div className="bg-[#FFF6CA] text-center p-4">
+              <h1 className="text-[24px] sm:text-[28px] lg:text-[32px] text-reds font-medium mt-2">
+                {item.name}
+              </h1>
+              <h1 className="text-[18px] sm:text-[20px] lg:text-[22px] font-medium -mt-1 lg:-mt-2">
+                {item.profession}
+              </h1>
+              <p className="text-[16px] sm:text-[18px] leading-6 font-medium mt-2 text-left">
+                {item.desc} <span className="text-reds">Leoaligned.</span>
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

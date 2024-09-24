@@ -18,7 +18,7 @@ const Testimonials = () => {
   const reviews = [
     {
       name: "Sri Hari",
-      image: test1, // Your image path here
+      image: test1,
       description:
         "I came for a tooth pain in Leo dental.. Dr lahari explained about single sitting root canal within hours.. I felt relieve from the pain... Dr. Lahari mds gold medalist she is a experienced doctor with friendly nature.I prefer Leo dental as a best dental care in nellore.",
     },
@@ -55,8 +55,7 @@ const Testimonials = () => {
   ];
   return (
     <div className="pt-20">
-      {" "}
-      <div
+      <section
         className="relative lg:h-[481px] h-[481px] w-full bg-cover bg-center"
         style={{ backgroundImage: `url(${banner})` }}
       >
@@ -69,13 +68,13 @@ const Testimonials = () => {
             <span className="font-semibold"> Patient Stories</span>
           </div>
         </div>
-      </div>
-      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px]">
+      </section>
+      <section className="max-w-[1350px] mx-auto mt-10 lg:mt-[60px]">
         <div className="relative items-center justify-center flex">
-          <div className="lg:w-[766px] lg:h-[164px] w-[226px] h-[100px]">
+          <div className="lg:w-[766px] lg:h-[144px] w-[226px] h-[100px]">
             <img src={text} alt="" className="" />
           </div>
-          <h1 className="lg:text-[52px] text-[30px] text-center absolute top-3 lg:top-12 text-reds lg:leading-[62px]  leading-9">
+          <h1 className="lg:text-[52px] text-[30px] px-2 lg:px-0 text-center absolute top-3 lg:top-12 text-reds lg:leading-[62px]  leading-9">
             Maintenance of Life Time Dental Records
           </h1>
         </div>
@@ -88,8 +87,7 @@ const Testimonials = () => {
           ))}
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px] px-3 lg:px-0">
-        {" "}
+      <section className="max-w-[1350px] mx-auto mt-10 lg:mt-[80px] px-5 lg:px-0">
         <h1 className="lg:text-[52px] text-[30px] text-reds">
           Patient Testimonials
         </h1>{" "}
@@ -100,7 +98,7 @@ const Testimonials = () => {
           excellence..
         </p>
       </section>
-      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px] px-3  h-full lg:px-0 ">
+      <section className="max-w-[1350px] mx-auto mt-10 lg:mt-[80px] px-5  h-full lg:px-0 ">
         <div className="grid lg:grid-cols-3  ">
           {reviews.map((item, index) => (
             <div key={index} className="relative h-[570px]  lg:h-[600px] ">

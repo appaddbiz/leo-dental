@@ -84,7 +84,7 @@ const Services = () => {
         Transforming Smiles With Our Comprehensive{" "}
         <span className="font-semibold">Dental Services.</span>
       </Banner>
-      <section className="max-w-[1400px] mx-auto mt-[80px] px-3 lg:px-0">
+      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
         <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-64 ">
           <div className="relative lg:w-2/3">
             <div className="lg:w-[521px] h-[91px] w-[270px] lg:h-[164px]">
@@ -115,7 +115,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-[1400px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
+      <section className="max-w-[1350px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
         <div>
           <div className="w-[309.19px] h-[89px] relative">
             <img src={logo} alt="logo" className="imgs" />
@@ -123,17 +123,19 @@ const Services = () => {
               Orthodontics - Implants - Laser Centre
             </p>
           </div>
-          <p className="text max-w-[500px] lg:pt-5">
+          <p className="text max-w-[700px] lg:text-[36px] ">
             Book an appointment with our experts for a consultation to avail our
             preventive, cosmetic or therapeutic services.
           </p>
-          <button className="lg:mt-10 mt-5 button">Contact Us</button>
+          <Link to="/contact">
+            <button className="mt-5 button">Contact Us</button>
+          </Link>
         </div>
         <div className="lg:w-[460px] lg:h-[349px] w-[331px] h-[251px]">
           <img src={bannerimg} alt="" className="imgs" />
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto   mt-10 md:mt-[89px]">
+      <section className="max-w-[1350px] mx-auto   mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
           <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">

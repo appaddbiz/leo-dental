@@ -9,7 +9,7 @@ const WhySection = () => {
   return (
     <div>
       <section className="h-auto lg:h-[350px] w-full pb-10">
-        <div className="max-w-[1400px] mx-auto  px-4 lg:px-0">
+        <div className="max-w-[1350px] mx-auto  px-4 lg:px-0">
           <h1 className="text-[32px] lg:text-[52px] text-reds text-center pt-[40px] lg:pt-[53px] font-medium">
             Maintenance of Life Time Dental Records
           </h1>

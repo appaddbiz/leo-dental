@@ -13,7 +13,7 @@ const About = () => {
         Experienced dentists, advanced technology. Your trusted partners in
         <span className="font-semibold"> oral health.</span>
       </Banner>
-      <section className="max-w-[1400px] mx-auto mt-10 lg:mt-[80px] px-3 lg:px-0">
+      <section className="max-w-[1350px] mx-auto mt-10 lg:mt-[80px] px-3 lg:px-0">
         <div className="relative ">
           <div className="lg:w-[521px] lg:h-[134px] w-[138px] h-[100px]">
             <img src={text} alt="" className="" />
@@ -75,7 +75,7 @@ const About = () => {
           </p>
         </div>
       </section>
-      <section className="max-w-[1400px] mx-auto lg:px-0 px-3 mt-10 lg:mt-[80px]">
+      <section className="max-w-[1350px] mx-auto lg:px-0 px-3 mt-10 lg:mt-[80px]">
         <h1 className="lg:text-[52px] text-[30px] text-reds leading-9 lg:leading-[62px]  ">
           Highest Standards Of Dental Treatment
         </h1>
