@@ -1,5 +1,5 @@
 import girl from "../../assets/home/girl.png";
-import logo from "../../assets/home/logo.png";
+import logo2 from "../../assets/home/logo.png";
 import person1 from "../../assets/home/person1.png";
 import person2 from "../../assets/home/person2.png";
 import smile from "../../assets/home/toothsmile.png";
@@ -125,7 +125,7 @@ const Home = () => {
               World Class Dental Care
             </div>
             <div className="w-full lg:w-[400px] px-10  lg:px-0 h-[120px] relative mt-4 lg:mt-6">
-              <img src={logo} alt="logo" className="mx-auto lg:mx-0 imgs" />
+              <img src={logo2} alt="logo" className="mx-auto lg:mx-0 imgs" />
               <p className="absolute bottom-6 left-0 right-28 lg:left-auto lg:right-auto font-[700] text-[11.64px] lg:text-[14px] tracking-tighter text-center lg:text-left">
                 Orthodontics - Implants - Laser Centre
               </p>
