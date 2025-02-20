@@ -13,10 +13,9 @@ const Header = () => {
     { path: "/testimonials", display: "Testimonials" },
     { path: "/contact", display: "Contact Us" },
     { path: "/Leo-Align", display: "Leo Align" },
+    { path: "/tourism", display: "Tourism" },
   ];
   return (
- 
-
     <header className="bg-white/90 backdrop-blur-x fixed w-full h-[74px] flex items-center justify-center shadow-xl z-[200]">
       <div className="flex justify-between items-center mx-5 md:mx-20 w-full">
         {/* Logo */}
@@ -30,7 +29,7 @@ const Header = () => {
             {nav.map((item) => (
               <li key={item.path}>
                 <Link
-                 to={item.path}
+                  to={item.path}
                   className={`${
                     location.pathname === item.path ? "text-reds" : "text-black"
                   } transform hover:scale-110 transition-transform duration-300 ease-in-out hover:text-reds`}

@@ -7,6 +7,7 @@ import About from "../pages/About/About";
 import Services from "../pages/Services/Services";
 import Testimonials from "../pages/Testimonials/Testimonials";
 import Profile from "../pages/Profile/Profile";
+import Tourism from "../pages/Tourism/Tourism";
 import Gallery from "../pages/Gallery/Gallery";
 import Contact from "../pages/Contact/Contact";
 import Footer from "../components/Footer/Footer";
@@ -32,6 +33,7 @@ const Layout = () => {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/Leo-Align" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/tourism" element={<Tourism />} />
           <Route path="/service/invisalign" element={<Invisalign />} />
           <Route path="/service/Dental-Implant" element={<Dental />} />
           <Route path="/service/laser-dentistry" element={<Laser />} />
