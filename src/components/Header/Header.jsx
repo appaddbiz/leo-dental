@@ -9,6 +9,7 @@ const Header = () => {
     { path: "/", display: "Home" },
     { path: "/services", display: "Our Services" },
     { path: "/profile", display: "Our Profile" },
+    // { path: "/dr-lahari", display: "Dr. Lahari" },
     { path: "/about", display: "Why Us" },
     { path: "/testimonials", display: "Testimonials" },
     { path: "/contact", display: "Contact Us" },

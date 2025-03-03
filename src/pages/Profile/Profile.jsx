@@ -4,9 +4,9 @@ import img1 from "../../assets/profile/img1.png";
 import img2 from "../../assets/profile/img2.png";
 import img3 from "../../assets/profile/img3.png";
 import img4 from "../../assets/profile/img4.png";
-import image3 from "../../assets/profile/image3.png";
-import group2 from "../../assets/profile/group2.png";
-import container from "../../assets/profile/container.png";
+import image3 from "../../assets/profile/inside-clinic.jpg";
+import group2 from "../../assets/profile/dental-setup.jpg";
+import container from "../../assets/profile/clinic.jpg";
 import line from "../../assets/profile/line.png";
 import service5 from "../../assets/home/service5.png";
 import service1 from "../../assets/home/service1.png";
@@ -18,6 +18,7 @@ import contact from "../../assets/profile/contact.png";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
 import Banner from "../../components/banner/Banner";
+
 const Profile = () => {
   const service = [
     {
@@ -113,8 +114,8 @@ const Profile = () => {
         </div>
       </section>
       <section className="max-w-[1350px] mx-auto mt-10 px-3 lg:px-0 lg:mt-[80px] bg-[#E2E2E2] py-8 lg:py-14">
-        <div className="flex justify-center flex-col lg:flex-row  lg:gap-x-20 items-center">
-          <div className="lg:w-[453px] lg:order-none order-1 lg:h-[310px] mt-5 lg:mt-0">
+        <div className="flex justify-center flex-col lg:flex-row  lg:gap-x-9 items-center">
+          <div className="lg:w-[453px] lg:order-none order-1  mt-5 lg:mt-0">
             <img src={container} alt="" className="" />
           </div>
           <div className="lg:w-1/2">
@@ -164,7 +165,7 @@ const Profile = () => {
       <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
         <div className="flex items-start lg:flex-row flex-col justify-between gap-5 ">
           <div className=" lg:w-1/3 relative ">
-            <div className="lg:w-[477.81px] lg:h-[667px] w-full h-[526px]">
+            <div className="lg:w-[477.81px] lg:h-[580px] w-full h-[526px]">
               <img src={group2} alt="" className="imgs" />
             </div>
           </div>

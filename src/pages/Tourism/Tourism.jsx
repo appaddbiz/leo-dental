@@ -1,10 +1,11 @@
 import banner from "../../assets/about/banner.jpeg";
+import person1 from "../../assets/home/person1.png";
 
-import bannerimg from "../../assets/services/bannerimg.png";
+import bannerimg from "../../assets/profile/Plan Your Dental Journey Today.jpg";
 // import text from "../../assets/services/text.png";
 import logo from "../../assets/home/logo.png";
-import profile1 from "../../assets/services/profile1.png";
-import profile2 from "../../assets/services/profile2.png";
+import profile1 from "../../assets/profile/dental-setup.jpg";
+import profile2 from "../../assets/profile/clinic.jpg";
 // import service5 from "../../assets/home/service5.png";
 // import service1 from "../../assets/home/service1.png";
 // import service2 from "../../assets/home/service2.png";
@@ -16,6 +17,8 @@ import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
 import Banner from "../../components/banner/Banner";
 import { TbPointFilled } from "react-icons/tb";
+import { IoMailOutline } from "react-icons/io5";
+import { FiPhone } from "react-icons/fi";
 const Services = () => {
   const services = [
     {
@@ -69,6 +72,62 @@ const Services = () => {
           </div>
         </div>
       </section>
+      <div className="container max-w-7xl mx-auto mt-10">
+        {/* Container for Image and Details */}
+        <div className="w-full lg:w-[1025px]  bg-[#FFF6CA] flex flex-col lg:flex-row items-center rounded-lg">
+          {/* Image Section */}
+          <div className=" lg:h-full lg:w-[385px] flex items-center justify-center">
+            <img
+              src={person1}
+              alt="Dr. Lahari ASR"
+              className="w-full h-full object-cover rounded-lg"
+            />
+          </div>
+
+          {/* Details Section */}
+          <div className="px-6 lg:px-16 py-4 lg:py-0 flex flex-col items-start">
+            <p className="text-[24px] lg:text-[32px] text-reds h-10">
+              Dr. Lahari ASR
+            </p>
+            <p className="text-[16px] lg:text-[18px] font-[600] pb-[10px] lg:pb-[14px]">
+              MDS Gold medalist
+            </p>
+
+            {/* Experience Details */}
+            {[
+              "Public health dentist with 15 years of experience.",
+              "Ex-Alumni Sardar Patel Dental College, Lucknow",
+              "Reader, Narayana Dental College.",
+              "Colgate IDA Award Scholarship Awardee.",
+              "Implantologist & Root Canal Specialist.",
+              "Expert in Pediatric & Preventive Dental Practice.",
+              "Leo Dental Proprietor.",
+            ].map((item, index) => (
+              <ul
+                key={index}
+                className="flex justify-start items-start text-[16px] lg:text-[18px]"
+              >
+                <li className="flex items-center justify-center gap-1 font-sans">
+                  <TbPointFilled className="text-reds" />
+                  {item}
+                </li>
+              </ul>
+            ))}
+
+            {/* Contact Info */}
+            <div className="mt-4 flex flex-col gap-2 text-[16px] lg:text-[18px]">
+              <div className="flex items-center gap-x-2">
+                <IoMailOutline className="text-reds text-xl lg:text-2xl" />
+                +91 93471 08123
+              </div>
+              <div className="flex items-center gap-x-2">
+                <FiPhone className="text-reds text-xl lg:text-2xl" />
+                info@leodental.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
         <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
@@ -91,7 +150,7 @@ const Services = () => {
             <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
               <img src={profile1} alt="" className="imgs" />
             </div>
-            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute -left-2 top-52 lg:right-48">
+            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
               <img src={profile2} alt="" className="imgs" />
             </div>
           </div>
@@ -134,7 +193,7 @@ const Services = () => {
             <button className="mt-5 button">Contact Us</button>
           </Link>
         </div>
-        <div className="lg:w-[460px] lg:h-[349px] w-[331px] h-[251px]">
+        <div className="lg:w-[460px]  w-[331px] ">
           <img src={bannerimg} alt="" className="imgs" />
         </div>
       </section>

@@ -1,9 +1,9 @@
-import React from "react";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { TfiYoutube } from "react-icons/tfi";
 import { RiTwitterXFill } from "react-icons/ri";
+import ContactButtons from "../ContactButtons";
 const Footer = () => {
   const socialMediaLinks = [
     {
@@ -39,12 +39,19 @@ const Footer = () => {
     { path: "/Leo-Align", display: "Leo Align" },
   ];
   const treatments = [
-    "Invisalign",
-    "Root Canal Treatment",
-    "Dental Implant",
-    "Dental Crowns",
-    "Laser Dentistry",
+    { path: "/service/invisalign", display: "Invisalign" },
+    { path: "/service/Root-Canal-Treatment", display: "Root Canal Treatment" },
+    { path: "/service/Dental-Implant", display: "Dental Implant" },
+    { path: "/service/Dental-Crowns", display: "Dental Crowns" },
+    { path: "/service/laser-dentistry", display: "Laser Dentistry" },
   ];
+  // const treatments = [
+  //   "Invisalign",
+  //   "Root Canal Treatment",
+  //   "Dental Implant",
+  //   "Dental Crowns",
+  //   "Laser Dentistry",
+  // ];
   return (
     <div className="bg-yellows ">
       <div className="max-w-[1400px] lg:mx-auto pt-[50px] mx-3">
@@ -67,7 +74,7 @@ const Footer = () => {
             <div className="flex space-x-4 lg:mt-16 mt-8">
               {socialMediaLinks.map((social) => (
                 <Link
-                  key={social.name} 
+                  key={social.name}
                   to={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -101,7 +108,12 @@ const Footer = () => {
             <ul className="flex flex-col lg:mt-5 mt-2 space-y-2 text-black font-sans font-normal text-base">
               {treatments.map((item, index) => (
                 <li key={index} className="lg:text-[20px]">
-                  {item}
+                  <Link
+                    to={item.path}
+                    className={`transform hover:scale-110  lg:text-[20px] transition-transform duration-150 ease-in-out hover:text-reds`}
+                  >
+                    {item.display}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -110,6 +122,9 @@ const Footer = () => {
         <p className="text-[18px] text-center mt-10 pb-2">
           ©2024. Leo Dental All Rights Reserved.
         </p>
+      </div>
+      <div className="lg:hidden">
+        <ContactButtons />
       </div>
     </div>
   );

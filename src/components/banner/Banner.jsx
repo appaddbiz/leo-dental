@@ -1,4 +1,3 @@
-
 const Banner = ({ img, children }) => {
   return (
     <div>

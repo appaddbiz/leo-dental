@@ -18,6 +18,7 @@ import Laser from "../pages/OurServices/Laser";
 import RootCanal from "../pages/OurServices/RootCanal";
 import Braces from "../pages/OurServices/Braces";
 import Crowns from "../pages/OurServices/Crowns";
+import DRLahari from "../pages/Dr-Lahari/DR-Lahari";
 
 const Layout = () => {
   return (
@@ -30,6 +31,7 @@ const Layout = () => {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/dr-lahari" element={<DRLahari />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/Leo-Align" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
