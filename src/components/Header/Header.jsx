@@ -40,7 +40,9 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="button">Book an Appointment</button>
+          <a href="tel:+919347108123">
+            <button className="button">Book an Appointment</button>
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
