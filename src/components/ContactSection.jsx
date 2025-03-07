@@ -118,7 +118,7 @@ const ContactSection = ({ image }) => {
           <div className="lg:w-1/3 mt-10 md:mt-0">
             <div className="lg:h-[469px] lg:w-[464px]">
               <img
-                src={image}
+                src="/tourism/WhatsApp Image 2025-03-07 at 11.46.32_ab45b898.jpg"
                 alt="Dentist"
                 className="rounded-lg shadow-lg imgs"
               />

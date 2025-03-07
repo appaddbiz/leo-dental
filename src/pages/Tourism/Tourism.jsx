@@ -41,6 +41,9 @@ const Services = () => {
       description:
         "We take pride in our exclusive aligner brand, LEOALIGN, offering a lightning-fast aligner processing system that delivers results in just three days, ensuring a quick and effective smile transformation.",
     },
+  ];
+
+  const subServices = [
     {
       title: "Exclusive Pediatric and Preventive Services",
       description:
@@ -78,7 +81,7 @@ const Services = () => {
       <Banner img={banner}>
         Discover Exceptional <br />
         <span className="text-red-600"> Dental Tourism </span> <br />
-        <span className="font-semibold"> & Leo Dental.</span>
+        <span className="font-semibold"> @Leo Dental.</span>
       </Banner>
       <section className="mt-10 lg:mt-[80px] ">
         <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
@@ -93,8 +96,20 @@ const Services = () => {
               medical support, ensuring a comfortable and efficient experience.
             </p>
             <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
-              Translators available to assist patients in multiple languages,
-              ensuring clear communication, along with dedicated online support
+              <span
+                className="text-[#ed1e24]"
+                style={{ textTransform: "uppercase" }}
+              >
+                Translators
+              </span>{" "}
+              available to assist patients in multiple languages, ensuring clear
+              communication, along with dedicated{" "}
+              <span
+                className="text-[#ed1e24]"
+                style={{ textTransform: "uppercase" }}
+              >
+                online support
+              </span>{" "}
               for appointments, queries, and follow-ups.
             </p>
           </div>
@@ -180,6 +195,38 @@ const Services = () => {
             </div>
             <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
               <img src={profile2} alt="" className="imgs" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
+        <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
+          <div className="relative lg:w-[70%]">
+            <div className="lg:mt-10">
+              {subServices.map((item, index) => (
+                <div key={index} className="lg:mt-[31px] mt-6">
+                  <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
+                    {item.title}
+                  </h1>
+                  <p className="lg:text-[22px]">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
+            <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
+              <img
+                src="tourism/WhatsApp Image 2025-03-07 at 11.46.35_421861bb.jpg"
+                alt=""
+                className="imgs"
+              />
+            </div>
+            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
+              <img
+                src="tourism/WhatsApp Image 2025-03-07 at 11.46.34_30693469.jpg"
+                alt=""
+                className="imgs"
+              />
             </div>
           </div>
         </div>
