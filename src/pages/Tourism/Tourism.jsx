@@ -76,8 +76,9 @@ const Services = () => {
   return (
     <div className="pt-20">
       <Banner img={banner}>
-        Discover Exceptional Dental Tourism with
-        <span className="font-semibold"> Leo Dental.</span>
+        Discover Exceptional <br />
+        <span className="text-red-600"> Dental Tourism </span> <br />
+        <span className="font-semibold"> & Leo Dental.</span>
       </Banner>
       <section className="mt-10 lg:mt-[80px] ">
         <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
@@ -149,7 +150,7 @@ const Services = () => {
               </div>
               <div className="flex items-center gap-x-2">
                 <FiPhone className="text-reds text-xl lg:text-2xl" />
-                info@leodental.com
+                leodentalbanglore@gmail.com
               </div>
             </div>
           </div>

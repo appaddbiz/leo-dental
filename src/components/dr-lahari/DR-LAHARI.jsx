@@ -55,7 +55,7 @@ const DRLahari = () => {
             </div>
             <div className="flex items-center gap-x-2">
               <FiPhone className="text-reds text-xl lg:text-2xl" />
-              info@leodental.com
+              leodentalbanglore@gmail.com
             </div>
           </div>
         </div>
