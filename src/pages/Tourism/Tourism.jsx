@@ -23,23 +23,29 @@ const Services = () => {
   const services = [
     {
       title: "Prime Location & Easy Accessibility",
-      description:
-        "Situated in a well-connected area, Leo Dental provides on-site dental and medical facilities, ensuring immediate assistance in case of medical emergencies and comprehensive health care support.",
+      description: "Situated in a well-connected area, Leo Dental provides ",
+      descriptionHighlight: "on-site dental and medical facilities",
+      descriptionEnd:
+        ", ensuring immediate assistance in case of medical emergencies and comprehensive health care support.",
     },
     {
-      title: "Dr. Lahari – Expertise in Public Health Dentistry",
+      title: "Dr. Lahari MDS PHD – Expertise in Public Health Dentistry",
       description:
-        "Under the leadership of Dr. Lahari, a renowned public health dentist with extensive knowledge of global healthcare systems and policies, we uphold the highest standards of patient safety and care.",
+        "Under the leadership of Dr. Lahari MDS PHD, a renowned public health dentist with extensive knowledge of global healthcare systems and policies, we uphold the highest standards of patient safety and care. Full mouth rehabilitation [FMR] with advanced dental implants in less than two weeks of time within assured results",
     },
     {
       title: "State-of-the-Art In-House Dental Lab",
       description:
-        "Our cutting-edge in-clinic dental lab ensures rapid and precise fabrication of dental prosthetics, significantly reducing waiting times for patients.",
+        "Our cutting-edge in-clinic dental lab ensures rapid and precise fabrication of dental prosthetics, significantly reducing",
+      descriptionHighlight: " waiting times ",
+      descriptionEnd: "for patients.",
     },
     {
       title: "Specialized Smile Correction with LEOALIGN",
       description:
-        "We take pride in our exclusive aligner brand, LEOALIGN, offering a lightning-fast aligner processing system that delivers results in just three days, ensuring a quick and effective smile transformation.",
+        "We take pride in our exclusive aligner brand, LEOALIGN, offering a lightning-fast aligner processing system that delivers results in just",
+      descriptionHighlight: " three days",
+      descriptionEnd: " , ensuring a quick and effective smile transformation.",
     },
   ];
 
@@ -89,12 +95,21 @@ const Services = () => {
             <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
               Explore World-Class Dental Tourism with Leo Dental
             </h1>
-            <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
-              Leo Dental is a premier destination for high-quality, affordable
-              dental care, catering to patients seeking top-notch treatments.
-              Our clinic offers advanced dental solutions combined with seamless
-              medical support, ensuring a comfortable and efficient experience.
-            </p>
+            <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 mt-5">
+              <div className="border-2 border-[#ed1e24] lg:w-[80%] w-[100%] mx-auto mt-5 rounded-md">
+                <p className="text-[20px] text-center">
+                  Avail immediate video consultation and counselling from expert
+                  doctors right from your home.
+                </p>
+              </div>
+              <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
+                Leo Dental is a premier destination for high-quality, affordable
+                dental care, catering to patients seeking top-notch treatments.
+                Our clinic offers advanced dental solutions combined with
+                seamless medical support, ensuring a comfortable and efficient
+                experience.
+              </p>
+            </div>
             <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
               <span
                 className="text-[#ed1e24]"
@@ -184,7 +199,13 @@ const Services = () => {
                   <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
                     {item.title}
                   </h1>
-                  <p className="lg:text-[22px]">{item.description}</p>
+                  <p className="lg:text-[22px]">
+                    {item.description}
+                    <span className="text-[#ed1e24] uppercase">
+                      {item.descriptionHighlight}
+                    </span>
+                    {item.descriptionEnd}
+                  </p>
                 </div>
               ))}
             </div>
