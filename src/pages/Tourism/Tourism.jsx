@@ -41,6 +41,28 @@ const Services = () => {
       description:
         "We take pride in our exclusive aligner brand, LEOALIGN, offering a lightning-fast aligner processing system that delivers results in just three days, ensuring a quick and effective smile transformation.",
     },
+    {
+      title: "Exclusive Pediatric and Preventive Services",
+      description:
+        "Specialized pediatric dentistry and preventive dental care tailored to nurture healthy smiles from a young age.",
+    },
+    {
+      title:
+        "Availability of Blood Lab, Diagnostic Centre, and Vaccination Centre in the Same Building",
+      description:
+        "Convenient access to blood lab, diagnostic, and vaccination services under one roof for comprehensive care.",
+    },
+    {
+      title: "Empathetic and Friendly Approach of the Doctors and Team",
+      description:
+        "Our compassionate doctors and staff create a welcoming, stress-free environment for every patient.",
+    },
+    {
+      title:
+        "Tie-Ups with Multiple Dental Hospitals Globally for After Care and Follow-Up",
+      description:
+        "Global partnerships with leading dental hospitals to ensure seamless follow-up and aftercare services worldwide.",
+    },
   ];
 
   const dentalTourism = [
@@ -68,6 +90,11 @@ const Services = () => {
               dental care, catering to patients seeking top-notch treatments.
               Our clinic offers advanced dental solutions combined with seamless
               medical support, ensuring a comfortable and efficient experience.
+            </p>
+            <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
+              Translators available to assist patients in multiple languages,
+              ensuring clear communication, along with dedicated online support
+              for appointments, queries, and follow-ups.
             </p>
           </div>
         </div>
