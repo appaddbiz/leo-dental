@@ -85,9 +85,18 @@ const Services = () => {
   return (
     <div className="pt-20">
       <Banner img={banner}>
-        Discover Exceptional <br />
-        <span className="text-red-600"> Dental Tourism </span> <br />
-        <span className="font-semibold"> @Leo Dental.</span>
+        <div className="flex justify-between items-center flex-col lg:flex-row w-[100%] gap-10 ">
+          <div className="lg:w-[75%]">
+            Discover Exceptional <br />
+            <span className="text-red-600"> Dental Tourism </span> <br />
+            <span className="font-semibold"> @Leo Dental.</span>
+          </div>
+          <div className="border-2 border-[#ed1e24] mt-5 rounded-md lg:w-[25%]">
+            <p className="text-[20px] text-center">
+              Avail immediate video consultation from our expert 👨‍⚕
+            </p>
+          </div>
+        </div>
       </Banner>
       <section className="mt-10 lg:mt-[80px] ">
         <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
@@ -96,12 +105,6 @@ const Services = () => {
               Explore World-Class Dental Tourism with Leo Dental
             </h1>
             <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 mt-5">
-              <div className="border-2 border-[#ed1e24] lg:w-[80%] w-[100%] mx-auto mt-5 rounded-md">
-                <p className="text-[20px] text-center">
-                  Avail immediate video consultation and counselling from expert
-                  doctors right from your home.
-                </p>
-              </div>
               <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
                 Leo Dental is a premier destination for high-quality, affordable
                 dental care, catering to patients seeking top-notch treatments.
