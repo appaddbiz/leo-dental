@@ -14,7 +14,7 @@ const Header = () => {
     { path: "/testimonials", display: "Testimonials" },
     { path: "/contact", display: "Contact Us" },
     { path: "/Leo-Align", display: "Leo Align" },
-    { path: "/tourism", display: "Tourism" },
+    { path: "/tourism", display: "Dental Tourism" },
   ];
   return (
     <header className="bg-white/90 backdrop-blur-x fixed w-full h-[74px] flex items-center justify-center shadow-xl z-[200]">
