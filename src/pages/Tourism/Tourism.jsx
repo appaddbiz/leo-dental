@@ -99,7 +99,7 @@ const Services = () => {
               <div className="border-2 border-[#ed1e24] lg:w-[80%] w-[100%] mx-auto mt-5 rounded-md">
                 <p className="text-[20px] text-center">
                   Avail immediate video consultation and counselling from expert
-                  doctors right from your home.
+                  doctors right from your home.
                 </p>
               </div>
               <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
@@ -236,15 +236,11 @@ const Services = () => {
           </div>
           <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
             <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
-              <img
-                src="tourism/WhatsApp Image 2025-03-07 at 11.46.35_421861bb.jpg"
-                alt=""
-                className="imgs"
-              />
+              <img src="/tourism/blood-checkup.avif" alt="" className="imgs" />
             </div>
             <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
               <img
-                src="tourism/WhatsApp Image 2025-03-07 at 11.46.34_30693469.jpg"
+                src="/tourism/Pediatric-and-Preventive.avif"
                 alt=""
                 className="imgs"
               />
