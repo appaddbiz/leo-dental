@@ -15,6 +15,7 @@ import contact from "../../assets/services/contact.png";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
 import Banner from "../../components/banner/Banner";
+import { Helmet } from "react-helmet";
 const Services = () => {
   const services = [
     {
@@ -79,94 +80,163 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-20">
-      <Banner img={banner}>
-        Transforming Smiles With Our Comprehensive{" "}
-        <span className="font-semibold">Dental Services.</span>
-      </Banner>
-      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
-        <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-64 ">
-          <div className="relative lg:w-2/3">
-            <div className="lg:w-[521px] h-[91px] w-[270px] lg:h-[164px]">
-              <img src={text} alt="" className="" />
+    <>
+      <Helmet>
+        {/* Meta Tags */}
+        <title>
+          Laser root canal treatment in Harlur | Laser gum treatment in Harlur
+        </title>
+        <meta
+          name="description"
+          content="Painless laser root canal and gum treatments in Harlur. Faster healing with expert care. Book your dental appointment today!"
+        />
+
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "leodental",
+            url: "https://www.leodental.co.in/services",
+            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+91 93471 08123",
+              contactType: "Customer Service",
+              areaServed: "IN",
+              availableLanguage: "English",
+            },
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
+              addressLocality: "Bengaluru",
+              addressRegion: "Karnataka",
+              postalCode: "560102",
+              addressCountry: "IN",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "12.9116",
+              longitude: "77.6412",
+            },
+            keywords: [
+              "Laser root canal treatment in Harlur",
+              "Laser root canal treatment in HSR Layout",
+              "Laser teeth whitening in Hsr Layout",
+              "Laser teeth whitening in Harlur",
+              "Best laser dental clinic in Harlur",
+              "Best laser dental clinic in HSR Layout",
+              "Laser gum treatment in Harlur",
+              "Laser gum treatment in HSR Layout",
+              "Single tooth implants in hsr Layout",
+              "Single tooth implants in Harlur",
+              "Full mouth dental implants in Harlur",
+              "Full mouth dental implants in HSR Layout",
+            ],
+            description:
+              "Painless laser root canal and gum treatments in Harlur. Faster healing with expert care. Book your dental appointment today!",
+            dateEstablished: "2023-01-01",
+            email: "leodentalbanglore@gmail.com",
+          })}
+        </script>
+      </Helmet>
+
+      {/* Page Content */}
+      <h2 style={{ display: "none" }}>Laser Gum Treatment in Harlur</h2>
+
+      <div className="pt-20">
+        <Banner img={banner}>
+          Transforming Smiles With Our Comprehensive{" "}
+          <span className="font-semibold">Dental Services.</span>
+        </Banner>
+        <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
+          <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-64 ">
+            <div className="relative lg:w-2/3">
+              <div className="lg:w-[521px] h-[91px] w-[270px] lg:h-[164px]">
+                <img src={text} alt="" className="" />
+              </div>
+              <h1 className="lg:text-[52px] text-[30px] top-7  absolute lg:top-14 lg:leading-[62px] leading-10 ">
+                Personalized <span className="text-reds"> Dental Care</span>{" "}
+                <br /> To Meet All Your Needs.
+              </h1>
+              <div className="lg:mt-10">
+                {services.map((item, index) => (
+                  <div key={index} className="lg:mt-[31px] mt-6">
+                    <h1 className="lg:text-[34px] text-[22px] text-reds">
+                      {item.title}
+                    </h1>
+                    <p className="lg:text-[22px]">{item.description}</p>
+                  </div>
+                ))}
+              </div>
             </div>
-            <h1 className="lg:text-[52px] text-[30px] top-7  absolute lg:top-14 lg:leading-[62px] leading-10 ">
-              Personalized <span className="text-reds"> Dental Care</span>{" "}
-              <br /> To Meet All Your Needs.
-            </h1>
-            <div className="lg:mt-10">
-              {services.map((item, index) => (
-                <div key={index} className="lg:mt-[31px] mt-6">
-                  <h1 className="lg:text-[34px] text-[22px] text-reds">
-                    {item.title}
-                  </h1>
-                  <p className="lg:text-[22px]">{item.description}</p>
-                </div>
-              ))}
+            <div className="relative lg:h-auto h-[450px] lg:w-[35%] lg:mt-20 mt-10">
+              <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
+                <img src={profile1} alt="" className="imgs" />
+              </div>
+              <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute -left-2 top-52 lg:right-48">
+                <img src={profile2} alt="" className="imgs" />
+              </div>
             </div>
           </div>
-          <div className="relative lg:h-auto h-[450px] lg:w-[35%] lg:mt-20 mt-10">
-            <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
-              <img src={profile1} alt="" className="imgs" />
+        </section>
+        <section className="max-w-[1350px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
+          <div>
+            <div className="w-[309.19px] h-[89px] relative">
+              <img src={logo} alt="logo" className="imgs" />
+              <p className="absolute bottom-2 font-[700] text-[12.5px] tracking-tighter">
+                Orthodontics - Implants - Laser Centre
+              </p>
             </div>
-            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute -left-2 top-52 lg:right-48">
-              <img src={profile2} alt="" className="imgs" />
-            </div>
+            <p className="text max-w-[700px] lg:text-[36px] ">
+              Book an appointment with our experts for a consultation to avail
+              our preventive, cosmetic or therapeutic services.
+            </p>
+            <Link to="/contact">
+              <button className="mt-5 button">Contact Us</button>
+            </Link>
           </div>
-        </div>
-      </section>
-      <section className="max-w-[1350px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
-        <div>
-          <div className="w-[309.19px] h-[89px] relative">
-            <img src={logo} alt="logo" className="imgs" />
-            <p className="absolute bottom-2 font-[700] text-[12.5px] tracking-tighter">
-              Orthodontics - Implants - Laser Centre
+          <div className="lg:w-[460px] lg:h-[349px] w-[331px] h-[251px]">
+            <img src={bannerimg} alt="" className="imgs" />
+          </div>
+        </section>
+        <section className="max-w-[1350px] mx-auto   mt-10 md:mt-[89px]">
+          <div className="text-center">
+            <h1 className="heading text-reds">Our Services</h1>
+            <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
+              All of our treatments and services are provided in a comfortable,
+              handy capped friendly environment.
             </p>
           </div>
-          <p className="text max-w-[700px] lg:text-[36px] ">
-            Book an appointment with our experts for a consultation to avail our
-            preventive, cosmetic or therapeutic services.
-          </p>
-          <Link to="/contact">
-            <button className="mt-5 button">Contact Us</button>
-          </Link>
-        </div>
-        <div className="lg:w-[460px] lg:h-[349px] w-[331px] h-[251px]">
-          <img src={bannerimg} alt="" className="imgs" />
-        </div>
-      </section>
-      <section className="max-w-[1350px] mx-auto   mt-10 md:mt-[89px]">
-        <div className="text-center">
-          <h1 className="heading text-reds">Our Services</h1>
-          <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
-            All of our treatments and services are provided in a comfortable,
-            handy capped friendly environment.
-          </p>
-        </div>
-        <div className="grid lg:grid-cols-3 place-items-center  gap-y-8">
-          {service.map((item, index) => (
-            <div
-              key={index}
-              className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] lg:mt-14 mt-3"
-            >
-              <div className="md:w-[392px] md:h-[233px]">
-                <img src={item.img} alt="" />
+          <div className="grid lg:grid-cols-3 place-items-center  gap-y-8">
+            {service.map((item, index) => (
+              <div
+                key={index}
+                className="rounded-2xl mx-3 lg:mx-0  shadow-xl border-2 lg:w-[392px] h-[515px] lg:mt-14 mt-3"
+              >
+                <div className="md:w-[392px] md:h-[233px]">
+                  <img src={item.img} alt="" />
+                </div>
+                <div className="mt-5 lg:px-10 mx-5 lg:mx-0">
+                  <h2 className="text-[28px] text-reds">{item.heading}</h2>
+                  <p className="mt-1 text-[17px] leading-6 pb-2">
+                    {item.description}
+                  </p>
+                  <Link
+                    to={item.path}
+                    className="text-reds underline text-lg b "
+                  >
+                    Learn More
+                  </Link>
+                </div>
               </div>
-              <div className="mt-5 lg:px-10 mx-5 lg:mx-0">
-                <h2 className="text-[28px] text-reds">{item.heading}</h2>
-                <p className="mt-1 text-[17px] leading-6 pb-2">
-                  {item.description}
-                </p>
-                <Link to={item.path} className="text-reds underline text-lg b ">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-      <ContactSection image={contact} />
-    </div>
+            ))}
+          </div>
+        </section>
+        <ContactSection image={contact} />
+      </div>
+    </>
   );
 };
 

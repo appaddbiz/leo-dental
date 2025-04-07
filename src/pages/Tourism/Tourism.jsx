@@ -19,6 +19,7 @@ import Banner from "../../components/banner/Banner";
 import { TbPointFilled } from "react-icons/tb";
 import { IoMailOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
+import { Helmet } from "react-helmet";
 const Services = () => {
   const services = [
     {
@@ -83,217 +84,317 @@ const Services = () => {
   ];
 
   return (
-    <div className="pt-20">
-      <Banner img={banner}>
-        <div className="flex justify-between items-center flex-col lg:flex-row w-[100%] gap-10 ">
-          <div className="lg:w-[75%]">
-            Discover Exceptional <br />
-            <span className="text-red-600"> Dental Tourism </span> <br />
-            <span className="font-semibold"> @Leo Dental.</span>
-          </div>
-          <div className="border-2 border-[#ed1e24] mt-5 rounded-md lg:w-[25%]">
-            <p className="text-[20px] text-center">
-              Avail immediate video consultation from our expert 👨‍⚕
-            </p>
-          </div>
-        </div>
-      </Banner>
-      <section className="mt-10 lg:mt-[80px] ">
-        <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
-          <div>
-            <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
-              Explore World-Class Dental Tourism with Leo Dental
-            </h1>
-            <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 mt-5">
-              <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
-                Leo Dental is a premier destination for high-quality, affordable
-                dental care, catering to patients seeking top-notch treatments.
-                Our clinic offers advanced dental solutions combined with
-                seamless medical support, ensuring a comfortable and efficient
-                experience.
+    <>
+      <Helmet>
+        <title>
+          Best zirconia crowns in Harlur | Best zirconia crowns in HSR Layout
+        </title>
+        <meta
+          name="description"
+          content="Get the best zirconia crowns in Harlur and HSR Layout for natural-looking tooth restoration. Visit our dental clinic. Book your appointment!"
+        />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "leodental",
+            url: "https://www.leodental.co.in/tourism",
+            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+            description:
+              "Get the best zirconia crowns in Harlur and HSR Layout for natural-looking tooth restoration. Visit our dental clinic. Book your appointment!",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress:
+                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
+              addressLocality: "Bengaluru",
+              addressRegion: "Karnataka",
+              postalCode: "560102",
+              addressCountry: "IN",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+91 93471 08123",
+              contactType: "Customer Service",
+              availableLanguage: "English",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 12.9116,
+              longitude: 77.6412,
+            },
+            email: "leodentalbanglore@gmail.com",
+            keywords: [
+              "Full mouth zirconia crowns in Harlur",
+              "Full mouth zirconia crowns in Hsr Layout",
+              "Root canal specialist in harlur",
+              "Best zirconia dental crowns near me",
+              "Zirconia crowns and root canal treatment in harlur",
+              "Zirconia crowns and root canal treatment in hsr Layout",
+              "Best zirconia crowns in Harlur",
+              "Best zirconia crowns in HSR Layout",
+              "Best laser dentist in harlur",
+              "Best laser dentist in Hsr Layout",
+              "Laser root canal treatment in Harlur",
+              "Laser root canal treatment in HSR Layout",
+              "Laser teeth whitening in Hsr Layout",
+              "Laser teeth whitening in Harlur",
+              "Best laser dental clinic in Harlur",
+              "Best laser dental clinic in HSR Layout",
+              "Laser gum treatment in Harlur",
+              "Laser gum treatment in HSR Layout",
+              "Single tooth implants in hsr Layout",
+              "Single tooth implants in Harlur",
+              "Full mouth dental implants in Harlur",
+              "Full mouth dental implants in HSR Layout",
+              "Best dental implant clinic in Harlur",
+              "Best dental implant clinic in HSR Layout",
+              "Best invisible aligners for teeth straightening in harlur",
+              "Best invisible aligners for teeth straightening in hsr Layout",
+              "Metal braces specialist near me",
+              "Invisalign doctor in harlur",
+              "Invisalign doctor in Hsr Layout",
+              "Specialist for teeth aligners near me",
+              "Clear aligners clinic in harlur",
+              "Clear aligners clinic in hsr Layout",
+              "Teeth aligners clinic in harlur",
+              "Teeth aligners clinic in hsr Layout",
+              "Best teeth aligner specialist in Harlur",
+              "Best teeth aligner specialist in hsr Layout",
+              "Affordable braces treatment in Hsr Layout",
+              "Affordable braces treatment in Harlur",
+              "Best Invisalign treatment in Harlur",
+              "Best Invisalign treatment in HSR Layout",
+              "Clear aligners for teeth straightening in Hsr Layout",
+              "Clear aligners for teeth straightening in Harlur",
+              "Invisible teeth aligners in Harlur",
+              "Invisible teeth aligners in HSR Layout",
+              "Affordable dental treatments in Harlur",
+              "Affordable dental treatments in HSR Layout",
+              "Best dental clinic in Harlur",
+            ],
+            dateEstablished: "2023-01-01",
+          })}
+        </script>
+      </Helmet>
+
+      <h2 style={{ display: "none" }}>Best zirconia crowns in HSR Layout</h2>
+
+      <div className="pt-20">
+        <Banner img={banner}>
+          <div className="flex justify-between items-center flex-col lg:flex-row w-[100%] gap-10 ">
+            <div className="lg:w-[75%]">
+              Discover Exceptional <br />
+              <span className="text-red-600"> Dental Tourism </span> <br />
+              <span className="font-semibold"> @Leo Dental.</span>
+            </div>
+            <div className="border-2 border-[#ed1e24] mt-5 rounded-md lg:w-[25%]">
+              <p className="text-[20px] text-center">
+                Avail immediate video consultation from our expert 👨‍⚕
               </p>
             </div>
-            <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
-              <span
-                className="text-[#ed1e24]"
-                style={{ textTransform: "uppercase" }}
-              >
-                Translators
-              </span>{" "}
-              available to assist patients in multiple languages, ensuring clear
-              communication, along with dedicated{" "}
-              <span
-                className="text-[#ed1e24]"
-                style={{ textTransform: "uppercase" }}
-              >
-                online support
-              </span>{" "}
-              for appointments, queries, and follow-ups.
-            </p>
           </div>
-        </div>
-      </section>
-      <div className="container max-w-7xl mx-auto mt-10">
-        {/* Container for Image and Details */}
-        <div className="w-full lg:w-[1025px]  bg-[#FFF6CA] flex flex-col lg:flex-row items-center rounded-lg">
-          {/* Image Section */}
-          <div className=" lg:h-full lg:w-[385px] flex items-center justify-center">
-            <img
-              src={person1}
-              alt="Dr. Lahari ASR"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-
-          {/* Details Section */}
-          <div className="px-6 lg:px-16 py-4 lg:py-0 flex flex-col items-start">
-            <p className="text-[24px] lg:text-[32px] text-reds h-10">
-              Dr. Lahari ASR
-            </p>
-            <p className="text-[16px] lg:text-[18px] font-[600] pb-[10px] lg:pb-[14px]">
-              MDS Gold medalist
-            </p>
-
-            {/* Experience Details */}
-            {[
-              "Public health dentist with 15 years of experience.",
-              "Ex-Alumni Sardar Patel Dental College, Lucknow",
-              "Reader, Narayana Dental College.",
-              "Colgate IDA Award Scholarship Awardee.",
-              "Implantologist & Root Canal Specialist.",
-              "Expert in Pediatric & Preventive Dental Practice.",
-              "Leo Dental Proprietor.",
-            ].map((item, index) => (
-              <ul
-                key={index}
-                className="flex justify-start items-start text-[16px] lg:text-[18px]"
-              >
-                <li className="flex items-center justify-center gap-1 font-sans">
-                  <TbPointFilled className="text-reds" />
-                  {item}
-                </li>
-              </ul>
-            ))}
-
-            {/* Contact Info */}
-            <div className="mt-4 flex flex-col gap-2 text-[16px] lg:text-[18px]">
-              <div className="flex items-center gap-x-2">
-                <IoMailOutline className="text-reds text-xl lg:text-2xl" />
-                +91 93471 08123
+        </Banner>
+        <section className="mt-10 lg:mt-[80px] ">
+          <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-0">
+            <div>
+              <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
+                Explore World-Class Dental Tourism with Leo Dental
+              </h1>
+              <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 mt-5">
+                <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
+                  Leo Dental is a premier destination for high-quality,
+                  affordable dental care, catering to patients seeking top-notch
+                  treatments. Our clinic offers advanced dental solutions
+                  combined with seamless medical support, ensuring a comfortable
+                  and efficient experience.
+                </p>
               </div>
-              <div className="flex items-center gap-x-2">
-                <FiPhone className="text-reds text-xl lg:text-2xl" />
-                leodentalbanglore@gmail.com
-              </div>
+              <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">
+                <span
+                  className="text-[#ed1e24]"
+                  style={{ textTransform: "uppercase" }}
+                >
+                  Translators
+                </span>{" "}
+                available to assist patients in multiple languages, ensuring
+                clear communication, along with dedicated{" "}
+                <span
+                  className="text-[#ed1e24]"
+                  style={{ textTransform: "uppercase" }}
+                >
+                  online support
+                </span>{" "}
+                for appointments, queries, and follow-ups.
+              </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
-        <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
-          <div className="relative lg:w-[70%]">
-            <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
-              Why Choose Leo Dental for Dental Tourism?
-            </h1>
-            <div className="lg:mt-10">
-              {services.map((item, index) => (
-                <div key={index} className="lg:mt-[31px] mt-6">
-                  <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
-                    {item.title}
-                  </h1>
-                  <p className="lg:text-[22px]">
-                    {item.description}
-                    <span className="text-[#ed1e24] uppercase">
-                      {item.descriptionHighlight}
-                    </span>
-                    {item.descriptionEnd}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
-            <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
-              <img src={profile1} alt="" className="imgs" />
-            </div>
-            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
-              <img src={profile2} alt="" className="imgs" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
-        <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
-          <div className="relative lg:w-[70%]">
-            <div className="lg:mt-10">
-              {subServices.map((item, index) => (
-                <div key={index} className="lg:mt-[31px] mt-6">
-                  <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
-                    {item.title}
-                  </h1>
-                  <p className="lg:text-[22px]">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
-            <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
-              <img src="/tourism/blood-checkup.avif" alt="" className="imgs" />
-            </div>
-            <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
+        </section>
+        <div className="container max-w-7xl mx-auto mt-10">
+          {/* Container for Image and Details */}
+          <div className="w-full lg:w-[1025px]  bg-[#FFF6CA] flex flex-col lg:flex-row items-center rounded-lg">
+            {/* Image Section */}
+            <div className=" lg:h-full lg:w-[385px] flex items-center justify-center">
               <img
-                src="/tourism/Pediatric-and-Preventive.avif"
-                alt=""
-                className="imgs"
+                src={person1}
+                alt="Dr. Lahari ASR"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
+
+            {/* Details Section */}
+            <div className="px-6 lg:px-16 py-4 lg:py-0 flex flex-col items-start">
+              <p className="text-[24px] lg:text-[32px] text-reds h-10">
+                Dr. Lahari ASR
+              </p>
+              <p className="text-[16px] lg:text-[18px] font-[600] pb-[10px] lg:pb-[14px]">
+                MDS Gold medalist
+              </p>
+
+              {/* Experience Details */}
+              {[
+                "Public health dentist with 15 years of experience.",
+                "Ex-Alumni Sardar Patel Dental College, Lucknow",
+                "Reader, Narayana Dental College.",
+                "Colgate IDA Award Scholarship Awardee.",
+                "Implantologist & Root Canal Specialist.",
+                "Expert in Pediatric & Preventive Dental Practice.",
+                "Leo Dental Proprietor.",
+              ].map((item, index) => (
+                <ul
+                  key={index}
+                  className="flex justify-start items-start text-[16px] lg:text-[18px]"
+                >
+                  <li className="flex items-center justify-center gap-1 font-sans">
+                    <TbPointFilled className="text-reds" />
+                    {item}
+                  </li>
+                </ul>
+              ))}
+
+              {/* Contact Info */}
+              <div className="mt-4 flex flex-col gap-2 text-[16px] lg:text-[18px]">
+                <div className="flex items-center gap-x-2">
+                  <IoMailOutline className="text-reds text-xl lg:text-2xl" />
+                  +91 93471 08123
+                </div>
+                <div className="flex items-center gap-x-2">
+                  <FiPhone className="text-reds text-xl lg:text-2xl" />
+                  leodentalbanglore@gmail.com
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
 
-      <section className="max-w-[1350px] lg:mx-auto mt-10 md:mt-[100px] mx-[25px]">
-        <h1 className="heading">
-          Seamless <span className="text-reds">Dental Tourism </span> Experience
-        </h1>
-        <ul className="mt-5 ">
-          {dentalTourism.map((item, index) => (
-            <li key={index} className="flex items-baseline  gap-x-1">
-              <span className="flex-shrink-0 ">
-                <TbPointFilled className="text-reds lg:text-xl " />
-              </span>
-              <span className="lg:text-[20px] text-[16px]">{item}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+        <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
+          <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
+            <div className="relative lg:w-[70%]">
+              <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
+                Why Choose Leo Dental for Dental Tourism?
+              </h1>
+              <div className="lg:mt-10">
+                {services.map((item, index) => (
+                  <div key={index} className="lg:mt-[31px] mt-6">
+                    <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
+                      {item.title}
+                    </h1>
+                    <p className="lg:text-[22px]">
+                      {item.description}
+                      <span className="text-[#ed1e24] uppercase">
+                        {item.descriptionHighlight}
+                      </span>
+                      {item.descriptionEnd}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
+              <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
+                <img src={profile1} alt="" className="imgs" />
+              </div>
+              <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
+                <img src={profile2} alt="" className="imgs" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="max-w-[1350px] mx-auto mt-[80px] px-3 lg:px-0">
+          <div className="flex lg:flex-row flex-col items-enter justify-between gap-x-36 ">
+            <div className="relative lg:w-[70%]">
+              <div className="lg:mt-10">
+                {subServices.map((item, index) => (
+                  <div key={index} className="lg:mt-[31px] mt-6">
+                    <h1 className="lg:text-[20px] font-semibold text-[22px] text-reds">
+                      {item.title}
+                    </h1>
+                    <p className="lg:text-[22px]">{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative lg:h-auto h-[450px] lg:w-[30%] lg:mt-20 mt-10">
+              <div className="lg:w-[335.13px] w-[286.68px] h-[384.68px] lg:h-[449.69px] absolute top-0 left-16 lg:right-10">
+                <img
+                  src="/tourism/blood-checkup.avif"
+                  alt=""
+                  className="imgs"
+                />
+              </div>
+              <div className="lg:w-[277.45px] w-[237.34px] h-[250.68px] lg:h-[293.04px] absolute lg:-left-25 lg:top-72 bottom-0  lg:right-48">
+                <img
+                  src="/tourism/Pediatric-and-Preventive.avif"
+                  alt=""
+                  className="imgs"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <section className="max-w-[1350px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
-        <div>
-          <div className="w-[309.19px] h-[89px] relative">
-            <img src={logo} alt="logo" className="imgs" />
-            <p className="absolute bottom-2 font-[700] text-[12.5px] tracking-tighter">
-              Orthodontics - Implants - Laser Centre
+        <section className="max-w-[1350px] lg:mx-auto mt-10 md:mt-[100px] mx-[25px]">
+          <h1 className="heading">
+            Seamless <span className="text-reds">Dental Tourism </span>{" "}
+            Experience
+          </h1>
+          <ul className="mt-5 ">
+            {dentalTourism.map((item, index) => (
+              <li key={index} className="flex items-baseline  gap-x-1">
+                <span className="flex-shrink-0 ">
+                  <TbPointFilled className="text-reds lg:text-xl " />
+                </span>
+                <span className="lg:text-[20px] text-[16px]">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="max-w-[1350px] bg-[#FFF6CA] gap-y-10 lg:h-[451px] px-5 lg:py-0 py-10 mx-auto mt-[80px] flex lg:flex-row flex-col justify-between items-center lg:px-20">
+          <div>
+            <div className="w-[309.19px] h-[89px] relative">
+              <img src={logo} alt="logo" className="imgs" />
+              <p className="absolute bottom-2 font-[700] text-[12.5px] tracking-tighter">
+                Orthodontics - Implants - Laser Centre
+              </p>
+            </div>
+            <span className="text max-w-[700px] lg:text-[25px] ">
+              Plan Your Dental Journey Today!
+            </span>
+            <p className="text max-w-[700px] lg:text-[36px] ">
+              Choose Leo Dental for exceptional dental care at a fraction of the
+              cost. Contact us today to schedule your consultation and start
+              your journey toward a perfect
             </p>
+            <Link to="/contact">
+              <button className="mt-5 button">Contact Us</button>
+            </Link>
           </div>
-          <span className="text max-w-[700px] lg:text-[25px] ">
-            Plan Your Dental Journey Today!
-          </span>
-          <p className="text max-w-[700px] lg:text-[36px] ">
-            Choose Leo Dental for exceptional dental care at a fraction of the
-            cost. Contact us today to schedule your consultation and start your
-            journey toward a perfect
-          </p>
-          <Link to="/contact">
-            <button className="mt-5 button">Contact Us</button>
-          </Link>
-        </div>
-        <div className="lg:w-[460px]  w-[331px] ">
-          <img src={bannerimg} alt="" className="imgs" />
-        </div>
-      </section>
+          <div className="lg:w-[460px]  w-[331px] ">
+            <img src={bannerimg} alt="" className="imgs" />
+          </div>
+        </section>
 
-      {/* <section className="max-w-[1350px] mx-auto   mt-10 md:mt-[89px]">
+        {/* <section className="max-w-[1350px] mx-auto   mt-10 md:mt-[89px]">
         <div className="text-center">
           <h1 className="heading text-reds">Our Services</h1>
           <p className="text lg:max-w-[48rem] mx-4 lg:mx-auto">
@@ -323,8 +424,9 @@ const Services = () => {
           ))}
         </div>
       </section> */}
-      <ContactSection image={contact} />
-    </div>
+        <ContactSection image={contact} />
+      </div>
+    </>
   );
 };
 
