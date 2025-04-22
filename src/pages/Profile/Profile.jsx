@@ -77,6 +77,19 @@ const Profile = () => {
           content="Restore your smile with single tooth implants in HSR Layout. Visit the best dental implant clinic for natural-looking tooth replacements."
         />
 
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({

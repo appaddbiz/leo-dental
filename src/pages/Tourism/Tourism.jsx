@@ -93,6 +93,20 @@ const Services = () => {
           name="description"
           content="Get the best zirconia crowns in Harlur and HSR Layout for natural-looking tooth restoration. Visit our dental clinic. Book your appointment!"
         />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

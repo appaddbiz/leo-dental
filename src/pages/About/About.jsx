@@ -20,6 +20,19 @@ const About = () => {
           content="Consult an Invisalign doctor in Harlur. Get clear teeth aligners for a smile. Book your appointment with a specialist near you today!"
         />
 
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({

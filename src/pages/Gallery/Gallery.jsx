@@ -20,6 +20,19 @@ const Gallery = () => {
           content="Get invisible teeth aligners at a clear aligners clinic in HAR Layout. Straighten your teeth discreetly. Schedule your visit today!"
         />
 
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+
         {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({

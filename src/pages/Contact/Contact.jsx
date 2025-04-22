@@ -15,6 +15,20 @@ const Contact = () => {
           content="Find a metal braces specialist near you and get laser teeth whitening in Harlur. Achieve a bright, aligned smile with expert dental care."
         />
 
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+
+        
         {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
