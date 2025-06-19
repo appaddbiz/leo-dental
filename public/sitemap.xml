@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.leodental.co.in/</loc>
-  <lastmod>2025-01-22T11:13:30+00:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.leodental.co.in/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/services</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/invisalign</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/Dental-Implant</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/laser-dentistry</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/Root-Canal-Treatment</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/Braces</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/service/Dental-Crowns</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/profile</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/about</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/testimonials</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/contact</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/Leo-Align</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.leodental.co.in/tourism</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
