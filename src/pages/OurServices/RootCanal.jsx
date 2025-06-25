@@ -62,14 +62,17 @@ const RootCanal = () => {
           <h1 className="lg:text-[52px] text-[30px]  absolute top-4 lg:top-12 text-reds  leading-8 lg:leading-none">
             Root Canal Treatment At Leo Dental
           </h1>
+          <h1 className="lg:text-[22px]">Root Canal Treatment in HSR Layout</h1>
           <p className="lg:text-[22px] lg:leading-8">
             Root canal treatment is one of the most commonly addressed dental
-            treatments and also one of the most eﬀective, in saving a tooth. A
+            treatments and also one of the most effective in saving a tooth. A
             good Root Canal Specialist will identify the cause, treat the
-            ailment and restore the tooth back to its form and function. Root
-            canal treatment can either be completed in a single session or in
-            multiple sessions depending on the condition of the tooth and
-            peri-apical condition.
+            ailment, and restore the tooth back to its form and function.{" "}
+            <h2 className="inline">Root Canal Treatment in HSR Layout</h2> is
+            now easily accessible for patients seeking reliable and pain-free
+            solutions. Root canal treatment can either be completed in a single
+            session or in multiple sessions depending on the condition of the
+            tooth and peri-apical condition.
           </p>
         </div>
       </section>{" "}

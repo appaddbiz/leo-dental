@@ -214,13 +214,16 @@ const Services = () => {
               <h1 className="lg:text-[34px] text-[22px] text-reds lg:leading-[44px] font-semibold leading-7 text-center">
                 Explore World-Class Dental Tourism with Leo Dental
               </h1>
-              <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 mt-5">
+              <h1 className="text-[20px]">Best Dental Clinic In HSR Layout</h1>
+              <div className="lg:flex lg:items-center lg:justify-between lg:gap-10 ">
                 <p className="text-[20px] mt-5 leading-8 lg:text-justify text-justify">
                   Leo Dental is a premier destination for high-quality,
                   affordable dental care, catering to patients seeking top-notch
-                  treatments. Our clinic offers advanced dental solutions
-                  combined with seamless medical support, ensuring a comfortable
-                  and efficient experience.
+                  treatments. Recognized as the
+                  <h2 className="inline">Best Dental Clinic In HSR Layout</h2>,
+                  our clinic offers advanced dental solutions combined with
+                  seamless medical support, ensuring a comfortable and
+                  efficient experience.
                 </p>
               </div>
               <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">

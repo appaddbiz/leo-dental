@@ -66,6 +66,9 @@ const Braces = () => {
           <h1 className="lg:text-[52px]  text-[30px] absolute top-3 leading-9 lg:top-16 text-reds  ">
             Braces For Teeth Alignment
           </h1>
+          <h1 className="lg:text-[22px]">
+            Best Orthodontist Doctors For Clear Aligners in Hsr Layout
+          </h1>
           <p className="lg:text-[22px] text-lg lg:leading-8">
             Orthodontics is the specialization of dentistry, which deals with
             correcting the bite and arrangement of teeth, thus improving the
@@ -75,11 +78,16 @@ const Braces = () => {
             individual. A fabulous smile makes you attractive and also improves
             one’s confidence levels. Braces improve your smile and therefore
             improve your appearance. Braces are now considered a very important
-            fashion accessory. Usually people today suffer from teeth alignment
-            issues like protruding teeth, tooth severely misaligned. All these
-            issues will robe your smile and hence medical rectifying procedures
-            have to be implemented such that a person can flaunt a sweet smile.
-            Braces cost is by far the most reasonable here.
+            fashion accessory. Usually, people today suffer from teeth alignment
+            issues like protruding teeth, or teeth severely misaligned. All
+            these issues will rob your smile, and hence medical rectifying
+            procedures have to be implemented so that a person can flaunt a
+            sweet smile. If you’re looking for expert care, the{" "}
+            <h2 className="inline">
+              Best Orthodontist Doctors For Clear Aligners in HSR Layout
+            </h2>{" "}
+            offer advanced treatment options to help you achieve a perfect
+            smile. Braces cost is by far the most reasonabl here.
           </p>
         </div>
       </section>{" "}

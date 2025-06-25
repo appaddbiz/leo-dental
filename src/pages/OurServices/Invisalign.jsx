@@ -39,19 +39,23 @@ const Invisalign = () => {
           <h1 className="lg:text-[52px]  text-[30px] font-medium absolute top-0 lg:top-12 text-reds leading-[62px]  ">
             Invisalign Treatment
           </h1>
+          <h1 className="lg:text-[22px]">Invisalign Treatment in hsr layout</h1>
           <p className="lg:text-[22px] lg:leading-8 mt-5 lg:mt-0">
-            Irregular, crooked, anteriorly placed and retroclined teeth, all
+            Irregular, crooked, anteriorly placed, and retroclined teeth all
             need correction. The options are either braces or the advanced
             Invisalign (clear aligners). Both braces and Invisalign facilitate
-            alignment by eﬀectively moving teeth in the intended direction,
-            correcting abnormalities. Braces are either metallic, ceramic or
-            advanced ceramic with metal slots ( Damon Clear ) which are cemented
-            on to the tooth surfaces and then ligated with Titanium or Stainless
-            Steel or Copper Niti wires and Elastics to facilitate correction of
+            alignment by effectively moving teeth in the intended direction,
+            correcting abnormalities. Braces are either metallic, ceramic, or
+            advanced ceramic with metal slots (Damon Clear), which are cemented
+            onto the tooth surfaces and then ligated with Titanium, Stainless
+            Steel, or Copper NiTi wires and Elastics to facilitate correction of
             maligned teeth. This process of correction needs repeated visits to
-            an orthodontist. People who are conscious of their smile especially
-            with braces, can opt either Lingual Braces or Clear Aligners (
-            Invisalign ).
+            an orthodontist. People who are conscious of their smile, especially
+            with braces, can opt for either Lingual Braces or Clear Aligners
+            (Invisalign).{" "}
+            <h2 className="inline">Invisalign Treatment in HSR Layout</h2> is a
+            popular choice for those seeking a discreet and comfortable
+            orthodontic solution.
           </p>
         </div>
       </section>{" "}

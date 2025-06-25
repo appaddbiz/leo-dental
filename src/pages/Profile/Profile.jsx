@@ -155,19 +155,27 @@ const Profile = () => {
               <h1 className="lg:text-[52px] text-[30px]  absolute lg:top-12 top-3 text-reds lg:leading-[62px]  ">
                 Leo Dental
               </h1>
+              <h1 className="lg:text-[22px]">
+                Best dental clinic in hsr layout
+              </h1>
               <p className="lg:text-[22px] text-[18px]">
                 Leo Dental was first established on 12 May 2014 in Nellore,
-                Andra Pradesh expanding to multiple branches in Bangalore since
-                2020. Reaching to decade down the journey, the evolving need and
-                the urge to provide personalized, highest level of care to each
-                individual resulted in the merging of all the branches to one
-                main center at the heart of Bangalore, ensuring the constant
-                presence of the highly experienced and skilled dentists.
+                Andhra Pradesh, and has expanded to multiple branches in
+                Bangalore since 2020. Reaching a decade into the journey, the
+                evolving needs and the commitment to provide personalized,
+                highest-level care to each individual led to the merging of all
+                branches into one main center located in the heart of Bangalore.
+                This centralization ensures the constant presence of highly
+                experienced and skilled dentists.
               </p>
               <p className="lg:text-[22px] text-[18px] mt-5">
-                Having a combined experience of more than 15 years of different
-                specialties at all times along with the latest in technology and
-                equipment’s – all under one roof .
+                With a combined experience of more than 15 years across various
+                specialties and equipped with the latest technology and modern
+                equipment—all under one roof—Leo Dental has earned its
+                reputation as the{" "}
+                <h2 className="inline">Best dental clinic in HSR Layout</h2>,
+                offering comprehensive and compassionate dental care for all age
+                groups.
               </p>
             </div>
             <div className="mt-8 lg:mt-14">

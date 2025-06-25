@@ -29,7 +29,7 @@ const Dental = () => {
         "We, at Leo Dental, do not consider dental implant surgery expensive, especially when we look at the restoring capabilities of a dental implant. A simple dental implant surgery is affordable and a very good option for restoring teeth. The true-to-life capability of a dental implant relies on the skill of the surgeon, the surgery itself, and the crown component of the dental implant. If one has a challenging bone structure, then components like bone grafts and membranes add to the cost.",
     },
   ];
-  
+
   const advantages = [
     "Most effective in restoring form & function",
     "Conservative – no need to trim or damage adjacent teeth unlike dental bridge",
@@ -65,19 +65,25 @@ const Dental = () => {
           <h1 className="lg:text-[52px] text-[30px] lg:leading-none leading-9 absolute lg:top-12 top-3 text-reds  ">
             Best Dental Implants At Leo Dental
           </h1>
-          <p className="lg:text-[22px] lg:leading-8 px-">
+          <h1 className="lg:text-[22px]">
+            Dental Implant clinic in hsr layout
+          </h1>
+          <p className="lg:text-[22px] lg:leading-8">
             A replica of a tooth and a root used to restore form & function of
             the missing tooth, is a dental implant. If a patient has a single or
             multiple missing tooth or teeth then a surgical grade titanium screw
             is drilled into the bone to provide anchorage to the supporting
             tooth. This dental implant has a sleeve where a connector is screwed
             over which a cap is either cemented or screwed. Dental implants in
-            true sense have revolutionised Cosmetic Dentistry. Dental implant
-            can improve aesthetics, restore function and facilitate good health.
-            A dental implant is a surgical grade titanium called commercially
-            available grade 4 titanium, which is drilled into the bone to
-            provide anchorage to the supporting tooth. Dental implant is an
-            extremely successful procedure and comes with a lifetime warranty.
+            true sense have revolutionised Cosmetic Dentistry. If you are
+            looking for expert care and precision, choosing a trusted
+            <h2 className="inline"> Dental Implant clinic in HSR Layout</h2> can
+            ensure long-lasting results. Dental implant can improve aesthetics,
+            restore function and facilitate good health. A dental implant is a
+            surgical grade titanium called commercially available grade 4
+            titanium, which is drilled into the bone to provide anchorage to the
+            supporting tooth. Dental implant is an extremely successful
+            procedure and comes with a lifetime warranty.
           </p>
         </div>
       </section>{" "}

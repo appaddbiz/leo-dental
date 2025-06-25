@@ -71,24 +71,31 @@ const Crowns = () => {
           <h1 className="lg:text-[52px] text-[30px]  absolute top-2 lg:top-12 text-reds  ">
             Dental Crowns & Bridges
           </h1>
+          <h1 className="lg:text-[22px]">
+            Dental Crowns and Bridges in HSR Layout Bangalore
+          </h1>
           <p className="lg:text-[22px] text-[18px] lg:leading-8">
-            A crown-sometimes called a “cap”-is a tooth-like covering placed
-            over a carefully prepared existing tooth. Used to strengthen,
-            restore or improve the appearance of your natural tooth. A crown is
+            A crown—sometimes called a “cap”—is a tooth-like covering placed
+            over a carefully prepared existing tooth. It is used to strengthen,
+            restore, or improve the appearance of your natural tooth. A crown is
             placed on an individual tooth much like a thimble over your finger.
-            In addition to being used to strengthen a tooth to accommodate the
-            attachment of a fixed bridge, crowns serve many functions. One of
-            the most common indications is to support the tooth when there is no
-            longer sufficient tooth structure left to place a filling. Crowns
+            In addition to being used to strengthen a tooth or to accommodate
+            the attachment of a fixed bridge, crowns serve many functions. One
+            of the most common indications is to support the tooth when there is
+            no longer sufficient tooth structure left to place a filling. Crowns
             may also be used to protect the structure of a tooth that is
             fractured or broken.
+            <h2 className="inline">
+              Dental Crowns and Bridges in HSR Layout Bangalore
+            </h2>
+            are a trusted solution for restoring dental aesthetics and function
+            with long-lasting results.
           </p>
         </div>
-      </section>{" "}
+      </section>
       <section className="max-w-[1400px] px-2 lg:px-0 mx-auto mt-10 lg:mt-[80px]">
         <div className=" flex flex-col lg:flex-row justify-between items-start gap-5">
           <div>
-            {" "}
             <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] leading-9  ">
               Benefits Of Crown <br />
               <span className="text-reds"> Crown & Bridge Treatment</span>{" "}
@@ -142,11 +149,9 @@ const Crowns = () => {
             <img src={group} alt="" className="imgs" />
           </div>
           <div className="lg:w-1/2">
-            {" "}
             <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] ">
               Signs You Need
               <span className="text-reds">
-                {" "}
                 Crown <br /> & Bridge Treatment
               </span>
             </h1>

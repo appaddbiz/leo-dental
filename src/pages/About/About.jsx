@@ -97,16 +97,19 @@ const About = () => {
             <h1 className="lg:text-[52px]  text-[30px] absolute top-3 lg:top-12 text-reds leading-9 lg:leading-[62px]  ">
               Highest Standards Of Dental Treatment
             </h1>
+            <h1 className="lg:text-[22px]">
+              Best Dentists Near Me in HSR Layout
+            </h1>
             <p className="lg:text-[22px] text-[18px]">
+              <h2 className="inline">Best Dentists Near Me in HSR Layout</h2>,
               Leo Dental Clinic has been independently assessed and accredited
               by the Indian Health Organization with the principles and practice
-              of the clinical governance as defined and laid down by the Indian
-              Health Organization. <br />
-              We provide specialty based dental care in accordance to the dental
-              needs of the patients by our internationally trained team of
-              specialized dentists. Multi disciplinary treatments by M.D.S
-              qualified dentists are also combined to ensure minimum number of
-              visits to the dental chair.
+              of clinical governance as defined and laid down by the Indian
+              Health Organization. We provide specialty-based dental care in
+              accordance with the dental needs of the patients by our
+              internationally trained team of specialized dentists.
+              Multi-disciplinary treatments by M.D.S qualified dentists are also
+              combined to ensure a minimum number of visits to the dental chair.
             </p>
             <div className="flex flex-col lg:flex-row justify-between items-center mt-4 gap-7">
               <div className="lg:w-1/2 lg:order-none order-1">

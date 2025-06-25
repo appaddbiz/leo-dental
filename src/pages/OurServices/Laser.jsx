@@ -57,21 +57,24 @@ const Laser = () => {
           <h1 className="lg:text-[52px] text-[30px]  absolute top-2 lg:top-12 text-reds  ">
             Laser Dentistry
           </h1>
+          <h1 className="lg:text-[22px]">Laser gum Treatment in Hsr Layout</h1>
           <p className="lg:text-[22px] lg:leading-8 mt-5 lg:mt-0">
             Laser dentistry is fast gaining momentum in the dental field. This
             process involves focusing a laser beam through an optical fiber over
             the teeth and gums. Usually, this method is a far safer and more
             innovative way of dealing with dental problems. There are many
-            scenarios like bleeding gums, stained gums, stained teeth, etc that
-            people tend to suffer from. Hence a process like Laser dentistry is
-            being used to restore good gums and teeth. Gum bleeding can also be
-            stopped with the proper application of Laser Dentistry. Laser
-            Dentistry is considered to be a marvel in the dental arena field.
-            Laser dentistry will kill the bacteria cropping up inside your
-            mouth. There are many benefits offered by laser dentistry. Laser
-            dentistry in Hyderabad is the best at ADS Dental Hospital. Laser bad
-            breath treatment is also offered here. The bacteria gets killed,
-            this process is completely painless
+            scenarios like bleeding gums, stained gums, stained teeth, etc.,
+            that people tend to suffer from. Hence a process like Laser
+            dentistry is being used to restore good gums and teeth. Gum bleeding
+            can also be stopped with the proper application of Laser Dentistry.
+            <h2 className="inline">Laser gum Treatment in HSR Layout</h2> is now
+            widely sought after for its precision and minimally invasive nature.
+            Laser Dentistry is considered to be a marvel in the dental arena
+            field. Laser dentistry will kill the bacteria cropping up inside
+            your mouth. There are many benefits offered by laser dentistry.
+            Laser dentistry in Hyderabad is the best at ADS Dental Hospital.
+            Laser bad breath treatment is also offered here. The bacteria gets
+            killed, this process is completel painless.
           </p>
           {listItems.map((item, index) => (
             <ul
