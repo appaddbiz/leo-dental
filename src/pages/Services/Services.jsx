@@ -174,6 +174,9 @@ const Services = () => {
                 <br /> To Meet All Your Needs.
               </h1>
               <div className="lg:mt-10">
+                <h1 className="lg:text-[22px]">
+                  Laser Root Canal Treatment in Harlur
+                </h1>
                 {services.map((item, index) => (
                   <div key={index} className="lg:mt-[31px] mt-6">
                     <h1 className="lg:text-[34px] text-[22px] text-reds">
