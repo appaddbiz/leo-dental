@@ -53,7 +53,6 @@ const Invisalign = () => {
       gtag('config', 'G-D6RGQC5PCK');
     `}
         </script>
-
       </Helmet>
       <div className="pt-20">
         <ServiceBanner img={banner} text="Invisalign" />
