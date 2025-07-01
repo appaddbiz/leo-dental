@@ -238,14 +238,15 @@ const Home = () => {
         <section className="md:h-[380px] w-full bg-reds py-16">
           <div className="max-w-screen-lg mx-auto ">
             <h1 className="heading text-yellows font-bold text-center">
-              Best Multi-Specialty Dental Clinic In HSR Layout!
+              Best Multi-Specialty Dental Clinic In HSR Layout! Rajajinagar
             </h1>
             <p className="text text-center text-white md:px-0 px-[20px]">
-              Leo Dental is one of the best multi-specialty dental clinic in HSR layout based
-              in Bangalore & Nellore. Leo Dental assures its patients a holistic
-              personalized dental experience through <br /> its internationally
-              trained team of dentists, dental experts, world-class dental
-              equipment and technology and patient-centered treatment plans.
+              Leo Dental is one of the best multi-specialty dental clinic in HSR
+              layout based in Bangalore & Nellore. Leo Dental assures its
+              patients a holistic personalized dental experience through <br />{" "}
+              its internationally trained team of dentists, dental experts,
+              world-class dental equipment and technology and patient-centered
+              treatment plans.
             </p>
           </div>
         </section>
@@ -380,12 +381,13 @@ const Home = () => {
               we <span className="text-reds">Delivered</span>
               <p className="text lg:leading-[38px] text-left">
                 A smile is the first thing a person notices in you, so why not
-                make it your best! Visiting a best dental clinic in HSR layout for your oral care is
-                the ideal way to ensure your oral hygiene is maintained at its
-                best. Being the best dental clinic in Nellore & in Bangalore, we
-                are dedicated to providing you with the all dental treatments.
-                You can place your complete trust in the quality of our dentists
-                to provide the right care for your teeth.
+                make it your best! Visiting a best dental clinic in HSR layout
+                for your oral care is the ideal way to ensure your oral hygiene
+                is maintained at its best. Being the best dental clinic in
+                Nellore & in Bangalore, we are dedicated to providing you with
+                the all dental treatments. You can place your complete trust in
+                the quality of our dentists to provide the right care for your
+                teeth.
               </p>
               <p className="text lg:leading-[38px] text-left">
                 Our care is defined by the values that all staff share and is
