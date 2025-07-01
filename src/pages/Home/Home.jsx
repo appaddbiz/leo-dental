@@ -238,7 +238,7 @@ const Home = () => {
         <section className="md:h-[380px] w-full bg-reds py-16">
           <div className="max-w-screen-lg mx-auto ">
             <h1 className="heading text-yellows font-bold text-center">
-              Best Multi-Specialty Dental Clinic In HSR Layout! Rajajinagar
+              Best Multi-Specialty Dental Clinic In HSR Layout!
             </h1>
             <p className="text text-center text-white md:px-0 px-[20px]">
               Leo Dental is one of the best multi-specialty dental clinic in HSR
