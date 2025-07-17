@@ -23,7 +23,10 @@ const Header = () => {
 
   const clinicsDropdown = {
     Andhra: [
-      { path: "/our-clinics/nellore", display: "Nellore" },
+      {
+        path: "https://clinic.leodental.co.in/dental-clinic-in-nellore/",
+        display: "Nellore",
+      },
       { path: "/our-clinics/tirupathi", display: "Tirupathi" },
     ],
     Karnataka: [
