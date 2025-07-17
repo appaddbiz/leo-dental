@@ -27,12 +27,18 @@ const Header = () => {
         path: "https://clinic.leodental.co.in/dental-clinic-in-nellore/",
         display: "Nellore",
       },
-      { path: "/our-clinics/tirupathi", display: "Tirupathi" },
+      {
+        path: "https://clinic.leodental.co.in/dental-clinic-in-tirupathi/",
+        display: "Tirupathi",
+      },
     ],
     Karnataka: [
-      { path: "/our-clinics/hsr-layout", display: "Bangalore - HSR LAYOUT" },
       {
-        path: "/our-clinics/bangalore-whitefield",
+        path: "https://clinic.leodental.co.in/dental-clinic-in-hsr-layout/",
+        display: "Bangalore - HSR LAYOUT",
+      },
+      {
+        path: "https://clinic.leodental.co.in/dental-clinic-in-whitefield/",
         display: "Bangalore- WHITEFIELD",
       },
     ],
