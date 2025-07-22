@@ -1,10 +1,10 @@
-import WPEmbed from "../../components/landing-page/WPEmbed"
+import Whitefield from "../../components/landing-page/Whitefield"
 
 
 function BestDentalClinicInWhitefield() {
   return (
     <div>
-      <WPEmbed />
+      <Whitefield />
     </div>
   )
 }
