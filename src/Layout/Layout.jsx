@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 import Header from "../components/Header/Header";
 import ScrollToTop from "./../utils/ScrollToTop";
@@ -25,6 +25,13 @@ import BestDentalClinicInNellore from "../pages/landing-page/best-dental-clinic-
 import BestDentalClinicInTirupathi from "../pages/landing-page/best-dental-clinic-in-tirupathi";
 
 const Layout = () => {
+  const location = useLocation();
+  const hideFooterRoutes = [
+    "/best-dental-clinic-in-hsr-layout",
+    "/best-dental-clinic-in-nellore",
+    "/best-dental-clinic-in-tirupathi",
+    "/best-dental-clinic-in-whitefield",
+  ];
   return (
     <div>
       <ScrollToTop />
@@ -66,7 +73,7 @@ const Layout = () => {
         </Routes>
       </main>
       <ContactUs />
-      <Footer />
+      {!hideFooterRoutes.includes(location.pathname) && <Footer />}
     </div>
   );
 };
