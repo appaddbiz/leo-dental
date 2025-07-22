@@ -24,11 +24,11 @@ const Header = () => {
   const clinicsDropdown = {
     Andhra: [
       {
-        path: "https://clinic.leodental.co.in/dental-clinic-in-nellore/",
+        path: "https://clinic.leodental.co.in/best-dental-clinic-in-nellore/",
         display: "Nellore",
       },
       {
-        path: "https://clinic.leodental.co.in/dental-clinic-in-tirupathi/",
+        path: "https://clinic.leodental.co.in/best-dental-clinic-in-tirupathi/",
         display: "Tirupathi",
       },
     ],
@@ -38,7 +38,7 @@ const Header = () => {
         display: "Bangalore - HSR LAYOUT",
       },
       {
-        path: "https://clinic.leodental.co.in/dental-clinic-in-whitefield/",
+        path: "https://clinic.leodental.co.in/best-dental-clinic-in-whitefield/",
         display: "Bangalore- WHITEFIELD",
       },
     ],
