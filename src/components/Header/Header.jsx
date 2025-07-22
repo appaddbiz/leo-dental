@@ -34,12 +34,12 @@ const Header = () => {
     ],
     Karnataka: [
       {
-        path: "https://clinic.leodental.co.in/best-dental-clinic-in-hsr-layout/",
+        path: "/best-dental-clinic-in-hsr-layout",
         display: "Bangalore - HSR LAYOUT",
       },
       {
-        path: "https://clinic.leodental.co.in/best-dental-clinic-in-whitefield/",
-        display: "Bangalore- WHITEFIELD",
+        path: "/best-dental-clinic-in-whitefield",
+        display: "Bangalore - WHITEFIELD",
       },
     ],
   };
