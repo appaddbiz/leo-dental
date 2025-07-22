@@ -45,13 +45,9 @@ const Layout = () => {
           <Route path="/service/Braces" element={<Braces />} />
           <Route path="/service/Dental-Crowns" element={<Crowns />} />
           <Route path="*" element={<Home />} />
-          {/* <Route
+          <Route
             path="/best-dental-clinic-in-hsr-layout"
             element={<HsrLayout />}
-          /> */}
-          <Route
-            path="/best-dental-clinic-in-whitefield"
-            element={<RedirectWhitefield />}
           />
         </Routes>
       </main>
