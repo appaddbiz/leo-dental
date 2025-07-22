@@ -38,7 +38,7 @@ const Header = () => {
         display: "Bangalore - HSR LAYOUT",
       },
       {
-        path: "/best-dental-clinic-in-whitefield",
+        path: "https://www.leodental.co.in/best-dental-clinic-in-whitefield",
         display: "Bangalore - WHITEFIELD",
       },
     ],
