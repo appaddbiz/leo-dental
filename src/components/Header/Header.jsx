@@ -24,21 +24,21 @@ const Header = () => {
   const clinicsDropdown = {
     Andhra: [
       {
-        path: "https://clinic.leodental.co.in/best-dental-clinic-in-nellore/",
+        path: "https://www.leodental.co.in/best-dental-clinic-in-nellore/",
         display: "Nellore",
       },
       {
-        path: "https://clinic.leodental.co.in/best-dental-clinic-in-tirupathi/",
+        path: "https://www.leodental.co.in/best-dental-clinic-in-tirupathi/",
         display: "Tirupathi",
       },
     ],
     Karnataka: [
       {
-        path: "/best-dental-clinic-in-hsr-layout",
+        path: "https://www.leodental.co.in/best-dental-clinic-in-hsr-layout/",
         display: "Bangalore - HSR LAYOUT",
       },
       {
-        path: "https://www.leodental.co.in/best-dental-clinic-in-whitefield",
+        path: "https://www.leodental.co.in/best-dental-clinic-in-whitefield/",
         display: "Bangalore - WHITEFIELD",
       },
     ],
