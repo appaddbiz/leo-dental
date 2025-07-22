@@ -19,7 +19,6 @@ import RootCanal from "../pages/OurServices/RootCanal";
 import Braces from "../pages/OurServices/Braces";
 import Crowns from "../pages/OurServices/Crowns";
 import DRLahari from "../pages/Dr-Lahari/DR-Lahari";
-import HsrLayout from "../pages/HSR/best-dental-clinic-in-hsr-layout";
 import BestDentalClinicInWhitefield from "../pages/landing-page/best-dental-clinic-in-whitefield";
 import BestDentalClinicInHsrLayout from "../pages/landing-page/best-dental-clinic-in-hsr-layout";
 import BestDentalClinicInNellore from "../pages/landing-page/best-dental-clinic-in-nellore";
