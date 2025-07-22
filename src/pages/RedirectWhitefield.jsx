@@ -1,11 +1,15 @@
 // RedirectWhitefield.js
-import { useEffect } from "react";
 
 export default function RedirectWhitefield() {
-  useEffect(() => {
-    window.location.href =
-      "https://www.leodental.co.in/best-dental-clinic-in-whitefield/";
-  }, []);
+  <div style={{ height: "100vh" }}>
+    <iframe
+      src="https://clinic.leodental.co.in/best-dental-clinic-in-whitefield/"
+      width="100%"
+      height="100%"
+      style={{ border: "none" }}
+      title="Best Dental Clinic in Whitefield"
+    ></iframe>
+  </div>;
 
   return <p>Redirecting to our Whitefield dental clinic page...</p>;
 }
