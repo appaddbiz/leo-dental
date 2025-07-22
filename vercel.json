@@ -2,8 +2,12 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/" },
     {
-      "source": "https://clinic.leodental.co.in/best-dental-clinic-in-whitefield",
-      "destination": "https://www.leodental.co.in/best-dental-clinic-in-whitefield/"
+      "rewrites": [
+        {
+          "source": "/best-dental-clinic-in-whitefield",
+          "destination": "https://clinic.leodental.co.in/best-dental-clinic-in-whitefield/"
+        }
+      ]
     }
   ]
 }
