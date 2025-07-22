@@ -21,6 +21,9 @@ import Crowns from "../pages/OurServices/Crowns";
 import DRLahari from "../pages/Dr-Lahari/DR-Lahari";
 import HsrLayout from "../pages/HSR/best-dental-clinic-in-hsr-layout";
 import BestDentalClinicInWhitefield from "../pages/landing-page/best-dental-clinic-in-whitefield";
+import BestDentalClinicInHsrLayout from "../pages/landing-page/best-dental-clinic-in-hsr-layout";
+import BestDentalClinicInNellore from "../pages/landing-page/best-dental-clinic-in-nellore";
+import BestDentalClinicInTirupathi from "../pages/landing-page/best-dental-clinic-in-tirupathi";
 
 const Layout = () => {
   return (
@@ -51,7 +54,15 @@ const Layout = () => {
           <Route path="*" element={<Home />} />
           <Route
             path="/best-dental-clinic-in-hsr-layout"
-            element={<HsrLayout />}
+            element={<BestDentalClinicInHsrLayout />}
+          />
+          <Route
+            path="/best-dental-clinic-in-nellore"
+            element={<BestDentalClinicInNellore />}
+          />
+          <Route
+            path="/best-dental-clinic-in-tirupathi"
+            element={<BestDentalClinicInTirupathi />}
           />
         </Routes>
       </main>
