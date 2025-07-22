@@ -1,5 +1,4 @@
 import girl from "../../assets/home/img2.png";
-import logo2 from "../../assets/home/logo.png";
 import person1 from "../../assets/home/person1.png";
 import person2 from "../../assets/home/person2.png";
 import smile from "../../assets/home/toothsmile.png";
@@ -21,10 +20,7 @@ import { TbPointFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
 import { Helmet } from "react-helmet";
-import { LuBuilding2 } from "react-icons/lu";
-import { BiAward, BiBadge } from "react-icons/bi";
-import { GiLightBulb } from "react-icons/gi";
-import { Clock, Phone, UserPlus } from "react-feather";
+import { Clock, Phone } from "react-feather";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";

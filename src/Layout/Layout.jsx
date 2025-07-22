@@ -20,7 +20,7 @@ import Braces from "../pages/OurServices/Braces";
 import Crowns from "../pages/OurServices/Crowns";
 import DRLahari from "../pages/Dr-Lahari/DR-Lahari";
 import HsrLayout from "../pages/HSR/best-dental-clinic-in-hsr-layout";
-import RedirectWhitefield from "../pages/RedirectWhitefield";
+import BestDentalClinicInWhitefield from "../pages/landing-page/best-dental-clinic-in-whitefield";
 
 const Layout = () => {
   return (
@@ -44,6 +44,10 @@ const Layout = () => {
           <Route path="/service/Root-Canal-Treatment" element={<RootCanal />} />
           <Route path="/service/Braces" element={<Braces />} />
           <Route path="/service/Dental-Crowns" element={<Crowns />} />
+          <Route
+            path="/best-dental-clinic-in-whitefield"
+            element={<BestDentalClinicInWhitefield />}
+          />
           <Route path="*" element={<Home />} />
           <Route
             path="/best-dental-clinic-in-hsr-layout"
