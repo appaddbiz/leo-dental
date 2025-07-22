@@ -34,7 +34,7 @@ const Header = () => {
     ],
     Karnataka: [
       {
-        path: "https://clinic.leodental.co.in/dental-clinic-in-hsr-layout/",
+        path: "https://clinic.leodental.co.in/best-dental-clinic-in-hsr-layout/",
         display: "Bangalore - HSR LAYOUT",
       },
       {
