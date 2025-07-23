@@ -1,5 +1,9 @@
 {
   "rewrites": [
+    {
+      "source": "/best-dental-clinic-in-nellore/sitemap.xml",
+      "destination": "/best-dental-clinic-in-nellore/sitemap.xml"
+    },
     { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
     { "source": "/(.*)", "destination": "/" }
   ]
