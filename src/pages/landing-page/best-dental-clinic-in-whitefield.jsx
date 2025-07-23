@@ -1,12 +1,13 @@
-import Whitefield from "../../components/landing-page/Whitefield"
-
+import Whitefield from "../../components/landing-page/Whitefield";
 
 function BestDentalClinicInWhitefield() {
   return (
-    <div>
+    <div
+      style={{ overflowX: "hidden", overflowY: "hidden", scrollbars: "none" }}
+    >
       <Whitefield />
     </div>
-  )
+  );
 }
 
-export default BestDentalClinicInWhitefield
+export default BestDentalClinicInWhitefield;

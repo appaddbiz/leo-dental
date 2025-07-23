@@ -4,7 +4,8 @@ const Whitefield = () => {
       style={{
         height: "100vh",
         width: "100%",
-        overflow: "hidden",
+        overflowX: "hidden",
+        overflowY: "hidden",
         scrollbars: "none",
       }}
     >
