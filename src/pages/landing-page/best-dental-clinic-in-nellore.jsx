@@ -2,7 +2,7 @@ import Nellore from "../../components/landing-page/Nellore";
 
 function BestDentalClinicInNellore() {
   return (
-    <div>
+    <div className="hide-scrollbar">
       <Nellore />
     </div>
   );

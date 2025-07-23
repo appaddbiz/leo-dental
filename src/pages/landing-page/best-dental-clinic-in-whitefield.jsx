@@ -2,7 +2,7 @@ import Whitefield from "../../components/landing-page/Whitefield";
 
 function BestDentalClinicInWhitefield() {
   return (
-    <div>
+    <div className="hide-scrollbar">
       <Whitefield />
     </div>
   );
