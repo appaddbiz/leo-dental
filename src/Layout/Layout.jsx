@@ -73,7 +73,7 @@ const Layout = () => {
           />
         </Routes>
       </main>
-      {/* <ContactUs /> */}
+      {!hideFooterRoutes.includes(normalizedPath) && <ContactUs />}
       {!hideFooterRoutes.includes(normalizedPath) && <Footer />}
     </div>
   );
