@@ -2,8 +2,8 @@
 
 export default function RedirectWhitefield() {
   <div
-    style={{ height: "100vh", width: "100%", overflow: "hidden" }}
-    className="hide-scrollbar"
+    style={{ height: "100vh", width: "100%", overflow: "scroll" }}
+    
   >
     <iframe
       src="https://clinic.leodental.co.in/best-dental-clinic-in-whitefield/"

@@ -1,6 +1,9 @@
 const Whitefield = () => {
   return (
-    <div style={{ height: "100vh", width: "100%", overflow: "hidden" }}>
+    <div
+      style={{ height: "100vh", width: "100%", overflow: "hidden" }}
+      className="hide-scrollbar"
+    >
       <iframe
         src="https://clinic.leodental.co.in/best-dental-clinic-in-whitefield"
         title="Best Dental Clinic in Whitefield"
