@@ -9,6 +9,7 @@ const Whitefield = () => {
           height: "100%",
           border: "none",
           overflow: "hidden",
+          scrollbars: "none",
         }}
         allowFullScreen
       />
