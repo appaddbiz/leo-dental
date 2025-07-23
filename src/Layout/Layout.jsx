@@ -32,6 +32,7 @@ const Layout = () => {
     "/best-dental-clinic-in-tirupathi",
     "/best-dental-clinic-in-whitefield",
   ];
+  const normalizedPath = location.pathname.replace(/\/+$/, "");
   return (
     <div>
       <ScrollToTop />
@@ -73,7 +74,7 @@ const Layout = () => {
         </Routes>
       </main>
       <ContactUs />
-      {!hideFooterRoutes.includes(location.pathname) && <Footer />}
+      {!hideFooterRoutes.includes(normalizedPath) && <Footer />}
     </div>
   );
 };
