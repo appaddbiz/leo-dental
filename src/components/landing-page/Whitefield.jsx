@@ -11,6 +11,12 @@ const Whitefield = () => {
       <iframe
         src="https://clinic.leodental.co.in/best-dental-clinic-in-whitefield"
         title="Best Dental Clinic in Whitefield"
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+          overflow: "hidden",
+        }}
         allowFullScreen
       />
     </div>
