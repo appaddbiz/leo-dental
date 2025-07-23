@@ -47,3 +47,12 @@
     opacity: 0;
   }
 }
+
+body.hide-scrollbar {
+  overflow: hidden !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+body.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
