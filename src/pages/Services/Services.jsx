@@ -83,9 +83,7 @@ const Services = () => {
     <>
       <Helmet>
         {/* Meta Tags */}
-        <title>
-          Laser root canal treatment in Harlur | Laser gum treatment in Harlur
-        </title>
+        <title>Best Dentists in hsr layout</title>
         <meta
           name="description"
           content="Painless laser root canal and gum treatments in Harlur. Faster healing with expert care. Book your dental appointment today!"

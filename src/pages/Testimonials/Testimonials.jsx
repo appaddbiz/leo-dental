@@ -59,7 +59,7 @@ const Testimonials = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Best Teeth Aligner Specialist in Harlur | Best Dental Clinic in Harlur
+          Best teeth aligner specialist in hsr Layout
         </title>
         <meta
           name="description"

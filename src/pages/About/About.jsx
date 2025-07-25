@@ -13,7 +13,7 @@ const About = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Invisalign Doctor in Harlur | Specialist for Teeth Aligners Near Me
+          Trusted Dental Clinic in HSR Layout
         </title>
         <meta
           name="description"
