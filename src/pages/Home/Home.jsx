@@ -121,7 +121,9 @@ const Home = () => {
     <>
       <Helmet>
         {/* Meta Tags */}
-        <title>Best dental clinic in hsr layout</title>
+        <title>
+          Best dental clinic in hsr layout | Dental clinic in hsr layout
+        </title>
         <meta
           name="description"
           content="Get the best dental care in HSR Layout & Harlur! Expert treatments, clear aligners, and a perfect smile await. Book your appointment today!"

@@ -13,7 +13,7 @@ const About = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Trusted Dental Clinic in HSR Layout
+          Trusted Dental Clinic in HSR Layout | Dental Clinic in HSR Layout
         </title>
         <meta
           name="description"

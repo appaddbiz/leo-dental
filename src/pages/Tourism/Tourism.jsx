@@ -87,7 +87,7 @@ const Services = () => {
     <>
       <Helmet>
         <title>
-          Dental Tourism in Hsr layout | Best Dental pakages in HSR layout
+          Dental Tourism in Hsr layout | Best Dental pakages in HSR layout
         </title>
         <meta
           name="description"
@@ -222,8 +222,8 @@ const Services = () => {
                   treatments. Recognized as the
                   <h2 className="inline">Best Dental Clinic In HSR Layout</h2>,
                   our clinic offers advanced dental solutions combined with
-                  seamless medical support, ensuring a comfortable and
-                  efficient experience.
+                  seamless medical support, ensuring a comfortable and efficient
+                  experience.
                 </p>
               </div>
               <p className="text-[20px] mt-5 leading-8 lg:text-center text-justify">

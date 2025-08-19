@@ -8,7 +8,7 @@ const Contact = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Best Dentists Near Me in Hsr layout
+          Best Dentists Near Me in Hsr layout | Dentists Near Me in Hsr layout
         </title>
         <meta
           name="description"
@@ -28,7 +28,6 @@ const Contact = () => {
     `}
         </script>
 
-        
         {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({

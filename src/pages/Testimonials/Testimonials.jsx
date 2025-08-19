@@ -59,7 +59,8 @@ const Testimonials = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Best teeth aligner specialist in hsr Layout
+          Best teeth aligner specialist in hsr Layout | Teeth aligner specialist
+          in hsr Layout
         </title>
         <meta
           name="description"

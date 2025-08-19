@@ -69,9 +69,7 @@ const Profile = () => {
     <>
       <Helmet>
         {/* Meta Title & Description */}
-        <title>
-          Top Dentists in HSR Layout 
-        </title>
+        <title>Top Dentists in HSR Layout | Dentists in HSR Layout</title>
         <meta
           name="description"
           content="Restore your smile with single tooth implants in HSR Layout. Visit the best dental implant clinic for natural-looking tooth replacements."
