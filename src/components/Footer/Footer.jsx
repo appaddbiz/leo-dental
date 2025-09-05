@@ -37,6 +37,7 @@ const Footer = () => {
     { path: "/gallery", display: "Gallery" },
     { path: "/contact", display: "Contact Us" },
     { path: "/Leo-Align", display: "Leo Align" },
+    { path: "/sitemap/best-dental-clinic-in-hsr-layout", display: "Sitemap" },
   ];
   const treatments = [
     { path: "/service/invisalign", display: "Invisalign" },

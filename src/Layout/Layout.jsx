@@ -23,6 +23,7 @@ import BestDentalClinicInWhitefield from "../pages/landing-page/best-dental-clin
 import BestDentalClinicInHsrLayout from "../pages/landing-page/best-dental-clinic-in-hsr-layout";
 import BestDentalClinicInNellore from "../pages/landing-page/best-dental-clinic-in-nellore";
 import BestDentalClinicInTirupathi from "../pages/landing-page/best-dental-clinic-in-tirupathi";
+import BestDentalClinic from "../pages/Best-Dental-Clinic/BestDentalClinic";
 
 const Layout = () => {
   const location = useLocation();
@@ -70,6 +71,10 @@ const Layout = () => {
           <Route
             path="/best-dental-clinic-in-tirupathi"
             element={<BestDentalClinicInTirupathi />}
+          />
+          <Route
+            path="/sitemap/best-dental-clinic-in-hsr-layout"
+            element={<BestDentalClinic />}
           />
         </Routes>
       </main>
