@@ -20,7 +20,7 @@ import { TbPointFilled } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import ContactSection from "../../components/ContactSection";
 import { Helmet } from "react-helmet";
-const BestDentalClinic = () => {
+const DentistsHSR = () => {
   const service = [
     {
       img: service1,
@@ -102,10 +102,10 @@ const BestDentalClinic = () => {
     <>
       <Helmet>
         {/* Meta Tags */}
-        <title>Best Dental Clinic in HSR Layout</title>
+        <title>Dentists in HSR Layout</title>
         <meta
           name="description"
-          content="Discover the Best Dental Clinic in HSR Layout at Leo Dental. Expert care by Dr. Lahari ASR, MDS Gold Medalist, offering implants, root canals & smile care.
+          content="Find expert Dentists in HSR Layout at Leo Dental. Led by Dr. Lahari ASR, MDS Gold Medalist, offering implants, root canals, cosmetic & pediatric care.
 "
         />
 
@@ -130,7 +130,7 @@ const BestDentalClinic = () => {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Leo Dental",
-              url: "https://www.leodental.co.in/sitemap/best-dental-clinic-in-hsr-layout",
+              url: "https://www.leodental.co.in/sitemap/dentists-in-hsr-layout",
               logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
               contactPoint: {
                 "@type": "ContactPoint",
@@ -153,26 +153,21 @@ const BestDentalClinic = () => {
                 latitude: "12.9116",
                 longitude: "77.6412",
               },
-              keywords: [
-                "Best Dental Clinic in HSR Layout",
-                "Dental Clinic in HSR Layout",
-                "Full mouth zirconia crowns in Harlur",
-                "Full mouth zirconia crowns in Hsr Layout",
-                "Root canal specialist in Harlur",
-                "Best zirconia dental crowns near me",
-                "Zirconia crowns and root canal treatment in Harlur",
-                "Zirconia crowns and root canal treatment in HSR Layout",
-                "Best zirconia crowns in Harlur",
-                "Best zirconia crowns in HSR Layout",
-                "Best laser dentist in Harlur",
-                "Best laser dentist in Hsr Layout",
-              ],
-              dateEstablished: "2023-01-01",
               email: "leodentalbanglore@gmail.com",
+              dateEstablished: "2023-01-01",
               description:
-                "Discover the Best Dental Clinic in HSR Layout at Leo Dental. Expert care by Dr. Lahari ASR, MDS Gold Medalist, offering implants, root canals & smile care.",
-              alternateName: "Best Dental Clinic in HSR Layout",
-              slogan: "Best Dental Clinic in HSR Layout",
+                "Find expert Dentists in HSR Layout at Leo Dental. Led by Dr. Lahari ASR, MDS Gold Medalist, offering implants, root canals, cosmetic & pediatric care.",
+              alternateName: "Dentists in HSR Layout",
+              slogan: "Dentists in HSR Layout",
+              keywords: [
+                "Dentists in HSR Layout",
+                "Best Dentists in HSR Layout",
+                "Dental Clinic in HSR Layout",
+                "Root canal specialist in HSR Layout",
+                "Implantologist in HSR Layout",
+                "Pediatric dentist in HSR Layout",
+                "Cosmetic dentistry in HSR Layout",
+              ],
             }),
           }}
         />
@@ -399,52 +394,51 @@ const BestDentalClinic = () => {
         <section className="bg-[#E2E2E2] py-10 mt-10 md:mt-[89px] px-6 lg:px-2">
           <div className="md:max-w-[1300px] md:mx-auto text-center lg:text-left">
             <h1 className="text-[24px] lg:text-[32px] text-reds font-bold mb-4">
-              Best Dental Clinic in HSR Layout
+              Dentists in HSR Layout – Leo Dental
             </h1>
             <p className="text-[16px] lg:text-[20px] lg:leading-7 text-justify">
-              When it comes to your smile and oral health, choosing the Best
-              Dental Clinic in HSR Layout is a decision that requires trust,
-              expertise, and care. Leo Dental, led by Dr. Lahari ASR, stands as
-              one of the most reputed dental practices in Bangalore, offering
-              advanced treatments and a patient-first approach. With over 15
-              years of professional experience, Dr. Lahari has built Leo Dental
-              into a trusted name for comprehensive dental care in HSR Layout.
+              When it comes to maintaining oral health, finding reliable
+              dentists in HSR Layout is essential. Dental care is not just about
+              achieving a beautiful smile—it is about protecting overall health,
+              preventing infections, and improving quality of life. In the
+              fast-growing locality of HSR Layout, Leo Dental has become a
+              trusted choice for families seeking advanced dental care. Under
+              the leadership of Dr. Lahari ASR, the clinic combines experience,
+              compassion, and modern technology to provide world-class
+              treatments.
             </p>
           </div>
         </section>
 
         <section className="bg-[#E2E2E2] py-10 flex flex-col gap-y-5 lg:gap-x-20 items-center px-6 lg:px-2">
+          {/* About Dr. Lahari */}
           <div className="flex lg:justify-between lg:flex-row flex-col md:max-w-[1300px] md:mx-auto w-full lg:gap-y-10">
-            {/* Left Content */}
             <div className="md:w-1/2 space-y-6">
               <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
                 About Dr. Lahari ASR
               </h2>
               <p className="text-[16px] lg:text-[20px] lg:leading-7 text-justify">
-                Dr. Lahari ASR is a highly qualified dentist with an exceptional
-                academic and clinical background. She is an MDS Gold Medalist, a
-                Public Health Dentist, and an Ex-Alumni of Sardar Patel Dental
-                College, Lucknow. Currently a Reader at Narayana Dental College,
-                she combines her strong academic expertise with years of
-                clinical excellence. Her achievements include being a Colgate
-                IDA Award Scholarship Awardee, which highlights her commitment
-                to dental innovation and community service.
+                Dr. Lahari ASR is the driving force behind Leo Dental. She is an
+                MDS Gold Medalist, an experienced Public Health Dentist, and a
+                respected academic serving as Reader at Narayana Dental College.
+                An Ex-Alumni of Sardar Patel Dental College, Lucknow, she has
+                been awarded the prestigious Colgate IDA Award Scholarship for
+                her dedication to the field.
               </p>
               <p className="text-[16px] lg:text-[20px] lg:leading-7 text-justify">
-                Beyond her academic and professional milestones, Dr. Lahari is
-                known for her gentle approach and her ability to make even the
-                most anxious patients feel at ease. As an Implantologist, Root
-                Canal Specialist, and expert in Pediatric & Preventive Dental
-                Practice, she ensures that every patient receives world-class
-                care tailored to their needs.
+                Her clinical expertise covers a wide range of dental treatments,
+                including implants, root canals, pediatric dentistry, and
+                preventive care. Patients often choose her not just for her
+                qualifications, but also for her ability to make every dental
+                visit comfortable and stress-free, making her one of the most
+                sought-after dentists in HSR Layout.
               </p>
             </div>
 
-            {/* Right Image */}
-            <div className="w-full lg:w-[45%] h-[250px] lg:h-[60%]  rounded-2xl mt-10">
+            <div className="w-full lg:w-[45%] h-[250px] lg:h-[60%] rounded-2xl mt-10">
               <img
                 src={img1}
-                alt="Leo Dental Clinic"
+                alt="Dentists in HSR Layout - Leo Dental"
                 className="w-full h-full object-cover rounded-2xl"
               />
             </div>
@@ -454,51 +448,18 @@ const BestDentalClinic = () => {
           <div className="flex justify-between lg:flex-row flex-col w-full md:max-w-[1300px] md:mx-auto lg:gap-y-10 mt-10">
             <div className="md:w-1/2 space-y-6">
               <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
-                Why Choose Leo Dental?
+                Why Choose Dentists in HSR Layout?
               </h2>
-              <ul className="list-disc pl-5 text-[16px] lg:text-[20px] lg:leading-7 space-y-3">
-                <li>
-                  Comprehensive Dental Services – From preventive checkups and
-                  pediatric dentistry to advanced root canal treatments,
-                  implants, and cosmetic dentistry, all services are available
-                  under one roof.
-                </li>
-                <li>
-                  Expertise & Experience – With Dr. Lahari’s 15 years of
-                  experience and specialization in multiple dental fields,
-                  patients receive precise and painless treatments.
-                </li>
-                <li>
-                  Patient-Centric Approach – Every treatment is explained in
-                  detail, and the focus is always on comfort, transparency, and
-                  long-term oral health.
-                </li>
-                <li>
-                  Modern Facilities – The clinic is equipped with the latest
-                  dental technology to ensure accurate diagnosis and efficient
-                  treatment.
-                </li>
-                <li>
-                  Trusted by Families – Leo Dental has become the go-to clinic
-                  for families in HSR Layout, thanks to its combination of
-                  professional care and a warm, welcoming environment.
-                </li>
-              </ul>
-            </div>
-
-            <div className="w-full lg:w-[45%] h-[250px] lg:h-[60%] rounded-2xl">
-              <img
-                src="/sitemap/Best Dental Clinic in HSR Layout.jpg"
-                alt="Dental Treatment"
-                className="w-full h-full object-cover rounded-2xl"
-              />
-            </div>
-          </div>
-
-          {/* Specializations */}
-          <div className="md:max-w-[1300px] md:mx-auto w-full mt-10 space-y-6">
-            <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
-              Specializations at Leo Dental
+              <p className="text-[16px] lg:text-[20px] lg:leading-7 text-justify">
+                HSR Layout has several clinics, but patients need dental
+                professionals who are both highly skilled and approachable. The
+                right dentist can prevent problems before they become serious,
+                provide accurate diagnosis, and ensure painless treatments. At
+                Leo Dental, you get access to one of the most qualified dentists
+                in HSR Layout, with over 15 years of proven expertise.
+              </p>
+               <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
+              Services Offered at Leo Dental
             </h2>
             <ul className="list-disc pl-5 text-[16px] lg:text-[20px] lg:leading-7 space-y-3">
               <li>
@@ -506,47 +467,92 @@ const BestDentalClinic = () => {
                 missing teeth.
               </li>
               <li>
-                Root Canal Treatment – Advanced, pain-free procedures to save
-                natural teeth.
+                Root Canal Treatment – Painless and advanced techniques to
+                preserve natural teeth.
               </li>
               <li>
-                Pediatric Dentistry – Gentle and preventive care for children’s
-                oral health.
+                Pediatric Dentistry – Child-friendly dental care focusing on
+                prevention and comfort.
               </li>
               <li>
-                Preventive Dentistry – Regular cleanings, checkups, and fluoride
-                treatments to avoid dental issues.
+                Preventive Dentistry – Cleanings, check-ups, and fluoride
+                treatments to prevent cavities.
               </li>
               <li>
-                Cosmetic Dentistry – Smile makeovers, whitening, and restorative
-                treatments.
+                Cosmetic Dentistry – Smile correction, teeth whitening, zirconia
+                crowns, and veneers.
+              </li>
+              <li>
+                Laser Dentistry – Precise and minimally invasive procedures for
+                faster recovery.
+              </li>
+            </ul>
+            </div>
+
+            <div className="w-full lg:w-[45%] h-[250px] lg:h-[60%] rounded-2xl mt-10">
+              <img
+                src="/sitemap/dentists-in-hsr-layout.jpg"
+                alt="Dental Care at Leo Dental"
+                className="w-full h-full object-cover rounded-2xl"
+              />
+            </div>
+          </div>
+
+
+          {/* Patient-Centric Approach */}
+          <div className="md:max-w-[1300px] md:mx-auto w-full mt-10 space-y-6">
+            <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
+              Patient-Centric Approach
+            </h2>
+            <p className="text-[16px] lg:text-[20px] lg:leading-7 text-justify">
+              Leo Dental focuses on clear communication about treatment options,
+              transparent pricing, gentle handling of children and elderly
+              patients, and long-term dental health. Patients appreciate this
+              honest and caring approach, which makes Leo Dental a recommended
+              destination for dentists in HSR Layout.
+            </p>
+          </div>
+
+          {/* Why Families Trust Leo Dental */}
+          <div className="md:max-w-[1300px] md:mx-auto w-full mt-10 space-y-6">
+            <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
+              Why Families Trust Leo Dental
+            </h2>
+            <ul className="list-disc pl-5 text-[16px] lg:text-[20px] lg:leading-7 space-y-3">
+              <li>
+                Highly Qualified Dentist – Dr. Lahari’s credentials and awards
+                highlight her expertise.
+              </li>
+              <li>
+                15 Years of Experience – Extensive clinical practice across all
+                age groups.
+              </li>
+              <li>
+                Modern Facilities – Advanced equipment for accurate diagnosis
+                and effective treatment.
+              </li>
+              <li>
+                Comprehensive Care – All dental treatments available under one
+                roof.
+              </li>
+              <li>
+                Trusted by the Community – Patients across HSR Layout recommend
+                Leo Dental for consistent, quality care.
               </li>
             </ul>
           </div>
 
-          {/* Patient Experience */}
+          {/* Contact Info */}
           <div className="md:max-w-[1300px] md:mx-auto w-full mt-10 space-y-6">
             <h2 className="text-[22px] lg:text-[28px] text-reds font-semibold">
-              Patient Experience at Leo Dental
+              Contact Leo Dental – Dentists in HSR Layout
             </h2>
             <p className="text-[16px] lg:text-[20px] lg:leading-7">
-              With such a wide range of services, Leo Dental has earned its
-              place as the Best Dental Clinic in HSR Layout for patients of all
-              ages.
-            </p>
-            <p className="text-[16px] lg:text-[20px] lg:leading-7">
-              What truly sets Leo Dental apart is the experience patients have
-              during their visits. From the moment you step in, the clinic
-              ensures a stress-free atmosphere. Whether it is a child’s first
-              dental visit, an adult’s root canal, or an elderly patient’s
-              dental implant, the focus is always on comfort and care.
-            </p>
-            <p className="text-[16px] lg:text-[20px] lg:leading-7">
-              Dr. Lahari’s friendly demeanor and her team’s professionalism make
-              every patient feel valued. This commitment to compassionate care
-              is what transforms a routine dental visit into a positive
-              experience, reinforcing Leo Dental’s reputation as the Best Dental
-              Clinic in HSR Layout.
+              📍 Leo Dental – HSR Layout, Bangalore
+              <br />
+              📞 +91 93471 08123
+              <br />
+              ✉️ leodentalbanglore@gmail.com
             </p>
           </div>
         </section>
@@ -669,4 +675,4 @@ const BestDentalClinic = () => {
   );
 };
 
-export default BestDentalClinic;
+export default DentistsHSR;

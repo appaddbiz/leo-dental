@@ -24,6 +24,11 @@ import BestDentalClinicInHsrLayout from "../pages/landing-page/best-dental-clini
 import BestDentalClinicInNellore from "../pages/landing-page/best-dental-clinic-in-nellore";
 import BestDentalClinicInTirupathi from "../pages/landing-page/best-dental-clinic-in-tirupathi";
 import BestDentalClinic from "../pages/Best-Dental-Clinic/BestDentalClinic";
+import DentalClinicHSR from "../pages/Best-Dental-Clinic/DentalClinicHSR ";
+import BestDentistsHSR from "../pages/Best-Dental-Clinic/BestDentistsHSR";
+import DentistsHSR from "../pages/Best-Dental-Clinic/DentistsHSR";
+import TopDentistsHSR from "../pages/Best-Dental-Clinic/TopdentistsHSR";
+import Sitemap from "../pages/Sitemap/Sitemap";
 
 const Layout = () => {
   const location = useLocation();
@@ -68,6 +73,7 @@ const Layout = () => {
             path="/best-dental-clinic-in-nellore"
             element={<BestDentalClinicInNellore />}
           />
+          <Route path="/sitemap" element={<Sitemap />} />
           <Route
             path="/best-dental-clinic-in-tirupathi"
             element={<BestDentalClinicInTirupathi />}
@@ -75,6 +81,22 @@ const Layout = () => {
           <Route
             path="/sitemap/best-dental-clinic-in-hsr-layout"
             element={<BestDentalClinic />}
+          />
+          <Route
+            path="/sitemap/dental-clinic-in-hsr-layout"
+            element={<DentalClinicHSR />}
+          />
+          <Route
+            path="/sitemap/best-dentists-in-hsr-layout"
+            element={<BestDentistsHSR />}
+          />
+          <Route
+            path="/sitemap/dentists-in-hsr-layout"
+            element={<DentistsHSR />}
+          />
+          <Route
+            path="/sitemap/top-dentists-in-hsr-layout"
+            element={<TopDentistsHSR />}
           />
         </Routes>
       </main>
