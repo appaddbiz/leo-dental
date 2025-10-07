@@ -38,7 +38,8 @@ const Invisalign = () => {
         </title>
         <meta
           name="description"
-          content="Get the best Invisalign Treatment in HSR Layout with clear aligners. Visit our dental clinic for advanced, painless, & effective teeth straightening solutions."
+          content="Get the best Invisalign Treatment in HSR Layout with clear aligners Visit our dental clinic for advanced, painless, effective teeth straightening solutions
+"
         />
 
         <script
@@ -53,8 +54,54 @@ const Invisalign = () => {
       gtag('config', 'G-D6RGQC5PCK');
     `}
         </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Invisalign Treatment in HSR Layout | Dental Clinic In HSR Layout",
+              url: "https://www.leodental.co.in/service/invisalign",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Get the best Invisalign Treatment in HSR Layout with clear aligners. Visit our dental clinic for advanced, painless, effective teeth straightening solutions.",
+              keywords: [
+                "Invisalign Treatment in HSR layout",
+                "Invisalign treatment in HSR layout",
+                "Clear aligners in HSR layout",
+                "Invisible braces in HSR layout",
+                "Invisalign cost in HSR layout",
+                "Invisalign dentist near me",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
       <div className="pt-20">
+        <h2 style={{ display: "none" }}>Invisalign Treatment in HSR layout</h2>
         <ServiceBanner img={banner} text="Invisalign" />
         <section className="max-w-[1400px] mx-auto mt-[80px] lg:px-0 px-5">
           <div className="relative ">

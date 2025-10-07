@@ -122,7 +122,7 @@ const Home = () => {
       <Helmet>
         {/* Meta Tags */}
         <title>
-          Best dental clinic in hsr layout | Dental clinic in hsr layout
+          Best dental clinic in HSR Layout | Dental Clinic in HSR Layout
         </title>
         <meta
           name="description"
@@ -143,53 +143,53 @@ const Home = () => {
         </script>
 
         {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "leodental",
-            url: "https://www.leodental.co.in/",
-            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91 93471 08123",
-              contactType: "Customer Service",
-              areaServed: "IN",
-              availableLanguage: "English",
-            },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560102",
-              addressCountry: "IN",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "12.9116",
-              longitude: "77.6412",
-            },
-            keywords: [
-              "Full mouth zirconia crowns in Harlur",
-              "Full mouth zirconia crowns in Hsr Layout",
-              "Root canal specialist in harlur",
-              "Best zirconia dental crowns near me",
-              "Zirconia crowns and root canal treatment in harlur",
-              "Zirconia crowns and root canal treatment in hsr Layout",
-              "Best zirconia crowns in Harlur",
-              "Best zirconia crowns in HSR Layout",
-              "Best laser dentist in harlur",
-              "Best laser dentist in Hsr Layout",
-            ],
-            dateEstablished: "2023-01-01",
-            email: "leodentalbanglore@gmail.com",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Best Dental Clinic in HSR Layout | Dental Clinic in HSR Layout",
+              url: "https://www.leodental.co.in/",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Get the best dental care in HSR Layout & Harlur! Expert treatments, clear aligners, and a perfect smile await. Book your appointment today!",
+              keywords: [
+                "Best dental clinic in HSR Layout",
+                "Dental Clinic in HSR Layout",
+                "Best dental clinic in HSR",
+                "Dental Clinic in HSR",
+                "Dental clinic in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
       {/* Page Content */}
-      <h2 style={{ display: "none" }}>Clear Aligners Clinic in Harlur</h2>
+      <h2 style={{ display: "none" }}>Best dental clinic in HSR Layout</h2>
 
       <div className="pt-1">
         <section className="lg:h-[752px] w-full bg-white pt-20 ">

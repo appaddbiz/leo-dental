@@ -83,10 +83,10 @@ const Services = () => {
     <>
       <Helmet>
         {/* Meta Tags */}
-        <title>Best Dentists in hsr layout | Dentists in hsr layout </title>
+        <title>Best Dentists in HSR layout | Dentists in HSR layout </title>
         <meta
           name="description"
-          content="Painless laser root canal and gum treatments in Harlur. Faster healing with expert care. Book your dental appointment today!"
+          content="Leo Dental Clinic, the best dental clinic in HSR Layout, offers expert care, advanced treatments, and personalized dental solutions for every patient"
         />
 
         <script
@@ -103,58 +103,51 @@ const Services = () => {
         </script>
 
         {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "leodental",
-            url: "https://www.leodental.co.in/services",
-            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91 93471 08123",
-              contactType: "Customer Service",
-              areaServed: "IN",
-              availableLanguage: "English",
-            },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560102",
-              addressCountry: "IN",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "12.9116",
-              longitude: "77.6412",
-            },
-            keywords: [
-              "Laser root canal treatment in Harlur",
-              "Laser root canal treatment in HSR Layout",
-              "Laser teeth whitening in Hsr Layout",
-              "Laser teeth whitening in Harlur",
-              "Best laser dental clinic in Harlur",
-              "Best laser dental clinic in HSR Layout",
-              "Laser gum treatment in Harlur",
-              "Laser gum treatment in HSR Layout",
-              "Single tooth implants in hsr Layout",
-              "Single tooth implants in Harlur",
-              "Full mouth dental implants in Harlur",
-              "Full mouth dental implants in HSR Layout",
-            ],
-            description:
-              "Painless laser root canal and gum treatments in Harlur. Faster healing with expert care. Book your dental appointment today!",
-            dateEstablished: "2023-01-01",
-            email: "leodentalbanglore@gmail.com",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Best Dentists in HSR Layout | Dentists in HSR Layout",
+              url: "https://www.leodental.co.in/services",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Leo Dental Clinic, the best dental clinic in HSR Layout, offers expert care, advanced treatments, and personalized dental solutions for every patient.",
+              keywords: [
+                "Best Dentists in HSR Layout",
+                "Dentists in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
 
       {/* Page Content */}
-      <h2 style={{ display: "none" }}>Laser Gum Treatment in Harlur</h2>
+      <h2 style={{ display: "none" }}>Dentists in HSR layout</h2>
 
       <div className="pt-20">
         <Banner img={banner}>

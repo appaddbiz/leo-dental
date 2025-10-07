@@ -7,6 +7,7 @@ import Accordian, { AccordianItem } from "../../components/Accordion";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact3.png";
 import ServiceBanner from "../../components/banner/ServiceBanner";
+import { Helmet } from "react-helmet";
 
 const Laser = () => {
   const listItems = [
@@ -47,139 +48,212 @@ const Laser = () => {
     },
   ];
   return (
-    <div className="pt-20">
-      <ServiceBanner img={banner} text="Laser Dentistry" />
-      <section className="max-w-[1400px] mx-auto px-4 lg:px-0 mt-[80px]">
-        <div className="relative ">
-          <div className="lg:w-[935px] w-[273px] h-[52px] lg:h-[164px]">
-            <img src={text} alt="" className="" />
-          </div>
-          <h1 className="lg:text-[52px] text-[30px]  absolute top-2 lg:top-12 text-reds  ">
-            Laser Dentistry
-          </h1>
-          <h1 className="lg:text-[22px]">Laser gum Treatment in Hsr Layout</h1>
-          <p className="lg:text-[22px] lg:leading-8 mt-5 lg:mt-0">
-            Laser dentistry is fast gaining momentum in the dental field. This
-            process involves focusing a laser beam through an optical fiber over
-            the teeth and gums. Usually, this method is a far safer and more
-            innovative way of dealing with dental problems. There are many
-            scenarios like bleeding gums, stained gums, stained teeth, etc.,
-            that people tend to suffer from. Hence a process like Laser
-            dentistry is being used to restore good gums and teeth. Gum bleeding
-            can also be stopped with the proper application of Laser Dentistry.
-            <h2 className="inline">Laser gum Treatment in HSR Layout</h2> is now
-            widely sought after for its precision and minimally invasive nature.
-            Laser Dentistry is considered to be a marvel in the dental arena
-            field. Laser dentistry will kill the bacteria cropping up inside
-            your mouth. There are many benefits offered by laser dentistry.
-            Laser dentistry in Hyderabad is the best at ADS Dental Hospital.
-            Laser bad breath treatment is also offered here. The bacteria gets
-            killed, this process is completel painless.
-          </p>
-          {listItems.map((item, index) => (
-            <ul
-              key={index}
-              className="font-normal marker:text-reds text-[18px]  leading-[24px] lg:text-[22px] lg:leading-[28.64px] list-disc list-outside pl-5 mt-4"
-            >
-              <li className="text-black mt-4">{item}</li>
-            </ul>
-          ))}
-        </div>
-      </section>{" "}
-      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 flex gap-10 lg:flex-row px-2 lg:px-0 flex-col gap-x-10 justify-between items-center">
-        <div className="lg:w-[435px] lg:h-[375px]">
-          <img src={img4} alt="" className="" />
-        </div>
-        <div className="lg:w-2/3">
-          <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] leading-9">
-            Benefits Of <span className="text-reds">Laser Treatments</span>{" "}
-          </h1>
-          <p className="lg:text-[22px] lg:leading-8 lg:mt-10">
-            Laser treatment has several benefits. In most instances, it can be
-            carried out without the need for anaesthesia. There is also markedly
-            less bleeding and swelling. Decreased bleeding is due to the ability
-            of the laser to assist in forming a fibrin clot. This eliminates the
-            need for placing sutures (stitches) and wounds heal faster. And
-            there’s more. Lasers kill the harmful bacteria and sterilize the
-            working area thereby reducing the need for antibiotics.
-          </p>
-          <p className="lg:text-[22px] lg:leading-8 mt-4">
-            The laser energy from dental lasers is delivered through an optical
-            fibre. The fibre is continuously moved along the infected area to
-            burn the infected tissues.
-          </p>
-        </div>
-      </section>{" "}
-      <section className="bg-[#E2E2E2] lg:mt-[80px] mt-10  py-10 px-4 lg:px-0">
-        <div className="max-w-[1400px] mx-auto ">
-          <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] ">
-            Unique <span className="text-reds">Advantages</span>{" "}
-          </h1>
-          <ul className="font-normal  grid lg:grid-cols-2  max-w-[1180px] lg:gap-y-5 marker:text-reds lg:text-[22px] leading-[28.64px] list-disc list-inside lg:mt-10">
-            {dentalImplantTypes.map((item, index) => (
-              <li key={index} className="text-black">
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-      <section className="max-w-[1400px]  bg-[#FFF6CA] mx-auto lg:mt-[80px] mt-10  p-10 flex lg:flex-row px-2 lg:px-10 flex-col  gap-x-10 justify-between items-center">
-        <div className="lg:w-2/3">
-          <h1 className="lg:text-[52px] text-[30px]  text-reds">
-            How does it work?
-          </h1>
-          <p className="lg:text-[22px] lg:leading-8 mt-5">
-            How this works is that a laser with a rather small amount of energy
-            is directed with great precision at the disease portions of the gum.
-            The laser then removes the tissue which is diseased, thus
-            eliminating infection. This whole process is done without any type
-            of incision. This is so because the laser immediately cauterizes
-            (use of heat to close an area to prevent or stop bleeding) the
-            wound, resulting in little to no bleeding. The use of the laser is
-            so effective that the patient only experiences minor discomfort
-            making anesthesia unnecessary
-          </p>
-        </div>
-        <div className="lg:w-[403px] lg:sh-[321px] mt-5 lg:mt-0">
-          <img src={img6} alt="" className="" />
-        </div>
-      </section>
-      <section className="max-w-[1400px] px-3 lg:px-0 mx-autolg:mt-[80px] mt-10 mx-auto flex flex-col lg:flex-row gap-7 justify-between items-center">
-        <div className="lg:w-[457px] lg:h-[363px]">
-          <img src={img5} alt="" className="" />
-        </div>
-        <div className="lg:w-2/3">
-          <h1 className="lg:text-[52px] text-[30px] ] text-reds">Recovery</h1>
-          <p className="lg:text-[22px] lg:leading-8 lg:mt-10">
-            Since laser gum surgery is so effective the recovery time is less
-            than 24 hours where traditional gum surgery requires 2-4 weeks of
-            recovery time. In fact the lasers for this surgical use where
-            created by dentists and receive extensive clinical trials before
-            receiving Federal Drug Administration approval.
-          </p>
-        </div>
-      </section>
-      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10  px-2 lg:px-0">
-        <h1 className="g:text-[52px] text-[30px] text-reds leading-[62px]  ">
-          Laser Dentistry FAQ&apos;s
-        </h1>
-        <div className="lg:mt-10">
-          <Accordian>
-            {accordionData.map((item) => (
-              <AccordianItem
-                key={item.value}
-                value={item.value}
-                trigger={item.trigger}
+    <>
+      <Helmet>
+        {/* Meta Title & Description */}
+        <title>Laser Dentistry in HSR layout | Leo Dental Clinic</title>
+        <meta
+          name="description"
+          content="Leo Dental Clinic provides expert laser dentistry in HSR Layout with painless treatments, advanced care, and faster healing for healthy, confident smiles.
+"
+        />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Laser Dentistry in HSR Layout | Leo Dental Clinic",
+              url: "https://www.leodental.co.in/service/laser-dentistry",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Leo Dental Clinic provides expert laser dentistry in HSR Layout with painless treatments, advanced care, and faster healing for healthy, confident smiles.",
+              keywords: [
+                "Laser dentistry in HSR Layout",
+                "Dental laser treatment in HSR Layout",
+                "Gum laser therapy in HSR Layout",
+                "Laser tooth surgery in HSR Layout",
+                "Pain-free dental treatment in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
+      </Helmet>
+      <div className="pt-20">
+        <h2 style={{ display: "none" }}>Laser Dentistry in HSR layout</h2>
+        <ServiceBanner img={banner} text="Laser Dentistry" />
+        <section className="max-w-[1400px] mx-auto px-4 lg:px-0 mt-[80px]">
+          <div className="relative ">
+            <div className="lg:w-[935px] w-[273px] h-[52px] lg:h-[164px]">
+              <img src={text} alt="" className="" />
+            </div>
+            <h1 className="lg:text-[52px] text-[30px]  absolute top-2 lg:top-12 text-reds  ">
+              Laser Dentistry
+            </h1>
+            <h1 className="lg:text-[22px]">
+              Laser gum Treatment in Hsr Layout
+            </h1>
+            <p className="lg:text-[22px] lg:leading-8 mt-5 lg:mt-0">
+              Laser dentistry is fast gaining momentum in the dental field. This
+              process involves focusing a laser beam through an optical fiber
+              over the teeth and gums. Usually, this method is a far safer and
+              more innovative way of dealing with dental problems. There are
+              many scenarios like bleeding gums, stained gums, stained teeth,
+              etc., that people tend to suffer from. Hence a process like Laser
+              dentistry is being used to restore good gums and teeth. Gum
+              bleeding can also be stopped with the proper application of Laser
+              Dentistry.
+              <h2 className="inline">Laser gum Treatment in HSR Layout</h2> is
+              now widely sought after for its precision and minimally invasive
+              nature. Laser Dentistry is considered to be a marvel in the dental
+              arena field. Laser dentistry will kill the bacteria cropping up
+              inside your mouth. There are many benefits offered by laser
+              dentistry. Laser dentistry in Hyderabad is the best at ADS Dental
+              Hospital. Laser bad breath treatment is also offered here. The
+              bacteria gets killed, this process is completel painless.
+            </p>
+            {listItems.map((item, index) => (
+              <ul
+                key={index}
+                className="font-normal marker:text-reds text-[18px]  leading-[24px] lg:text-[22px] lg:leading-[28.64px] list-disc list-outside pl-5 mt-4"
               >
-                {item.content}
-              </AccordianItem>
+                <li className="text-black mt-4">{item}</li>
+              </ul>
             ))}
-          </Accordian>
-        </div>
-      </section>
-      <ContactSection image={contact} />
-    </div>
+          </div>
+        </section>{" "}
+        <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 flex gap-10 lg:flex-row px-2 lg:px-0 flex-col gap-x-10 justify-between items-center">
+          <div className="lg:w-[435px] lg:h-[375px]">
+            <img src={img4} alt="" className="" />
+          </div>
+          <div className="lg:w-2/3">
+            <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] leading-9">
+              Benefits Of <span className="text-reds">Laser Treatments</span>{" "}
+            </h1>
+            <p className="lg:text-[22px] lg:leading-8 lg:mt-10">
+              Laser treatment has several benefits. In most instances, it can be
+              carried out without the need for anaesthesia. There is also
+              markedly less bleeding and swelling. Decreased bleeding is due to
+              the ability of the laser to assist in forming a fibrin clot. This
+              eliminates the need for placing sutures (stitches) and wounds heal
+              faster. And there’s more. Lasers kill the harmful bacteria and
+              sterilize the working area thereby reducing the need for
+              antibiotics.
+            </p>
+            <p className="lg:text-[22px] lg:leading-8 mt-4">
+              The laser energy from dental lasers is delivered through an
+              optical fibre. The fibre is continuously moved along the infected
+              area to burn the infected tissues.
+            </p>
+          </div>
+        </section>{" "}
+        <section className="bg-[#E2E2E2] lg:mt-[80px] mt-10  py-10 px-4 lg:px-0">
+          <div className="max-w-[1400px] mx-auto ">
+            <h1 className="lg:text-[52px] text-[30px] lg:leading-[60px] ">
+              Unique <span className="text-reds">Advantages</span>{" "}
+            </h1>
+            <ul className="font-normal  grid lg:grid-cols-2  max-w-[1180px] lg:gap-y-5 marker:text-reds lg:text-[22px] leading-[28.64px] list-disc list-inside lg:mt-10">
+              {dentalImplantTypes.map((item, index) => (
+                <li key={index} className="text-black">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+        <section className="max-w-[1400px]  bg-[#FFF6CA] mx-auto lg:mt-[80px] mt-10  p-10 flex lg:flex-row px-2 lg:px-10 flex-col  gap-x-10 justify-between items-center">
+          <div className="lg:w-2/3">
+            <h1 className="lg:text-[52px] text-[30px]  text-reds">
+              How does it work?
+            </h1>
+            <p className="lg:text-[22px] lg:leading-8 mt-5">
+              How this works is that a laser with a rather small amount of
+              energy is directed with great precision at the disease portions of
+              the gum. The laser then removes the tissue which is diseased, thus
+              eliminating infection. This whole process is done without any type
+              of incision. This is so because the laser immediately cauterizes
+              (use of heat to close an area to prevent or stop bleeding) the
+              wound, resulting in little to no bleeding. The use of the laser is
+              so effective that the patient only experiences minor discomfort
+              making anesthesia unnecessary
+            </p>
+          </div>
+          <div className="lg:w-[403px] lg:sh-[321px] mt-5 lg:mt-0">
+            <img src={img6} alt="" className="" />
+          </div>
+        </section>
+        <section className="max-w-[1400px] px-3 lg:px-0 mx-autolg:mt-[80px] mt-10 mx-auto flex flex-col lg:flex-row gap-7 justify-between items-center">
+          <div className="lg:w-[457px] lg:h-[363px]">
+            <img src={img5} alt="" className="" />
+          </div>
+          <div className="lg:w-2/3">
+            <h1 className="lg:text-[52px] text-[30px] ] text-reds">Recovery</h1>
+            <p className="lg:text-[22px] lg:leading-8 lg:mt-10">
+              Since laser gum surgery is so effective the recovery time is less
+              than 24 hours where traditional gum surgery requires 2-4 weeks of
+              recovery time. In fact the lasers for this surgical use where
+              created by dentists and receive extensive clinical trials before
+              receiving Federal Drug Administration approval.
+            </p>
+          </div>
+        </section>
+        <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10  px-2 lg:px-0">
+          <h1 className="g:text-[52px] text-[30px] text-reds leading-[62px]  ">
+            Laser Dentistry FAQ&apos;s
+          </h1>
+          <div className="lg:mt-10">
+            <Accordian>
+              {accordionData.map((item) => (
+                <AccordianItem
+                  key={item.value}
+                  value={item.value}
+                  trigger={item.trigger}
+                >
+                  {item.content}
+                </AccordianItem>
+              ))}
+            </Accordian>
+          </div>
+        </section>
+        <ContactSection image={contact} />
+      </div>
+    </>
   );
 };
 

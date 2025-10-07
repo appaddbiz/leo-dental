@@ -6,6 +6,7 @@ import Accordian, { AccordianItem } from "../../components/Accordion";
 import ContactSection from "../../components/ContactSection";
 import contact from "../../assets/ourservice/contact5.png";
 import ServiceBanner from "../../components/banner/ServiceBanner";
+import { Helmet } from "react-helmet";
 
 const Braces = () => {
   const braces = [
@@ -56,84 +57,156 @@ const Braces = () => {
   ];
 
   return (
-    <div className="pt-20">
-      <ServiceBanner img={banner} text="Dental Braces" />
-      <section className="max-w-[1400px] px-4 lg:mx-auto lg:mt-[80px] mt-10">
-        <div className="relative ">
-          <div className="lg:w-[850px] w-[249px] h-[100px] lg:h-[164px]">
-            <img src={text} alt="" className="" />
-          </div>
-          <h1 className="lg:text-[52px]  text-[30px] absolute top-3 leading-9 lg:top-16 text-reds  ">
-            Braces For Teeth Alignment
-          </h1>
-          <h1 className="lg:text-[22px]">
-            Best Orthodontist Doctors For Clear Aligners in Hsr Layout
-          </h1>
-          <p className="lg:text-[22px] text-lg lg:leading-8">
-            Orthodontics is the specialization of dentistry, which deals with
-            correcting the bite and arrangement of teeth, thus improving the
-            smile and function of the teeth. The irregularities of teeth are
-            called Malocclusions and are an important factor in robbing one of a
-            good smile. A good smile adds up to the personality of an
-            individual. A fabulous smile makes you attractive and also improves
-            one’s confidence levels. Braces improve your smile and therefore
-            improve your appearance. Braces are now considered a very important
-            fashion accessory. Usually, people today suffer from teeth alignment
-            issues like protruding teeth, or teeth severely misaligned. All
-            these issues will rob your smile, and hence medical rectifying
-            procedures have to be implemented so that a person can flaunt a
-            sweet smile. If you’re looking for expert care, the{" "}
-            <h2 className="inline">
-              Best Orthodontist Doctors For Clear Aligners in HSR Layout
-            </h2>{" "}
-            offer advanced treatment options to help you achieve a perfect
-            smile. Braces cost is by far the most reasonabl here.
-          </p>
-        </div>
-      </section>{" "}
-      <section className="max-w-[1400px] mt-10 mx-auto lg:mt-[80px]">
-        <h1 className="lg:text-[52px] text-[30px] text-reds text-center ">
-          Types of Braces
-        </h1>
-        <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-10 rounded-xl mt-7 lg:mt-14">
-          {braces.map((item, index) => (
-            <div
-              key={index}
-              className="lg:w-[544px] lg:h-[616px] bg-[#E2E2E2] py-12 lg:px-0 px-5 flex flex-col items-center justify-center"
-            >
-              <div className="lg:w-[454px] h-[]">
-                <img src={item.img} alt="" className="imgs" />
-              </div>
-              <div className="mt-3 lg:px-10 text-left">
-                <h1 className="text-[24px] text-reds font-medium">
-                  {item.heading}
-                </h1>
-                <p className="lg:text-[20px] lg:leading-7  mt-3">{item.desc}</p>
-              </div>
+    <>
+      <Helmet>
+        {/* Meta Title & Description */}
+        <title>Braces Treatment in HSR Layout | Leo Dental Clinic</title>
+        <meta
+          name="description"
+          content="Get aligned, confident smiles with expert braces treatment at Leo Dental Clinic, HSR Layout. Options including metal & clear braces available.
+"
+        />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
+        ></script>
+        <script>
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D6RGQC5PCK');
+    `}
+        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Braces Treatment in HSR Layout | Leo Dental Clinic",
+              url: "https://www.leodental.co.in/service/Braces",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Get aligned, confident smiles with expert braces treatment at Leo Dental Clinic, HSR Layout. Options including metal & clear braces available.",
+              keywords: [
+                "Braces Treatment in HSR Layout",
+                "Orthodontic braces treatment",
+                "Clear braces",
+                "Traditional braces dentist",
+                "Affordable braces",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
+      </Helmet>
+      <div className="pt-20">
+        <h2 style={{ display: "none" }}>Braces Treatment in HSR Layout</h2>
+        <ServiceBanner img={banner} text="Dental Braces" />
+        <section className="max-w-[1400px] px-4 lg:mx-auto lg:mt-[80px] mt-10">
+          <div className="relative ">
+            <div className="lg:w-[850px] w-[249px] h-[100px] lg:h-[164px]">
+              <img src={text} alt="" className="" />
             </div>
-          ))}
-        </div>
-      </section>{" "}
-      <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-3 lg:px-0">
-        <h1 className="lg:text-[52px] text-[30px] text-reds lg:leading-[62px]  ">
-          Braces FAQ&apos;s
-        </h1>
-        <div className="lg:mt-10">
-          <Accordian>
-            {accordionData.map((item) => (
-              <AccordianItem
-                key={item.value}
-                value={item.value}
-                trigger={item.trigger}
+            <h1 className="lg:text-[52px]  text-[30px] absolute top-3 leading-9 lg:top-16 text-reds  ">
+              Braces For Teeth Alignment
+            </h1>
+            <h1 className="lg:text-[22px]">
+              Best Orthodontist Doctors For Clear Aligners in Hsr Layout
+            </h1>
+            <p className="lg:text-[22px] text-lg lg:leading-8">
+              Orthodontics is the specialization of dentistry, which deals with
+              correcting the bite and arrangement of teeth, thus improving the
+              smile and function of the teeth. The irregularities of teeth are
+              called Malocclusions and are an important factor in robbing one of
+              a good smile. A good smile adds up to the personality of an
+              individual. A fabulous smile makes you attractive and also
+              improves one’s confidence levels. Braces improve your smile and
+              therefore improve your appearance. Braces are now considered a
+              very important fashion accessory. Usually, people today suffer
+              from teeth alignment issues like protruding teeth, or teeth
+              severely misaligned. All these issues will rob your smile, and
+              hence medical rectifying procedures have to be implemented so that
+              a person can flaunt a sweet smile. If you’re looking for expert
+              care, the{" "}
+              <h2 className="inline">
+                Best Orthodontist Doctors For Clear Aligners in HSR Layout
+              </h2>{" "}
+              offer advanced treatment options to help you achieve a perfect
+              smile. Braces cost is by far the most reasonabl here.
+            </p>
+          </div>
+        </section>{" "}
+        <section className="max-w-[1400px] mt-10 mx-auto lg:mt-[80px]">
+          <h1 className="lg:text-[52px] text-[30px] text-reds text-center ">
+            Types of Braces
+          </h1>
+          <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-10 rounded-xl mt-7 lg:mt-14">
+            {braces.map((item, index) => (
+              <div
+                key={index}
+                className="lg:w-[544px] lg:h-[616px] bg-[#E2E2E2] py-12 lg:px-0 px-5 flex flex-col items-center justify-center"
               >
-                {item.content}
-              </AccordianItem>
+                <div className="lg:w-[454px] h-[]">
+                  <img src={item.img} alt="" className="imgs" />
+                </div>
+                <div className="mt-3 lg:px-10 text-left">
+                  <h1 className="text-[24px] text-reds font-medium">
+                    {item.heading}
+                  </h1>
+                  <p className="lg:text-[20px] lg:leading-7  mt-3">
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
             ))}
-          </Accordian>
-        </div>
-      </section>
-      <ContactSection image={contact} />
-    </div>
+          </div>
+        </section>{" "}
+        <section className="max-w-[1400px] mx-auto lg:mt-[80px] mt-10 px-3 lg:px-0">
+          <h1 className="lg:text-[52px] text-[30px] text-reds lg:leading-[62px]  ">
+            Braces FAQ&apos;s
+          </h1>
+          <div className="lg:mt-10">
+            <Accordian>
+              {accordionData.map((item) => (
+                <AccordianItem
+                  key={item.value}
+                  value={item.value}
+                  trigger={item.trigger}
+                >
+                  {item.content}
+                </AccordianItem>
+              ))}
+            </Accordian>
+          </div>
+        </section>
+        <ContactSection image={contact} />
+      </div>
+    </>
   );
 };
 

@@ -12,13 +12,53 @@ const Contact = () => {
         </title>
         <meta
           name="description"
-          content="Find a metal braces specialist near you and get laser teeth whitening in Harlur. Achieve a bright, aligned smile with expert dental care."
+          content="Leo Dental Clinic, the best dentists near me in HSR Layout, offers advanced dental treatments, expert care, and personalized solutions for a healthy smile."
         />
 
         <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-D6RGQC5PCK"
-        ></script>
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Best Dentists Near Me in Hsr layout | Dentists Near Me in Hsr layout",
+              url: "https://www.leodental.co.in/contact",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Leo Dental Clinic, the best dentists near me in HSR Layout, offers advanced dental treatments, expert care, and personalized solutions for a healthy smile.",
+              keywords: [
+                "Best Dentists Near Me in HSR Layout",
+                "Dentists Near Me in HSR Layout",
+                "Best Dentists Near Me",
+                "Dentists Near Me",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
+
         <script>
           {`
       window.dataLayer = window.dataLayer || [];
@@ -71,7 +111,7 @@ const Contact = () => {
       </Helmet>
 
       {/* Page Content */}
-      <h2 style={{ display: "none" }}>Laser Teeth Whitening in Harlur</h2>
+      <h2 style={{ display: "none" }}>Best Dentists Near Me in Hsr layout</h2>
       <div className="pt-20">
         <div
           className="relative lg:h-[481px] h-[481px] w-full bg-cover bg-center"

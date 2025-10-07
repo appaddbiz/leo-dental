@@ -72,7 +72,7 @@ const Profile = () => {
         <title>Top Dentists in HSR Layout | Dentists in HSR Layout</title>
         <meta
           name="description"
-          content="Restore your smile with single tooth implants in HSR Layout. Visit the best dental implant clinic for natural-looking tooth replacements."
+          content="Top dentists in HSR Layout at Leo Dental Clinic provide expert dental care, advanced treatments, and personalized solutions for your healthy, confident smile."
         />
 
         <script
@@ -89,55 +89,52 @@ const Profile = () => {
         </script>
 
         {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "leodental",
-            url: "https://www.leodental.co.in/profile",
-            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91 93471 08123",
-              contactType: "Customer Service",
-              areaServed: "IN",
-              availableLanguage: "English",
-            },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560102",
-              addressCountry: "IN",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "12.9116",
-              longitude: "77.6412",
-            },
-            keywords: [
-              "Best dental implant clinic in Harlur",
-              "Best dental implant clinic in HSR Layout",
-              "Best invisible aligners for teeth straightening in harlur",
-              "Best invisible aligners for teeth straightening in hsr Layout",
-              "Metal braces specialist near me",
-              "Invisalign doctor in harlur",
-              "Invisalign doctor in Hsr Layout",
-              "Specialist for teeth aligners near me",
-              "Clear aligners clinic in harlur",
-            ],
-            description:
-              "Restore your smile with single tooth implants in HSR Layout. Visit the best dental implant clinic for natural-looking tooth replacements.",
-            dateEstablished: "2023-01-01",
-            email: "leodentalbanglore@gmail.com",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Top Dentists in HSR Layout | Dentists in HSR Layout",
+              url: "https://www.leodental.co.in/profile",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Top dentists in HSR Layout at Leo Dental Clinic provide expert dental care, advanced treatments, and personalized solutions for your healthy, confident smile.",
+              keywords: [
+                "Top Dentists in HSR Layout",
+                "Dentists in HSR Layout",
+                "Best Dentists in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
 
       {/* Page Content */}
-      <h2 style={{ display: "none" }}>Best Dental Implant Clinic</h2>
+      <h2 style={{ display: "none" }}>Top Dentists in HSR Layout</h2>
 
       <div className="pt-20">
         <Banner img={banner}>

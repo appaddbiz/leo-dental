@@ -59,12 +59,12 @@ const Testimonials = () => {
       <Helmet>
         {/* Meta Title & Description */}
         <title>
-          Best teeth aligner specialist in hsr Layout | Teeth aligner specialist
-          in hsr Layout
+          Best teeth aligner specialist in HSR Layout | Teeth aligner specialist
+          in HSR Layout
         </title>
         <meta
           name="description"
-          content="Visit the best teeth aligner specialist in Harlur at the dental clinic. Get aligners for a perfect smile. Book your consultation today!"
+          content="Leo Dental Clinic, the best teeth aligner specialist in HSR Layout, provides expert orthodontic care with clear aligners for a perfect, confident smile."
         />
 
         <script
@@ -81,50 +81,55 @@ const Testimonials = () => {
         </script>
 
         {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "leodental",
-            url: "https://www.leodental.co.in/testimonials",
-            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91 93471 08123",
-              contactType: "Customer Service",
-              areaServed: "IN",
-              availableLanguage: "English",
-            },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560102",
-              addressCountry: "IN",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: "12.9116",
-              longitude: "77.6412",
-            },
-            keywords: [
-              "Clear aligners for teeth straightening in Hsr Layout",
-              "Clear aligners for teeth straightening in Harlur",
-              "Invisible teeth aligners in Harlur",
-              "Invisible teeth aligners in HSR Layout",
-            ],
-            description:
-              "Visit the best teeth aligner specialist in Harlur at the dental clinic. Get aligners for a perfect smile. Book your consultation today!",
-            dateEstablished: "2023-01-01",
-            email: "leodentalbanglore@gmail.com",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Best teeth aligner specialist in HSR Layout | Teeth aligner specialist in HSR Layout",
+              url: "https://www.leodental.co.in/testimonials",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Leo Dental Clinic, the best teeth aligner specialist in HSR Layout, provides expert orthodontic care with clear aligners for a perfect, confident smile.",
+              keywords: [
+                "Best teeth aligner specialist in HSR Layout",
+                "Teeth aligner specialist in HSR Layout",
+                "Dental Clinic in HSR Layout",
+                "Dentists in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
 
       {/* Page Content */}
-      <h2 style={{ display: "none" }}>Best Dental Clinic in Harlur</h2>
+      <h2 style={{ display: "none" }}>
+        Best teeth aligner specialist in HSR Layout
+      </h2>
 
       <div className="pt-20">
         <section

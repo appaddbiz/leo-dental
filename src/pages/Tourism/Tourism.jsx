@@ -87,11 +87,11 @@ const Services = () => {
     <>
       <Helmet>
         <title>
-          Dental Tourism in Hsr layout | Best Dental pakages in HSR layout
+          Dental Tourism in Hsr layout | Best Dental packages in HSR layout
         </title>
         <meta
           name="description"
-          content="Get the best zirconia crowns in Harlur and HSR Layout for natural-looking tooth restoration. Visit our dental clinic. Book your appointment!"
+          content="Leo Dental Clinic offers trusted dental tourism in HSR Layout with advanced treatments, expert care, and affordable solutions for international and local patients."
         />
 
         <script
@@ -107,91 +107,52 @@ const Services = () => {
     `}
         </script>
 
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "leodental",
-            url: "https://www.leodental.co.in/tourism",
-            logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
-            description:
-              "Get the best zirconia crowns in Harlur and HSR Layout for natural-looking tooth restoration. Visit our dental clinic. Book your appointment!",
-            address: {
-              "@type": "PostalAddress",
-              streetAddress:
-                "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR layout",
-              addressLocality: "Bengaluru",
-              addressRegion: "Karnataka",
-              postalCode: "560102",
-              addressCountry: "IN",
-            },
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91 93471 08123",
-              contactType: "Customer Service",
-              availableLanguage: "English",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: 12.9116,
-              longitude: 77.6412,
-            },
-            email: "leodentalbanglore@gmail.com",
-            keywords: [
-              "Full mouth zirconia crowns in Harlur",
-              "Full mouth zirconia crowns in Hsr Layout",
-              "Root canal specialist in harlur",
-              "Best zirconia dental crowns near me",
-              "Zirconia crowns and root canal treatment in harlur",
-              "Zirconia crowns and root canal treatment in hsr Layout",
-              "Best zirconia crowns in Harlur",
-              "Best zirconia crowns in HSR Layout",
-              "Best laser dentist in harlur",
-              "Best laser dentist in Hsr Layout",
-              "Laser root canal treatment in Harlur",
-              "Laser root canal treatment in HSR Layout",
-              "Laser teeth whitening in Hsr Layout",
-              "Laser teeth whitening in Harlur",
-              "Best laser dental clinic in Harlur",
-              "Best laser dental clinic in HSR Layout",
-              "Laser gum treatment in Harlur",
-              "Laser gum treatment in HSR Layout",
-              "Single tooth implants in hsr Layout",
-              "Single tooth implants in Harlur",
-              "Full mouth dental implants in Harlur",
-              "Full mouth dental implants in HSR Layout",
-              "Best dental implant clinic in Harlur",
-              "Best dental implant clinic in HSR Layout",
-              "Best invisible aligners for teeth straightening in harlur",
-              "Best invisible aligners for teeth straightening in hsr Layout",
-              "Metal braces specialist near me",
-              "Invisalign doctor in harlur",
-              "Invisalign doctor in Hsr Layout",
-              "Specialist for teeth aligners near me",
-              "Clear aligners clinic in harlur",
-              "Clear aligners clinic in hsr Layout",
-              "Teeth aligners clinic in harlur",
-              "Teeth aligners clinic in hsr Layout",
-              "Best teeth aligner specialist in Harlur",
-              "Best teeth aligner specialist in hsr Layout",
-              "Affordable braces treatment in Hsr Layout",
-              "Affordable braces treatment in Harlur",
-              "Best Invisalign treatment in Harlur",
-              "Best Invisalign treatment in HSR Layout",
-              "Clear aligners for teeth straightening in Hsr Layout",
-              "Clear aligners for teeth straightening in Harlur",
-              "Invisible teeth aligners in Harlur",
-              "Invisible teeth aligners in HSR Layout",
-              "Affordable dental treatments in Harlur",
-              "Affordable dental treatments in HSR Layout",
-              "Best dental clinic in Harlur",
-            ],
-            dateEstablished: "2023-01-01",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Dental Tourism in HSR Layout | Best Dental packages in HSR Layout",
+              url: "https://www.leodental.co.in/tourism",
+              logo: "https://www.leodental.co.in/assets/logo-BuWTAvAG.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+91 93471 08123",
+                contactType: "Customer Service",
+                areaServed: "IN",
+                availableLanguage: "English",
+              },
+              address: {
+                "@type": "PostalAddress",
+                streetAddress:
+                  "1st Floor, IFB Showroom Complex, 27th Main, opp. KLM mall, 2nd Sector, Sector 2, HSR Layout",
+                addressLocality: "Bengaluru",
+                addressRegion: "Karnataka",
+                postalCode: "560102",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "12.9116",
+                longitude: "77.6412",
+              },
+              description:
+                "Leo Dental Clinic offers trusted dental tourism in HSR Layout with advanced treatments, expert care, and affordable solutions for international and local patients.",
+              keywords: [
+                "Dental Tourism in HSR Layout",
+                "Best Dental packages in HSR Layout",
+                "Dental packages in HSR Layout",
+                "Top Dentists in HSR Layout",
+              ],
+              dateEstablished: "2023-01-01",
+              email: "leodentalbanglore@gmail.com",
+            }),
+          }}
+        />
       </Helmet>
 
-      <h2 style={{ display: "none" }}>Best zirconia crowns in HSR Layout</h2>
+      <h2 style={{ display: "none" }}>Dental Tourism in Hsr layout</h2>
 
       <div className="pt-20">
         <Banner img={banner}>
