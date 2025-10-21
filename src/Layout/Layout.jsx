@@ -29,6 +29,8 @@ import BestDentistsHSR from "../pages/Best-Dental-Clinic/BestDentistsHSR";
 import DentistsHSR from "../pages/Best-Dental-Clinic/DentistsHSR";
 import TopDentistsHSR from "../pages/Best-Dental-Clinic/TopdentistsHSR";
 import Sitemap from "../pages/Sitemap/Sitemap";
+import BestDentalImplantsHSR from "../pages/Best-Dental-Clinic/BestDentalImplantsHSR";
+import BestDentistsNearMeHSR from "../pages/Best-Dental-Clinic/BestDentistsNearMeHSR";
 
 const Layout = () => {
   const location = useLocation();
@@ -97,6 +99,14 @@ const Layout = () => {
           <Route
             path="/sitemap/top-dentists-in-hsr-layout"
             element={<TopDentistsHSR />}
+          />
+          <Route
+            path="/sitemap/best-dental-implants-in-hsr-layout"
+            element={<BestDentalImplantsHSR />}
+          />
+          <Route
+            path="/sitemap/best-dentists-near-me-in-hsr-layout"
+            element={<BestDentistsNearMeHSR />}
           />
         </Routes>
       </main>

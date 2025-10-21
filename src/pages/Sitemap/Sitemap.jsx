@@ -41,6 +41,20 @@ const DentalClinicHSR = () => {
         "Our orthodontists are specialized in correcting irregularities via metal, ceramic, self- ligating braces and invisible aligners. We have the most experienced & specialist dentists offering the best dental braces treatment.",
       path: "/sitemap/top-dentists-in-hsr-layout",
     },
+    {
+      img: "/src/assets/home/service2.png",
+      heading: "Best Dental Implants in HSR Layout",
+      description:
+        "Our orthodontists are specialized in correcting irregularities via metal, ceramic, self- ligating braces and invisible aligners. We have the most experienced & specialist dentists offering the best dental braces treatment.",
+      path: "/sitemap/best-dental-implants-in-hsr-layout",
+    },
+    {
+      img: "/sitemap/best-dentists-near-me-in-hsr-layout.jpg",
+      heading: "Best Dentists Near Me in HSR layout",
+      description:
+        "Our orthodontists are specialized in correcting irregularities via metal, ceramic, self- ligating braces and invisible aligners. We have the most experienced & specialist dentists offering the best dental braces treatment.",
+      path: "/sitemap/best-dentists-near-me-in-hsr-layout",
+    },
   ];
   return (
     <>
